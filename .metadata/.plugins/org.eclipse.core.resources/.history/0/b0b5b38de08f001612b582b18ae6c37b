@@ -1,0 +1,165 @@
+<!--
+  Module Description
+
+  Version    Date            Author           Remarks
+  1.00       01 Aug 2016     Chan
+//-->
+
+<html class="netsuite" ng-app="taApp">
+<head>
+<link rel="stylesheet" type="text/css" href="https://system.sandbox.netsuite.com/c.1257021/site/checkout/css/ecommerce.css">
+<%=getPageFullHead() %>
+<!-- Defaults all items in cart to quantity 1  -->
+<% var order = nlapiGetWebContainer().getShoppingSession().getOrder().getFieldValues({'items': ['name', 'salesdesc', 'quantity', 'rate', 'amount']}); 
+	
+	if(order.items){
+		var items = [];
+		for (var i = 0; i < order.items.length; i++ ) {
+			items.push({
+				orderitemid: order.items[i].orderitemid,
+				quantity: 1
+			}); 
+		}
+		nlapiGetWebContainer().getShoppingSession().getOrder().updateItemQuantities(items);
+	}
+ 	order = nlapiGetWebContainer().getShoppingSession().getOrder().getFieldValues({'items': ['name', 'salesdesc', 'quantity', 'rate', 'amount'], 'summary': ''}); %>
+ 	
+<% var isLoggedIn = nlapiGetWebContainer().getShoppingSession().isLoggedIn2(); %>
+<% var customer = nlapiGetWebContainer().getShoppingSession().getCustomer().getFieldValues(['internalid','creditcards']) %>
+
+<script type="text/javascript">
+	var nlCustomer = <%= JSON.stringify(customer) %>
+	var nlShoppingOrder = <%= JSON.stringify(order) %> 
+	var nlUserLoggedIn = <%= isLoggedIn %>
+</script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js"></script>
+<script src="https://system.sandbox.netsuite.com/c.1257021/SSP Applications/Tax Analysts/Client/ta_ang_app.js"></script>
+<script src="https://system.sandbox.netsuite.com/c.1257021/SSP Applications/Tax Analysts/Client/ta-cart-controller.js"></script>
+<script src="https://system.sandbox.netsuite.com/c.1257021/SSP Applications/Tax Analysts/Client/ta_ang_services.js"></script>
+<script src="https://system.sandbox.netsuite.com/c.1257021/SSP Applications/Tax Analysts/Client/ta-ng-lib/angular-payments.min.js"></script>
+</head>
+
+<body>
+<!-- Header Navigation -->
+<%= getPageTop()%>
+
+<div class="background-blue color-white">
+	<div class="contain py3">
+		<h1 class="my0 h2">Your Cart</h1>
+	</div>
+</div>
+
+<div class="contain py3" ng-controller="cartController">
+
+<!-- SHOW WHEN NO ITEM IS ADDED -->
+<div ng-show="!shoppingOrder.items">
+	<table class="cart mb2">
+		<thead>
+			<tr>
+				<th class="p2 background-blue color-white left-align">Cart</th>
+				<th class="p2 background-blue color-white">Price</th>
+				<th class="p2 background-blue color-white">Details</th>
+				<th class="p2 background-blue color-white">Remove</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td class="p2 center" colspan=4>Cart is currently empty.</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+
+<!-- CART TABLE -->
+<table class="cart mb2" ng-show="shoppingOrder.items.length > 0">
+	<thead>
+		<tr>
+			<th class="px3 py2 background-blue color-white left-align">Cart</th>
+			<th class="p2 background-blue color-white">Price</th>
+			<th class="p2 background-blue color-white">Details</th>
+			<th class="p2 background-blue color-white">Remove</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr ng-repeat="item in shoppingOrder.items">
+			<td class="px3 py2">{{item.salesdesc}}</td>
+			<td class="p2">{{item.amount | currency}}</td>
+			<td class="p2 center">
+				<svg class="cart-details" xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17">
+					<title>Product Details</title>
+    				<circle cx="8.5" cy="8.5" r="8.5" />
+    				<text fill="#FFFFFF" font-family="TimesNewRomanPS-BoldMT, Times New Roman" font-size="13" font-weight="bold">
+      					<tspan x="6.611" y="12.944">i</tspan>
+    				</text>
+				</svg>
+			</td>
+			<td class="p2 center">
+				<svg ng-click="removeLine(item.orderitemid)" class="cart-remove" xmlns="http://www.w3.org/2000/svg" width="15" height="19" viewBox="0 0 15 19">
+  					<path d="M1.3021875,6.75735 L2.334375,17.11995 C2.3915625,17.5579 4.4784375,18.9981 7.5,19 C10.5234375,18.9981 12.6103125,17.5579 12.6665625,17.11995 L13.6996875,6.75735 C12.1209375,7.65225 9.76125,8.075 7.5,8.075 C5.240625,8.075 2.88,7.65225 1.3021875,6.75735 L1.3021875,6.75735 Z M10.47,1.4345 L9.6646875,0.53105 C9.3534375,0.0817 9.0159375,0 8.35875,0 L6.6421875,0 C5.9859375,0 5.6475,0.0817 5.3371875,0.53105 L4.531875,1.4345 C2.1225,1.86105 0.375,2.9925 0.375,3.82755 L0.375,3.98905 C0.375,5.4587 3.5653125,6.65 7.5,6.65 C11.435625,6.65 14.6259375,5.4587 14.6259375,3.98905 L14.6259375,3.82755 C14.6259375,2.9925 12.879375,1.86105 10.47,1.4345 L10.47,1.4345 Z M9.440625,4.123 L8.4375,2.85 L6.5625,2.85 L5.56125,4.123 L3.9675,4.123 C3.9675,4.123 5.713125,2.01305 5.9465625,1.7271 C6.1246875,1.5086 6.3065625,1.425 6.5428125,1.425 L8.458125,1.425 C8.6953125,1.425 8.8771875,1.5086 9.0553125,1.7271 C9.2878125,2.01305 11.034375,4.123 11.034375,4.123 L9.440625,4.123 L9.440625,4.123 Z"/>
+				</svg>
+			</td>
+		</tr>
+	</tbody>
+	<tfoot>
+		<tr class="total">
+			<td class="px3 py2 h4 bold caps align-right">Total</td>
+			<td class="p2">{{shoppingOrder.summary.total | currency}}</td>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+		</tr>
+	</tfoot>
+</table>
+
+<div class="clearfix cart-actions" ng-show="shoppingOrder.items.length > 0">
+	<a class="left button button-secondary no-icon" href="">Add More Products</button> <!-- TODO: add URL -->
+	<a ng-show="!userLoggedIn" class="right button button-primary no-icon" href=<%= getLoginUrl() %> >Proceed to Checkout</a>
+	<a ng-show="userLoggedIn" class="right button button-primary no-icon" href=<%= getCheckoutUrl() %> >Continue to Checkout</a>
+</div>
+</div>
+
+<footer id="footer">
+  <p class="mb0 py3 background-blue color-white h2 bold center">Need assistance? 123-456-7890</p>
+  <div class="footer__main">
+  <div class="contain">
+    <nav class="footer__nav-list">
+      <h3 class="nav-list__title">ABOUT TAX NOTES</h3>
+      <ul>
+        <li><a href="/website-terms-conditions" class="footer__nav-link">Website Terms &amp; Conditions</a></li>
+        <li><a href="/advertise" class="footer__nav-link">Advertise</a></li>
+        <li><a href="http://www.taxanalysts.org/for-the-press/sources-for-stories?__hstc=240201116.e49de72ec35056a39053930a79fed163.1473692795854.1473692795854.1473888147930.2&amp;__hssc=240201116.1.1473888147930&amp;__hsfp=1099295045" class="footer__nav-link">Media</a></li>
+        <li><a href="http://www.taxanalysts.org/outreach/conference-series?__hstc=240201116.e49de72ec35056a39053930a79fed163.1473692795854.1473692795854.1473888147930.2&amp;__hssc=240201116.1.1473888147930&amp;__hsfp=1099295045" class="footer__nav-link">Events</a></li>
+        <li><a href="http://www.taxanalysts.org/careers?__hstc=240201116.e49de72ec35056a39053930a79fed163.1473692795854.1473692795854.1473888147930.2&amp;__hssc=240201116.1.1473888147930&amp;__hsfp=1099295045" class="footer__nav-link">Careers</a></li>
+        <li><a href="http://www.taxnotes.com/acquisitions" class="footer__nav-link">Contributor Submissions</a></li>
+        <li><a href="/about-tax-analysts" class="footer__nav-link">About Tax Analysts</a></li>
+        <li><a href="/sitemap" class="footer__nav-link">Site Map</a></li>
+      </ul>
+    </nav>
+    <nav class="footer__nav-list">
+      <h3 class="nav-list__title">SERVICES</h3>
+      <ul>
+        <li><a href="/federal-tax-products/" class="footer__nav-link">Federal</a></li>
+        <li><a href="/state-tax-products/" class="footer__nav-link">State</a></li>
+        <li><a href="/international-tax-products/" class="footer__nav-link">International</a></li>
+      </ul>
+    </nav>
+    <nav class="footer__nav-list">
+      <h3 class="nav-list__title">MY TAX NOTES</h3>
+      <ul>
+        <li><a href="/support" class="footer__nav-link">Support</a></li>
+        <li><a href="/user/profile" class="footer__nav-link">MY PROFILE</a></li>
+      </ul>
+    </nav>
+    <nav class="footer__nav-list footer__contact">
+      <h3 class="nav-list__title">Contact Us</h3>
+      <dl>
+        <dd>Hours:</dd> <dt>MONDAY - FRIDAY<br>8:30 AM - 5:30 PM EST</dt>
+        <dd>Phone:</dd> <dt>800-955-2444</dt>
+       </dl>
+       <p style="text-transform: none; width: 100%; line-height: 1.3; padding:0;">Tax Analysts is a tax publisher and does not provide tax advice or preparation services.</p>
+    </nav>
+  </div>  
+</footer>
+
+
+</body>
+</html>

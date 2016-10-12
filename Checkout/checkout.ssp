@@ -1,0 +1,109 @@
+<!--
+  Module Description
+
+  Version    Date            Author           Remarks
+  1.00       27 Jul 2016     Chan
+//-->
+
+<html class="netsuite" ng-app="taApp">
+<head>
+<link rel="stylesheet" type="text/css" href="https://system.sandbox.netsuite.com/c.1257021/site/checkout/css/ecommerce.css">
+<link rel="stylesheet" type="text/css" href="https://system.sandbox.netsuite.com/c.1257021/site/checkout/css/loader.css">
+<%= getPageFullHead() %>
+<% var order = nlapiGetWebContainer().getShoppingSession().getOrder().getFieldValues({'items': ['name', 'salesdesc', 'quantity', 'rate', 'amount'], 'summary': ''}); %>
+<% var isLoggedIn = nlapiGetWebContainer().getShoppingSession().isLoggedIn2(); %>
+<% var customer = nlapiGetWebContainer().getShoppingSession().getCustomer().getFieldValues(['internalid','creditcards', 'addressbook']) %>
+<% var countries = nlapiGetWebContainer().getShoppingSession().getCountries(); %>
+<% var getStates = nlapiGetWebContainer().getShoppingSession().getStates(); %>
+
+<script type="text/javascript">
+	var nlCustomer = <%= JSON.stringify(customer) %>
+	var nlShoppingOrder = <%= JSON.stringify(order) %>
+	var nlUserLoggedIn = <%= isLoggedIn %>
+	var nlCountries = <%= JSON.stringify(countries) %>
+	var nlStates = <%= JSON.stringify(getStates) %> 
+</script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js"></script>
+<script src="https://system.sandbox.netsuite.com/c.1257021/SSP Applications/Tax Analysts/Client/ta_ang_app.js"></script>
+<script src="https://system.sandbox.netsuite.com/c.1257021/SSP Applications/Tax Analysts/Client/ta-checkout-controller.js"></script>
+<script src="https://system.sandbox.netsuite.com/c.1257021/SSP Applications/Tax Analysts/Client/ta_ang_services.js"></script>
+<script src="https://system.sandbox.netsuite.com/c.1257021/SSP Applications/Tax Analysts/Client/ta-ng-lib/angular-payments.min.js"></script>
+
+</head>
+<body>
+<!-- Header Navigation -->
+<%= getPageTop()%>
+
+
+<div ng-controller="checkoutController">
+{{ registeredUser }}
+	<div class="background-gray-light">
+		<div class="contain">
+			<nav class="breadcrumbs">
+				<a href="">Your Cart</a>
+				<a href="">Checkout</a>
+				<a href="" ng-if="currentPage === 'payment'">Billing Information</a>
+				<a href="" ng-if="currentPage === 'review'">Review Order</a>
+			</nav>
+		</div>
+	</div>
+	
+	<div class="background-blue color-white">
+		<div class="contain py3">
+			<h1 class="my0 h2" ng-if="currentPage === 'payment'">Billing Information</h1>
+			<h1 class="my0 h2" ng-if="currentPage === 'review'">Review Order</h1>
+		</div>
+	</div>
+	<div class="contain py3">
+		<payment-info ng-show="currentPage === 'payment'"></payment-info>
+		<review-info ng-show="currentPage === 'review'"></review-info>
+		<thank-you ng-show="currentPage === 'thankyou'"></thank-you>
+	</div>
+</div>
+
+<footer id="footer">
+  <p class="mb0 py3 background-blue color-white h2 bold center">Need assistance? 123-456-7890</p>
+  <div class="footer__main">
+  <div class="contain">
+    <nav class="footer__nav-list">
+      <h3 class="nav-list__title">ABOUT TAX NOTES</h3>
+      <ul>
+        <li><a href="/website-terms-conditions" class="footer__nav-link">Website Terms &amp; Conditions</a></li>
+        <li><a href="/advertise" class="footer__nav-link">Advertise</a></li>
+        <li><a href="http://www.taxanalysts.org/for-the-press/sources-for-stories?__hstc=240201116.e49de72ec35056a39053930a79fed163.1473692795854.1473692795854.1473888147930.2&amp;__hssc=240201116.1.1473888147930&amp;__hsfp=1099295045" class="footer__nav-link">Media</a></li>
+        <li><a href="http://www.taxanalysts.org/outreach/conference-series?__hstc=240201116.e49de72ec35056a39053930a79fed163.1473692795854.1473692795854.1473888147930.2&amp;__hssc=240201116.1.1473888147930&amp;__hsfp=1099295045" class="footer__nav-link">Events</a></li>
+        <li><a href="http://www.taxanalysts.org/careers?__hstc=240201116.e49de72ec35056a39053930a79fed163.1473692795854.1473692795854.1473888147930.2&amp;__hssc=240201116.1.1473888147930&amp;__hsfp=1099295045" class="footer__nav-link">Careers</a></li>
+        <li><a href="http://www.taxnotes.com/acquisitions" class="footer__nav-link">Contributor Submissions</a></li>
+        <li><a href="/about-tax-analysts" class="footer__nav-link">About Tax Analysts</a></li>
+        <li><a href="/sitemap" class="footer__nav-link">Site Map</a></li>
+      </ul>
+    </nav>
+    <nav class="footer__nav-list">
+      <h3 class="nav-list__title">SERVICES</h3>
+      <ul>
+        <li><a href="/federal-tax-products/" class="footer__nav-link">Federal</a></li>
+        <li><a href="/state-tax-products/" class="footer__nav-link">State</a></li>
+        <li><a href="/international-tax-products/" class="footer__nav-link">International</a></li>
+      </ul>
+    </nav>
+    <nav class="footer__nav-list">
+      <h3 class="nav-list__title">MY TAX NOTES</h3>
+      <ul>
+        <li><a href="/support" class="footer__nav-link">Support</a></li>
+        <li><a href="/user/profile" class="footer__nav-link">MY PROFILE</a></li>
+      </ul>
+    </nav>
+    <nav class="footer__nav-list footer__contact">
+      <h3 class="nav-list__title">Contact Us</h3>
+      <dl>
+        <dd>Hours:</dd> <dt>MONDAY - FRIDAY<br>8:30 AM - 5:30 PM EST</dt>
+        <dd>Phone:</dd> <dt>800-955-2444</dt>
+       </dl>
+       <p style="text-transform: none; width: 100%; line-height: 1.3; padding:0;">Tax Analysts is a tax publisher and does not provide tax advice or preparation services.</p>
+    </nav>
+  </div>  
+</footer>
+
+</body>
+</html>

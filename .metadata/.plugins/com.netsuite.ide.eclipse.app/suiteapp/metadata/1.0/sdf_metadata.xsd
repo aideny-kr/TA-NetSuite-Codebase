@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+	<xsd:element name="sdfmetadata" type="sdfmetadata" />
+
+    <xsd:complexType name="sdfmetadata">
+        <xsd:sequence>
+            <xsd:element name="list" type="list" maxOccurs="unbounded" minOccurs="0" />
+            <xsd:element name="recordtype" type="recordtype" maxOccurs="unbounded" minOccurs="1" /> 
+        </xsd:sequence>
+    </xsd:complexType>
+
+	<xsd:complexType name="scriptid">
+		<xsd:attribute name="type" type="xsd:string"/>
+		<xsd:attribute name="mandatory" type="xsd:boolean"/>
+		<xsd:attribute name="default" type="xsd:string"/>
+		<xsd:attribute name="length" type="xsd:int"/>
+	</xsd:complexType>
+
+	<xsd:complexType name="standard">
+		<xsd:attribute name="type" type="xsd:string"/>
+		<xsd:attribute name="mandatory" type="xsd:boolean"/>
+		<xsd:attribute name="default" type="xsd:string"/>
+		<xsd:attribute name="length" type="xsd:int"/>
+		<xsd:attribute name="values" type="xsd:string"/>
+	</xsd:complexType>
+
+	<xsd:complexType name="triggertype">
+		<xsd:attribute name="type" type="xsd:string"/>
+		<xsd:attribute name="values" type="xsd:string"/>
+		<xsd:attribute name="mandatory" type="xsd:boolean"/>
+		<xsd:attribute name="default" type="xsd:string"/>
+	</xsd:complexType>
+
+	<xsd:simpleType name="accountspecific">
+		<xsd:restriction base="xsd:string">
+			<xsd:enumeration value="warn" /><!--output ACCOUNT_SPECIFIC_VALUE-->
+			<xsd:enumeration value="ignore" /><!--do not export in sdf-->
+			<xsd:enumeration value="conditional" /><!--depends on the value-->
+		</xsd:restriction>
+	</xsd:simpleType>
+
+	<xsd:complexType name="customfield">
+		<xsd:attribute name="instancetype" type="xsd:string"/>
+		<xsd:attribute name="fromparentonly" type="xsd:boolean"/>
+		<xsd:attribute name="appliesforfieldname" type="xsd:string"/>
+		<xsd:attribute name="appliesforfieldvalue" type="xsd:string"/>
+	</xsd:complexType>
+
+    <xsd:complexType name="recordtype">
+        <xsd:choice maxOccurs="unbounded" minOccurs="0"> 
+            <xsd:element name="scriptid" type="scriptid" maxOccurs="1" minOccurs="1" />
+			<xsd:element name="standard" type="standard" maxOccurs="1" minOccurs="0" />
+			<xsd:element name="feature" type="xsd:string" maxOccurs="1" minOccurs="0"/>
+			<xsd:element name="customfield" type="customfield" maxOccurs="1" minOccurs="0" />
+            <xsd:element name="field" type="field" maxOccurs="unbounded" minOccurs="1" />
+            <xsd:element name="subrecordtypegroup" type="subrecordtypegroup" maxOccurs="unbounded" minOccurs="0" />
+			<xsd:element name="fieldset" type="fieldset" maxOccurs="unbounded" minOccurs="0" />
+			<xsd:element name="fieldstypegroup" type="fieldstypegroup" maxOccurs="unbounded" minOccurs="0" />
+        </xsd:choice>
+        <xsd:attribute name="name" type="xsd:string" /> 
+    </xsd:complexType>
+
+    <xsd:complexType name="field">
+        <xsd:sequence>
+            <xsd:element name="mandatorycondition" type="mandatorycondition" maxOccurs="unbounded" minOccurs="0" />
+        </xsd:sequence>
+        <xsd:attribute name="name" type="xsd:string"/>
+        <xsd:attribute name="type" type="xsd:string"/>
+		<xsd:attribute name="feature" type="xsd:string"/>
+        <xsd:attribute name="values" type="xsd:string"/>
+		<xsd:attribute name="length" type="xsd:string"/>
+        <xsd:attribute name="refs" type="xsd:string"/>
+        <xsd:attribute name="mandatory" type="xsd:boolean"/>
+        <xsd:attribute name="default" type="xsd:string"/>
+        <xsd:attribute name="allowedFileExtensions" type="xsd:string"/>
+        <xsd:attribute name="multiple" type="xsd:boolean"/>
+		<xsd:attribute name="refsonly" type="xsd:boolean"/>
+		<xsd:attribute name="accountspecific" type="accountspecific"/>
+    </xsd:complexType>
+
+    <xsd:complexType name="list">
+        <xsd:sequence>
+            <xsd:element name="value" type="xsd:string" maxOccurs="unbounded" minOccurs="1" />
+        </xsd:sequence>
+        <xsd:attribute name="id" type="xsd:string"/>
+    </xsd:complexType>
+
+    <xsd:complexType name="mandatorycondition">
+        <xsd:attribute name="dependson" type="xsd:string"/>
+        <xsd:attribute name="equalto" type="xsd:string"/>
+    </xsd:complexType>
+
+    <xsd:complexType name="subrecordtypegroup">
+        <xsd:choice maxOccurs="unbounded" minOccurs="0">
+            <xsd:element name="triggertype" type="triggertype" maxOccurs="1" minOccurs="0"/>
+            <xsd:sequence>
+                <xsd:element name="subrecordtype" type="subrecordtype" maxOccurs="unbounded" minOccurs="1"/>
+            </xsd:sequence>
+        </xsd:choice>
+        <xsd:attribute name="name" type="xsd:string"/>
+		<xsd:attribute name="multiple" type="xsd:boolean"/>
+    </xsd:complexType>
+
+    <xsd:complexType name="subrecordtype">
+        <xsd:choice maxOccurs="unbounded" minOccurs="0">
+            <xsd:element name="scriptid" type="scriptid" maxOccurs="1" minOccurs="1"/>
+			<xsd:element name="standard" type="standard" maxOccurs="1" minOccurs="0" />
+			<xsd:element name="feature" type="xsd:string" maxOccurs="1" minOccurs="0"/>
+            <xsd:element name="customfield" type="customfield" maxOccurs="1" minOccurs="0"/>
+            <xsd:element name="field" type="field" maxOccurs="unbounded" minOccurs="1"/>
+            <xsd:element name="subrecordtypegroup" type="subrecordtypegroup" maxOccurs="unbounded" minOccurs="0"/>
+			<xsd:element name="fieldstypegroup" type="fieldstypegroup" maxOccurs="unbounded" minOccurs="0" />
+			<xsd:element name="fieldset" type="fieldset" maxOccurs="unbounded" minOccurs="0" />
+            <xsd:sequence>
+                <xsd:element name="subrecordtype" type="subrecordtype" maxOccurs="unbounded" minOccurs="1"/>
+            </xsd:sequence>
+        </xsd:choice>
+        <xsd:attribute name="name" type="xsd:string"/>
+    </xsd:complexType>
+
+	<xsd:complexType name="fieldset">
+		<xsd:choice maxOccurs="unbounded" minOccurs="0">
+			<xsd:sequence>
+				<xsd:element name="field" type="field" maxOccurs="unbounded" minOccurs="1"></xsd:element>
+			</xsd:sequence>
+		</xsd:choice>
+		<xsd:attribute name="name" type="xsd:string"></xsd:attribute>
+	</xsd:complexType>
+
+	<xsd:complexType name="fieldstypegroup">
+		<xsd:choice maxOccurs="unbounded" minOccurs="0">
+			<xsd:sequence>
+				<xsd:element name="fieldstype" type="fieldstype" maxOccurs="unbounded" minOccurs="1"/>
+			</xsd:sequence>
+		</xsd:choice>
+		<xsd:attribute name="name" type="xsd:string"/>
+	</xsd:complexType>
+
+	<xsd:complexType name="fieldstype">
+		<xsd:choice maxOccurs="unbounded" minOccurs="0">
+			<xsd:element name="field" type="field" maxOccurs="unbounded" minOccurs="1"/>
+		</xsd:choice>
+		<xsd:attribute name="name" type="xsd:string"/>
+	</xsd:complexType>
+
+</xsd:schema>

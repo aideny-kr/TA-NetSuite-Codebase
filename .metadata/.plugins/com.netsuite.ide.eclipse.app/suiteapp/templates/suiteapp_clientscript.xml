@@ -1,0 +1,15 @@
+<clientscript scriptid="customscript_">
+    <description></description>
+    <isinactive></isinactive>
+    <name></name>
+    <notifyowner>T</notifyowner>
+    <scriptfile>[]</scriptfile>
+    <scriptdeployments>
+        <scriptdeployment scriptid="customdeploy_">
+            <isdeployed>T</isdeployed>
+            <loglevel>DEBUG</loglevel>
+            <recordtype></recordtype>
+            <status>TESTING</status>
+        </scriptdeployment>
+    </scriptdeployments>
+</clientscript>

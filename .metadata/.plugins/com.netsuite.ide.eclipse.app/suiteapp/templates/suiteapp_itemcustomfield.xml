@@ -1,0 +1,15 @@
+<itemcustomfield scriptid="custitem_">
+    <accesslevel>2</accesslevel>
+    <appliestogroup>F</appliestogroup>
+    <appliestokit>F</appliestokit>
+    <appliestononinventory>F</appliestononinventory>
+    <appliestoothercharge>F</appliestoothercharge>
+    <appliestopricelist>F</appliestopricelist>
+    <appliestoservice>F</appliestoservice>
+    <description></description>
+    <fieldtype>TEXT</fieldtype>
+    <itemmatrix>F</itemmatrix>
+    <label></label>
+    <showinlist>F</showinlist>
+    <storevalue>T</storevalue>
+</itemcustomfield>

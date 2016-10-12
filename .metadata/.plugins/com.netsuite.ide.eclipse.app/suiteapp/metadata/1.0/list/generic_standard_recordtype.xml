@@ -1,0 +1,213 @@
+<list id='generic_standard_recordtype'>
+	<value>ACCOUNT</value>  <!-- Account -->
+	<value>ACCOUNTINGBOOK</value>  <!-- Accounting Book -->
+	<value>ACCOUNTINGCONTEXT</value>  <!-- Accounting Context -->
+	<value>ACCOUNTINGPERIOD</value>  <!-- Accounting Period -->
+	<value>ALLOCATIONSCHEDULE</value>  <!-- Allocation Schedule -->
+	<value>AMORTIZATIONSCHEDULE</value>  <!-- Amortization Schedule -->
+	<value>AMORTIZATIONTEMPLATE</value>  <!-- Amortization Template -->
+	<value>ASSEMBLYBUILD</value>  <!-- Assembly Build -->
+	<value>ASSEMBLYITEM</value>  <!-- Assembly/Bill of Materials -->
+	<value>ASSEMBLYUNBUILD</value>  <!-- Assembly UnBuild -->
+	<value>BILLINGACCOUNT</value>  <!-- Billing Account -->
+	<value>BILLINGCLASS</value>  <!-- Billing Class -->
+	<value>BILLINGRATECARD</value>
+	<value>BILLINGSCHEDULE</value>  <!-- Billing Schedule -->
+	<value>BIN</value>  <!-- Bin -->
+	<value>BINTRANSFER</value>  <!-- BinTransfer -->
+	<value>BINWORKSHEET</value>  <!-- BinWorksheet -->
+	<value>BLANKETPURCHASEORDER</value>  <!-- Blanket Purchase Order -->
+	<value>BUNDLEINSTALLATIONSCRIPT</value>  <!-- Bundle Installation Script -->
+	<value>CALENDAREVENT</value>  <!-- Event -->
+	<value>CAMPAIGN</value>  <!-- Campaign -->
+	<value>CAMPAIGNRESPONSE</value>  <!-- Campaign Response -->
+	<value>CAMPAIGNTEMPLATE</value>  <!-- Campaign Template -->
+	<value>CASHREFUND</value>  <!-- Cash Refund -->
+	<value>CASHSALE</value>  <!-- Cash Sale -->
+	<value>CHARGE</value>  <!-- Charge -->
+	<value>CHARGERULE</value>	<!-- Charge Rule -->
+	<value>CHECK</value>  <!-- Check -->
+	<value>CLASSIFICATION</value>  <!-- Class -->
+	<value>CLIENTSCRIPT</value>  <!-- Client Script -->
+	<value>COMMERCECATEGORY</value>  <!-- Commerce Category -->
+	<value>COMPETITOR</value>  <!-- Competitor -->
+	<value>CONSOLIDATEDEXCHANGERATE</value>
+	<value>CONTACT</value>  <!-- Contact -->
+	<value>CONTACTCATEGORY</value>  <!-- Contact Category -->
+	<value>CONTACTROLE</value>  <!-- Contact Role -->
+	<value>COSTCATEGORY</value>  <!-- Landed Cost Category -->
+	<value>COUPONCODE</value>  <!-- Coupon Code -->
+	<value>CREDITCARDCHARGE</value>  <!-- Credit Card Charge -->
+	<value>CREDITCARDREFUND</value>  <!-- Credit Card Refund -->
+	<value>CREDITMEMO</value>  <!-- Credit Memo -->
+	<value>CURRENCY</value>  <!-- Currency -->
+	<value>CUSTOMER</value>  <!-- Customer -->
+	<value>CUSTOMERCATEGORY</value>  <!-- Customer Category -->
+	<value>CUSTOMERDEPOSIT</value>  <!-- Customer Deposit -->
+	<value>CUSTOMERMESSAGE</value>  <!-- Customer Message -->
+	<value>CUSTOMERPAYMENT</value>  <!-- Customer Payment -->
+	<value>CUSTOMERPAYMENTAUTHORIZATION</value>
+	<value>CUSTOMERREFUND</value>  <!-- Customer Refund -->
+	<value>CUSTOMERSTATUS</value>  <!-- Customer Status -->
+	<value>DEPARTMENT</value>  <!-- Department -->
+	<value>DEPOSIT</value>  <!-- Deposit -->
+	<value>DEPOSITAPPLICATION</value>  <!-- Deposit Application -->
+	<value>DESCRIPTIONITEM</value>  <!-- Description -->
+	<value>DISCOUNTITEM</value>  <!-- Discount -->
+	<value>DOWNLOADITEM</value>  <!-- Download Item -->
+	<value>DRIVERSLICENSE</value>  <!-- Driver's License -->
+	<value>EMAILTEMPLATE</value>  <!-- Email Template -->
+	<value>EMPLOYEE</value>  <!-- Employee -->
+	<value>ENTITYACCOUNTMAPPING</value>  <!-- Entity Account Mapping -->
+	<value>ESTIMATE</value>  <!-- Estimate -->
+	<value>EXPENSECATEGORY</value>  <!-- Expense Category -->
+	<value>EXPENSEREPORT</value>  <!-- Expense Report -->
+	<value>FAIRVALUEPRICE</value>  <!-- Fair Value Price -->
+	<value>FOLDER</value>  <!-- Folder -->
+	<value>GENERICRESOURCE</value>  <!-- Generic Resource -->
+	<value>GIFTCERTIFICATE</value>  <!-- Gift Certificate -->
+	<value>GIFTCERTIFICATEITEM</value>  <!-- Gift Certificate Item -->
+	<value>GLOBALACCOUNTMAPPING</value>  <!-- Global Account Mapping -->
+	<value>GOVERNMENTISSUEDIDTYPE</value>  <!-- Government-Issued ID Type -->
+	<value>HCMJOB</value>  <!-- HCMJob -->
+	<value>INTERCOMPALLOCATIONSCHEDULE</value>  <!-- Intercompany Allocation Schedule -->
+	<value>INTERCOMPANYJOURNALENTRY</value>  <!-- Intercompany Journal Entry -->
+	<value>INTERCOMPANYTRANSFERORDER</value>  <!-- Intercompany Transfer Order -->
+	<value>INVENTORYADJUSTMENT</value>  <!-- Inventory Adjustment -->
+	<value>INVENTORYCOSTREVALUATION</value>  <!-- Inventory Cost Revaluation -->
+	<value>INVENTORYCOUNT</value>  <!-- Inventory Count -->
+	<value>INVENTORYDETAIL</value>  <!-- Inventory Detail -->
+	<value>INVENTORYITEM</value>  <!-- Inventory Part -->
+	<value>INVENTORYNUMBER</value>  <!-- Inventory Number -->
+	<value>INVENTORYTRANSFER</value>  <!-- Inventory Transfer -->
+	<value>INVOICE</value>  <!-- Invoice -->
+	<value>ISSUE</value>  <!-- Issue -->
+	<value>ITEMACCOUNTMAPPING</value>  <!-- Item Account Mapping -->
+	<value>ITEMDEMANDPLAN</value>  <!-- Item Demand Plan -->
+	<value>ITEMFULFILLMENT</value>  <!-- Item Fulfillment -->
+	<value>ITEMGROUP</value>  <!-- Item Group -->
+	<value>ITEMRECEIPT</value>  <!-- Item Receipt -->
+	<value>ITEMREVISION</value>  <!-- Item Revision -->
+	<value>ITEMSUPPLYPLAN</value>  <!-- Item Supply Plan -->
+	<value>JOB</value>  <!-- Job -->
+	<value>JOBREQUISITION</value>  <!-- Job Requisition -->
+	<value>JOBSTATUS</value>  <!-- Job Status -->
+	<value>JOBTYPE</value>  <!-- Job Type -->
+	<value>JOURNALENTRY</value>  <!-- Journal Entry -->
+	<value>KITITEM</value>  <!-- Kit Item -->
+	<value>KUDOS</value>  <!-- Kudos -->
+	<value>LEAD</value>  <!-- Lead -->
+	<value>LOCATION</value>  <!-- Location -->
+	<value>LOTNUMBEREDASSEMBLYITEM</value>  <!-- Lot Numbered Assembly/Bill of Materials -->
+	<value>LOTNUMBEREDINVENTORYITEM</value>  <!-- Lot Numbered Inventory Item -->
+	<value>MANUFACTURINGCOSTTEMPLATE</value>  <!-- Manufacturing Cost Template -->
+	<value>MANUFACTURINGOPERATIONTASK</value>  <!-- Manufacturing Operation Task -->
+	<value>MANUFACTURINGROUTING</value>  <!-- Manufacturing Routing -->
+	<value>MAPREDUCESCRIPT</value>  <!-- Map/Reduce Script -->
+	<value>MARKUPITEM</value>  <!-- Markup -->
+	<value>MASSUPDATESCRIPT</value>  <!-- Massupdate Script -->
+	<value>MESSAGE</value>  <!-- Message -->
+	<value>MFGPLANNEDTIME</value>  <!-- Manufacturing Planned Time -->
+	<value>NEXUS</value>  <!-- Nexus -->
+	<value>NONINVENTORYITEM</value>  <!-- Non-Inventory Part -->
+	<value>NOTE</value>  <!-- Note -->
+	<value>NOTETYPE</value>  <!-- Note Type -->
+	<value>OPPORTUNITY</value>  <!-- Opportunity -->
+	<value>ORDERSCHEDULE</value>  <!-- Order Schedule -->
+	<value>ORGANIZATIONVALUE</value>  <!-- Organization Value -->
+	<value>OTHERCHARGEITEM</value>  <!-- Other Charge Item -->
+	<value>OTHERGOVERNMENTISSUEDID</value>  <!-- Other Government-Issued ID -->
+	<value>OTHERNAME</value>  <!-- Other Name -->
+	<value>OTHERNAMECATEGORY</value>  <!-- Other Name Category -->
+	<value>PARTNER</value>  <!-- Partner -->
+	<value>PARTNERCATEGORY</value>  <!-- Partner Category -->
+	<value>PASSPORT</value>  <!-- Passport -->
+	<value>PAYCHECK</value>
+	<value>PAYCHECKJOURNAL</value>  <!-- Paycheck Journal -->
+	<value>PAYMENTITEM</value>  <!-- Payment -->
+	<value>PAYMENTMETHOD</value>  <!-- Payment Method -->
+	<value>PAYROLLITEM</value>  <!-- Payroll Item -->
+	<value>PAYROLLBATCH</value>
+	<value>PAYROLLBATCHADDEMPLOYEES</value>
+	<value>PHONECALL</value>  <!-- Phone Call -->
+	<value>PORTLET</value>  <!-- Portlet -->
+	<value>POSITION</value>  <!-- Position -->
+	<value>PRICELEVEL</value>  <!-- Price Level -->
+	<value>PRICINGGROUP</value>  <!-- Pricing Group -->
+	<value>PROJECTEXPENSETYPE</value>  <!-- Project Expense Type -->
+	<value>PROJECTTASK</value>  <!-- Project Task -->
+	<value>PROJECTTEMPLATE</value>  <!-- Project Template -->
+	<value>PROMOTIONCODE</value>  <!-- Promotion -->
+	<value>PROSPECT</value>  <!-- Prospect -->
+	<value>PURCHASECONTRACT</value>  <!-- Purchase Contract -->
+	<value>PURCHASEORDER</value>  <!-- Purchase Order -->
+	<value>PURCHASEREQUISITION</value>  <!-- Requisition -->
+	<value>RATEPLAN</value>  <!-- Rate Plan -->
+	<value>REALLOCATEITEM</value>  <!-- Reallocate Items -->
+	<value>RESOURCEALLOCATION</value>  <!-- Resource Allocation -->
+	<value>RESTLET</value>  <!-- Restlet -->
+	<value>RETURNAUTHORIZATION</value>  <!-- Return Authorization -->
+	<value>REVENUEARRANGEMENT</value>  <!-- Revenue Arrangement -->
+	<value>REVENUECOMMITMENT</value>  <!-- Revenue Commitment -->
+	<value>REVENUECOMMITMENTREVERSAL</value>  <!-- Revenue Commitment Reversal -->
+	<value>REVENUEPLAN</value>  <!-- Revenue Recognition Plan -->
+	<value>REVRECSCHEDULE</value>  <!-- Rev Rec Schedule -->
+	<value>REVRECTEMPLATE</value>  <!-- Rev Rec Template -->
+	<value>SALESORDER</value>  <!-- Sales Order -->
+	<value>SALESROLE</value>  <!-- Sales Role -->
+	<value>SALESTAXITEM</value>  <!-- Sales Tax Item -->
+	<value>SCHEDULEDSCRIPT</value>  <!-- Scheduled  Script -->
+	<value>SCHEDULEDSCRIPTINSTANCE</value>  <!-- ScheduledScriptInstance -->
+	<value>SERIALIZEDASSEMBLYITEM</value>  <!-- Serialized Assembly/Bill of Materials -->
+	<value>SERIALIZEDINVENTORYITEM</value>  <!-- Serialized Inventory Item -->
+	<value>SERVICEITEM</value>  <!-- Service -->
+	<value>SHIPITEM</value>  <!-- Shipping Item -->
+	<value>SHIPPINGPARTNERPACKAGE</value>  <!-- Shipping Partner Package -->
+	<value>SHIPPINGPARTNERREGISTRATION</value>  <!-- Shipping Partner Registration -->
+	<value>SHIPPINGPARTNERSHIPMENT</value>  <!-- Shipping Partner Shipment -->
+	<value>SOLUTION</value>  <!-- Solution -->
+	<value>STATISTICALJOURNALENTRY</value>  <!-- Statistical Journal Entry -->
+	<value>SUBSCRIPTION</value>  <!-- Subscription -->
+	<value>SUBSCRIPTIONCHANGEORDER</value>  <!-- Subscription Change Order -->
+	<value>SUBSCRIPTIONLINE</value>  <!-- Subscription Line -->
+	<value>SUBSCRIPTIONPLAN</value>  <!-- Subscription Plan -->
+	<value>SUBSIDIARY</value>  <!-- Subsidiary -->
+	<value>SUBTOTALITEM</value>  <!-- Subtotal -->
+	<value>SUITELET</value>  <!-- Suitelet -->
+	<value>SUPPORTCASE</value>  <!-- Case -->
+	<value>TASK</value>  <!-- Task -->
+	<value>TAXACCT</value>  <!-- Tax Account -->
+	<value>TAXGROUP</value>  <!-- Tax Group -->
+	<value>TAXPERIOD</value>  <!-- Tax Period -->
+	<value>TAXSCHEDULE</value>  <!-- Tax Schedule -->
+	<value>TAXTYPE</value>  <!-- Tax Type -->
+	<value>TERM</value>  <!-- Term -->
+	<value>TERMINATIONREASON</value>  <!-- Termination Reason -->
+	<value>TIMEBILL</value>  <!-- Time -->
+	<value>TIMEENTRY</value>  <!-- Timeentry -->
+	<value>TIMEOFFCHANGE</value>  <!-- Time-Off Change -->
+	<value>TIMEOFFPLAN</value>  <!-- Time-Off Plan -->
+	<value>TIMEOFFREQUEST</value>  <!-- Time-Off Request -->
+	<value>TIMEOFFRULE</value>  <!-- Time-Off Rule -->
+	<value>TIMEOFFTYPE</value>  <!-- Time-Off Type -->
+	<value>TIMESHEET</value>  <!-- Timesheet -->
+	<value>TOPIC</value>  <!-- Topic -->
+	<value>TRANSFERORDER</value>  <!-- Transfer Order -->
+	<value>UNITSTYPE</value>  <!-- Units Type -->
+	<value>USAGE</value>  <!-- Usage -->
+	<value>USEREVENTSCRIPT</value>  <!-- Userevent  -->
+	<value>VENDOR</value>  <!-- Vendor -->
+	<value>VENDORBILL</value>  <!-- Vendor Bill -->
+	<value>VENDORCATEGORY</value>  <!-- Vendor Category -->
+	<value>VENDORCREDIT</value>  <!-- Vendor Credit -->
+	<value>VENDORPAYMENT</value>  <!-- Vendor Payment -->
+	<value>VENDORRETURNAUTHORIZATION</value>  <!-- Vendor Return Authorization -->
+	<value>WEBSITE</value>  <!-- Web Site -->
+	<value>WINLOSSREASON</value>  <!-- Win-Loss Reason -->
+	<value>WORKFLOWACTIONSCRIPT</value>  <!-- Workflow Action Script -->
+	<value>WORKORDER</value>  <!-- Work Order -->
+	<value>WORKORDERCLOSE</value>  <!-- Work Order Close -->
+	<value>WORKORDERCOMPLETION</value>  <!-- Work Order Completion -->
+	<value>WORKORDERISSUE</value>  <!-- Work Order Issue -->
+	<value>WORKPLACE</value>
+</list>

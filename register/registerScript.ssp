@@ -1,0 +1,120 @@
+<!--
+  Module Description
+
+  Version    Date            Author           Remarks
+  1.00       28 Mar 2016     Chan
+//-->
+
+<html class="netsuite" ng-app="taApp">
+<head>
+<link rel="stylesheet" type="text/css" href="https://system.sandbox.netsuite.com/c.1257021/site/checkout/css/ecommerce.css">
+<%= getPageFullHead() %>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js"></script>
+<script src="https://system.sandbox.netsuite.com/c.1257021/SSP Applications/Tax Analysts/Client/ta_ang_app.js"></script>
+<script src="https://system.sandbox.netsuite.com/c.1257021/SSP Applications/Tax Analysts/Client/ta-register-controller.js"></script>
+<script src="https://system.sandbox.netsuite.com/c.1257021/SSP Applications/Tax Analysts/Client/ta-ng-lib/angular-payments.min.js"></script>
+<style type="text/css">
+
+</style>
+</head>
+<body>
+<!-- Header Navigation -->
+<%= getPageTop()%>
+
+<div class="background-gray-light">
+	<div class="contain">
+		<nav class="breadcrumbs">
+			<a href="">Register</a>
+			<a href="">Basic Information</a>
+		</nav>
+	</div>
+</div>
+
+<div class="background-blue color-white">
+	<div class="contain py3">
+		<h1 class="my0 h2">Basic Information</h1>
+	</div>
+</div>
+
+<div class="contain py3" ng-controller="registerController">
+	<form name="registerForm" class="form--registration" ng-submit="nsRegisterForm()">
+		<label class="mb3 regular">
+			<span class="black">First Name</span>
+			<input class="my1" type="text" name="firstname" id="first_name"/ ng-model="registerData.firstname" required />
+			<span class="validation-error black" ng-show="registerForm.firstname.$dirty && registerForm.firstname.$invalid">Your First Name is Required</span>
+		</label>
+		
+		<label class="mb3 regular">
+			<span class="black">Last Name</span>
+			<input class="my1" type="text" name="last_name" id="last_name" ng-model="registerData.lastname" required />
+			<span class="validation-error black" ng-show="registerForm.last_name.$dirty && registerForm.last_name.$error.required">Your Last Name is Required</span>
+		</label>
+		
+		<label class="mb3 regular">
+			<span class="black">Email (used as username)</span>
+			<input class="my1" type="email" name="user_email" id="user_email" ng-model="registerData.email" required/>
+			<span class="validation-error black" ng-show="registerForm.user_email.$dirty && registerForm.user_email.$error.required">Email is Required</span>
+			<span class="validation-error black" ng-show="registerForm.user_email.$dirty && registerForm.user_email.$error.email">Invalid Email</span>
+		</label>
+		
+		<label class="mb3 regular">
+			<span class="black">Password</span>
+			<input class="my1" type="password" name="password" id="password" ng-model="registerData.password" ng-minlength="6" required />
+			<span class="validation-error black" ng-show="registerForm.password.$dirty && registerForm.password.$error.required">Password is Required</span>
+			<span class="validation-error black" ng-show="registerForm.password.$dirty && registerForm.password.$error.minlength">Password is too short</span>
+		</label>
+		
+		<label class="mb3 regular">
+			<span class="black">Confirm Password</span>
+			<input class="my1" type="password" name="password2" id="confirm_password" compare-to="registerData.password" ng-model="registerData.password2" required/>
+			<span class="validation-error black" ng-show="registerForm.password2.$dirty && registerForm.password2.$invalid && !registerForm.password.$error.minlength">Password do not match</span>
+		</label>
+		
+		<input type="submit" ng-disabled="registerForm.$invalid" value="Create Account" /> 
+	</form>
+</div>
+
+<footer id="footer">
+  <p class="mb0 py3 background-blue color-white h2 bold center">Need assistance? 123-456-7890</p>
+  <div class="footer__main">
+  <div class="contain">
+    <nav class="footer__nav-list">
+      <h3 class="nav-list__title">ABOUT TAX NOTES</h3>
+      <ul>
+        <li><a href="/website-terms-conditions" class="footer__nav-link">Website Terms &amp; Conditions</a></li>
+        <li><a href="/advertise" class="footer__nav-link">Advertise</a></li>
+        <li><a href="http://www.taxanalysts.org/for-the-press/sources-for-stories?__hstc=240201116.e49de72ec35056a39053930a79fed163.1473692795854.1473692795854.1473888147930.2&amp;__hssc=240201116.1.1473888147930&amp;__hsfp=1099295045" class="footer__nav-link">Media</a></li>
+        <li><a href="http://www.taxanalysts.org/outreach/conference-series?__hstc=240201116.e49de72ec35056a39053930a79fed163.1473692795854.1473692795854.1473888147930.2&amp;__hssc=240201116.1.1473888147930&amp;__hsfp=1099295045" class="footer__nav-link">Events</a></li>
+        <li><a href="http://www.taxanalysts.org/careers?__hstc=240201116.e49de72ec35056a39053930a79fed163.1473692795854.1473692795854.1473888147930.2&amp;__hssc=240201116.1.1473888147930&amp;__hsfp=1099295045" class="footer__nav-link">Careers</a></li>
+        <li><a href="http://www.taxnotes.com/acquisitions" class="footer__nav-link">Contributor Submissions</a></li>
+        <li><a href="/about-tax-analysts" class="footer__nav-link">About Tax Analysts</a></li>
+        <li><a href="/sitemap" class="footer__nav-link">Site Map</a></li>
+      </ul>
+    </nav>
+    <nav class="footer__nav-list">
+      <h3 class="nav-list__title">SERVICES</h3>
+      <ul>
+        <li><a href="/federal-tax-products/" class="footer__nav-link">Federal</a></li>
+        <li><a href="/state-tax-products/" class="footer__nav-link">State</a></li>
+        <li><a href="/international-tax-products/" class="footer__nav-link">International</a></li>
+      </ul>
+    </nav>
+    <nav class="footer__nav-list">
+      <h3 class="nav-list__title">MY TAX NOTES</h3>
+      <ul>
+        <li><a href="/support" class="footer__nav-link">Support</a></li>
+        <li><a href="/user/profile" class="footer__nav-link">MY PROFILE</a></li>
+      </ul>
+    </nav>
+    <nav class="footer__nav-list footer__contact">
+      <h3 class="nav-list__title">Contact Us</h3>
+      <dl>
+        <dd>Hours:</dd> <dt>MONDAY - FRIDAY<br>8:30 AM - 5:30 PM EST</dt>
+        <dd>Phone:</dd> <dt>800-955-2444</dt>
+       </dl>
+       <p style="text-transform: none; width: 100%; line-height: 1.3; padding:0;">Tax Analysts is a tax publisher and does not provide tax advice or preparation services.</p>
+    </nav>
+  </div>  
+</footer>
+</body>
+</html>

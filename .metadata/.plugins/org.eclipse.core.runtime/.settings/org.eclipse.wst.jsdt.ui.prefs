@@ -1,0 +1,45 @@
+content_assist_autoactivation_delay=0
+content_assist_autoactivation_triggers_java=.nfo(
+content_assist_disabled_computers=com.netsuite.ide.eclipse.assist\u0000org.eclipse.wst.jsdt.ui.textProposalCategory\u0000
+content_assist_lru_history=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><history maxLHS\="100" maxRHS\="10"/>
+eclipse.preferences.version=1
+fontPropagated=true
+java_bracket=176,90,101
+java_comment_task_tag=41,95,148
+java_default=88,88,88
+java_doc_default=173,149,175
+java_doc_keyword=204,147,147
+java_doc_link=173,149,175
+java_doc_tag=86,104,116
+java_keyword=41,95,148
+java_keyword_return=41,95,148
+java_multi_line_comment=173,149,175
+java_operator=0,0,0
+java_single_line_comment=173,149,175
+java_string=49,126,204
+org.eclipse.jface.textfont=1|Monaco|11.0|0|COCOA|1|;
+org.eclipse.wst.jsdt.internal.ui.navigator.layout=1
+org.eclipse.wst.jsdt.ui.editor.tab.width=
+org.eclipse.wst.jsdt.ui.formatterprofiles.version=11
+org.eclipse.wst.jsdt.ui.javadoclocations.migrated=true
+org.eclipse.wst.jsdt.ui.text.code_templates_migrated=true
+org.eclipse.wst.jsdt.ui.text.custom_code_templates=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><templates/>
+org.eclipse.wst.jsdt.ui.text.custom_templates=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><templates/>
+org.eclipse.wst.jsdt.ui.text.templates_migrated=true
+proposalOrderMigrated=true
+semanticHighlighting.localVariable.bold=false
+semanticHighlighting.localVariable.color=85,170,85
+semanticHighlighting.localVariable.enabled=true
+semanticHighlighting.localVariable.italic=false
+semanticHighlighting.localVariable.strikethrough=false
+semanticHighlighting.localVariable.underline=false
+semanticHighlighting.localVariableDeclaration.bold=false
+semanticHighlighting.localVariableDeclaration.color=176,90,101
+semanticHighlighting.localVariableDeclaration.enabled=true
+semanticHighlighting.methodDeclarationName.bold=false
+semanticHighlighting.methodDeclarationName.color=176,90,101
+semanticHighlighting.methodDeclarationName.enabled=true
+tabWidthPropagated=true
+tagName=188,90,101
+useAnnotationsPrefPage=true
+useQuickDiffPrefPage=true

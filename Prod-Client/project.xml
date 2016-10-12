@@ -1,0 +1,16 @@
+<project info="SuiteCloud IDE generated file, do not edit." setAttributesOnUpdate="false">
+  <folder name="Prod-Client" bundleable="true">
+    <folder name="ta-data-factory" bundleable="false">
+      <file name="ta-data-factory.js" bundleable="false" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+    </folder>
+    <folder name="ta-ng-lib" bundleable="false">
+      <file name="angular-payments.min.js" bundleable="false" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+    </folder>
+    <file name="ta-cart-controller.js" bundleable="false" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+    <file name="ta-checkout-controller.js" bundleable="false" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+    <file name="ta-login-controller.js" bundleable="false" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+    <file name="ta-register-controller.js" bundleable="false" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+    <file name="ta_ang_app.js" bundleable="true" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+    <file name="ta_ang_services.js" bundleable="true" hideInBundle="false" isOnline="true" textFileEncoding="_utf8"/>
+  </folder>
+</project>

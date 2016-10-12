@@ -1,0 +1,17 @@
+<mapreducescript scriptid="customscript_">
+    <apiversion>2.0</apiversion>
+    <description></description>
+    <isinactive>F</isinactive>
+    <name></name>
+    <notifyowner>T</notifyowner>
+    <scriptfile>[]</scriptfile>
+    <scriptdeployments>
+        <scriptdeployment scriptid="customdeploy_">
+            <isdeployed>T</isdeployed>
+            <loglevel>DEBUG</loglevel>
+            <runasrole></runasrole>
+            <status>NOTSCHEDULED</status>
+            <yieldaftermins>60</yieldaftermins>
+        </scriptdeployment>
+    </scriptdeployments>
+</mapreducescript>

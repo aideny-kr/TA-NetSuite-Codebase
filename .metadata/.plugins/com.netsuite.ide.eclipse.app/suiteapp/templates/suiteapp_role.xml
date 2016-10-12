@@ -1,0 +1,7 @@
+<role scriptid="customrole_">
+  <centertype></centertype>
+  <name></name>
+  <issalesrole>F</issalesrole>
+  <issupportrole>F</issupportrole>
+  <iswebserviceonlyrole>F</iswebserviceonlyrole>
+</role>

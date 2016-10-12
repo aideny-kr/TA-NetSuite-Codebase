@@ -1,0 +1,85 @@
+<html>
+<head><%=getPageFullHead()%>
+<!--add css, js packages here -->
+<link rel="stylesheet" type="text/css" href="/checkout/css/style2.css" >
+<% var order = nlapiGetWebContainer().getShoppingSession().getOrder().getFieldValues({'items': ['name', 'salesdesc', 'quantity', 'rate', 'amount'], 'summary': ''});%>
+<script type="text/javascript"> var nlShoppingOrder = <%=JSON.stringify(order)%>; </script>   
+<script type="text/javascript">
+   function createCartItemRow(nlCartItem, itemAttributes)
+   {
+      var row = document.createElement('tr');
+      
+      for (var i = 0; i < itemAttributes.length; i++)
+      {
+         row.appendChild(createCartItemCell(nlCartItem[itemAttributes[i]]));
+      }
+ 
+      return row;
+   }
+   function createCartItemCell(nlCartItemAttr)
+   {
+      var cell = document.createElement('td');
+      cell.setAttribute('class', 'texttable');
+      var txtCell = document.createTextNode(nlCartItemAttr);
+      cell.appendChild(txtCell);
+      return cell;
+   }
+   
+   function createCartTableHeader(headerItems)
+   {
+      var theader = document.createElement('thead');
+      theader.setAttribute('id', 'carttableheader');
+      for (var i = 0; i < headerItems.length; i++)
+      {
+         theader.appendChild(createCartHeaderCell(headerItems[i]));
+      }
+      return theader;
+   }
+   function createCartHeaderCell(nlCartHeaderItem)
+   {
+      var cell = document.createElement('th');
+      var txtCell = document.createTextNode(nlCartHeaderItem);
+      cell.appendChild(txtCell);
+      return cell;
+   }
+   
+   function createShoppingCart()
+   {   
+      var headerItems = ['Name', 'Description', 'Quantity', 'Rate', 'Amount'];
+      var itemAttributes = ['name', 'salesdesc', 'quantity', 'rate', 'amount'];   
+      var shoppingCart = document.createElement('table');
+      shoppingCart.setAttribute('id', 'carttable');
+      shoppingCart.setAttribute('width', '100%');
+      
+      var theader = createCartTableHeader(headerItems);
+      shoppingCart.appendChild(theader);
+ 
+      var tbody = document.createElement('tbody');
+      
+      if (nlShoppingOrder && nlShoppingOrder.items)
+      {
+         for (var i = 0; i < nlShoppingOrder.items.length; i++)
+         {
+            tbody.appendChild(createCartItemRow(nlShoppingOrder.items[i], itemAttributes));
+         }
+      }
+ 
+      shoppingCart.appendChild(tbody);
+      document.getElementById('mainContents').appendChild(shoppingCart);
+}
+   
+</script>
+</head>   
+<body onLoad="createShoppingCart()">
+ 
+<table cellpadding=0 cellspacing=0 border=0 width=100%><NLPAGETOP></table>
+ 
+<table>
+<%nlapiGetWebContainer().getPageGenerator().setSelectedTab(3);%>
+ 
+<div id="mainContents"></div>
+ 
+</table>
+</body>
+</html>
+ 

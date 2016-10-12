@@ -1,0 +1,24 @@
+<transactioncolumncustomfield scriptid="custcol_">
+    <accesslevel>2</accesslevel>
+    <colexpense>F</colexpense>
+    <colexpensereport>F</colexpensereport>
+    <colgrouponinvoices>F</colgrouponinvoices>
+    <colitemfulfillment>F</colitemfulfillment>
+    <colitemreceipt>F</colitemreceipt>
+    <coljournal>F</coljournal>
+    <colkititem>F</colkititem>
+    <colopportunity>F</colopportunity>
+    <colpackingslip>F</colpackingslip>
+    <colpickingticket>F</colpickingticket>
+    <colprintflag>F</colprintflag>
+    <colpurchase>F</colpurchase>
+    <colreturnform>F</colreturnform>
+    <colsale>F</colsale>
+    <colstore>F</colstore>
+    <colstorewithgroups>F</colstorewithgroups>
+    <coltime>F</coltime>
+    <description></description>
+    <fieldtype>TEXT</fieldtype>
+    <label></label>
+    <storevalue>T</storevalue>
+</transactioncolumncustomfield>

@@ -1,0 +1,107 @@
+<!--
+  Module Description
+
+  Version    Date            Author           Remarks
+  1.00       13 Jul 2016     Chan
+//-->
+
+<html class="netsuite" ng-app="taApp">
+<head>
+<link rel="stylesheet" type="text/css" href="https://system.sandbox.netsuite.com/c.1257021/site/checkout/css/ecommerce.css">
+<link rel="stylesheet" type="text/css" href="https://system.sandbox.netsuite.com/c.1257021/site/checkout/css/loader.css">
+<% var order = nlapiGetWebContainer().getShoppingSession().getOrder().getFieldValues({'items': ['name', 'salesdesc', 'quantity', 'rate', 'amount'], 'summary': ''}); %>
+<script type="text/javascript">var nlShoppingOrder = <%= JSON.stringify(order) %> </script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js"></script>
+<script src="https://system.sandbox.netsuite.com/c.1257021/SSP Applications/Tax Analysts/Client/ta_ang_app.js"></script>
+<script src="https://system.sandbox.netsuite.com/c.1257021/SSP Applications/Tax Analysts/Client/ta-login-controller.js"></script>
+<script src="https://system.sandbox.netsuite.com/c.1257021/SSP Applications/Tax Analysts/Client/ta-data-factory/ta-data-factory.js"></script>
+<script src="https://system.sandbox.netsuite.com/c.1257021/SSP Applications/Tax Analysts/Client/ta-ng-lib/angular-payments.min.js"></script>
+<%= getPageFullHead() %>
+</head>
+<body>
+
+<!-- Header Navigation -->
+<%= getPageTop()%>
+
+<div class="background-blue color-white">
+	<div class="contain py3">
+		<h1 class="my0 h2">Log In</h1>
+	</div>
+</div>
+
+<div class="form--login contain py3" ng-controller="loginController">
+
+<span ng-if="errorMessage">{{ errorMessage }}</span>
+
+	<form name="login" ng-submit="nsProcessUser()">
+			<span ng-show="errorEmail">{{ errorEmail }}</span>
+			<label class="mb1" for="user_email">E-Mail Address</label>
+			<input class="mb3" type="email" name="email" id="user_email" ng-model="formData.email"/>
+			
+			<span ng-show="errorPassword">{{ errorPassword }}</span>
+			<label class="mb1" for="password">Password</label>
+			<input class="mb1" type="password" name="password" id="password" ng-model="formData.password"/>
+			
+			<a class="block mb3 color-gray-dark h6 italic" href="">Forgot Password?</a>
+			
+			<input ng-show="!isProcessing" class="mr2" type="submit" value="Log in">
+		    <div ng-show="isProcessing" class="bubblingG">
+				<span id="bubblingG_1">
+				</span>
+				<span id="bubblingG_2">
+				</span>
+				<span id="bubblingG_3">
+				</span>
+			</div>
+			<a ng-disabled="isProcessing" class="button button-secondary no-icon" href=<%= getRegistrationUrl() %>>Register</a>
+	</form>
+
+</div>
+
+
+
+<footer id="footer">
+  <p class="mb0 py3 background-blue color-white h2 bold center">Need assistance? 123-456-7890</p>
+  <div class="footer__main">
+  <div class="contain">
+    <nav class="footer__nav-list">
+      <h3 class="nav-list__title">ABOUT TAX NOTES</h3>
+      <ul>
+        <li><a href="/website-terms-conditions" class="footer__nav-link">Website Terms &amp; Conditions</a></li>
+        <li><a href="/advertise" class="footer__nav-link">Advertise</a></li>
+        <li><a href="http://www.taxanalysts.org/for-the-press/sources-for-stories?__hstc=240201116.e49de72ec35056a39053930a79fed163.1473692795854.1473692795854.1473888147930.2&amp;__hssc=240201116.1.1473888147930&amp;__hsfp=1099295045" class="footer__nav-link">Media</a></li>
+        <li><a href="http://www.taxanalysts.org/outreach/conference-series?__hstc=240201116.e49de72ec35056a39053930a79fed163.1473692795854.1473692795854.1473888147930.2&amp;__hssc=240201116.1.1473888147930&amp;__hsfp=1099295045" class="footer__nav-link">Events</a></li>
+        <li><a href="http://www.taxanalysts.org/careers?__hstc=240201116.e49de72ec35056a39053930a79fed163.1473692795854.1473692795854.1473888147930.2&amp;__hssc=240201116.1.1473888147930&amp;__hsfp=1099295045" class="footer__nav-link">Careers</a></li>
+        <li><a href="http://www.taxnotes.com/acquisitions" class="footer__nav-link">Contributor Submissions</a></li>
+        <li><a href="/about-tax-analysts" class="footer__nav-link">About Tax Analysts</a></li>
+        <li><a href="/sitemap" class="footer__nav-link">Site Map</a></li>
+      </ul>
+    </nav>
+    <nav class="footer__nav-list">
+      <h3 class="nav-list__title">SERVICES</h3>
+      <ul>
+        <li><a href="/federal-tax-products/" class="footer__nav-link">Federal</a></li>
+        <li><a href="/state-tax-products/" class="footer__nav-link">State</a></li>
+        <li><a href="/international-tax-products/" class="footer__nav-link">International</a></li>
+      </ul>
+    </nav>
+    <nav class="footer__nav-list">
+      <h3 class="nav-list__title">MY TAX NOTES</h3>
+      <ul>
+        <li><a href="/support" class="footer__nav-link">Support</a></li>
+        <li><a href="/user/profile" class="footer__nav-link">MY PROFILE</a></li>
+      </ul>
+    </nav>
+    <nav class="footer__nav-list footer__contact">
+      <h3 class="nav-list__title">Contact Us</h3>
+      <dl>
+        <dd>Hours:</dd> <dt>MONDAY - FRIDAY<br>8:30 AM - 5:30 PM EST</dt>
+        <dd>Phone:</dd> <dt>800-955-2444</dt>
+       </dl>
+       <p style="text-transform: none; width: 100%; line-height: 1.3; padding:0;">Tax Analysts is a tax publisher and does not provide tax advice or preparation services.</p>
+    </nav>
+  </div>  
+</footer>
+
+</body>
+</html>

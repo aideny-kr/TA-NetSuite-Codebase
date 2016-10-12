@@ -1,0 +1,90 @@
+<div class="checkout-overview flex mb3">
+  <!--  Billing Information -->
+	<div class="px1">
+		<h3 class="my0 px3 py2 background-blue color-white h5">Billing Information</h3>
+		<div class="px3 py2 background-gray-light">
+			<div class="clearfix flex">
+				<div class="flex-auto">
+					<p class="mb0">{{ paymentTypeString }}</p>
+			        <p class="mb0">Ending in {{ payment.ccnumber | limitTo: -4 }}</p>
+			        <p class="mb0">{{ payment.expiration }}</p>
+				</div>
+				<div class="flex-auto">
+					<address class="mb2">
+				      {{ payment.ccname }}<br />
+				      {{ billing.addr1 }}<br />
+				      {{ billing.addr2 }}<br />
+				      {{ billing.city }}, {{ billing.state }} {{ billing.zip }}
+				    </address>
+				</div>
+			</div>
+			<a class="text-link" href="">Edit Details</a>
+		</div>
+	</div>
+
+  <!-- Shipping Address if applicable -->
+  <div class="px1">
+    <h3 class="my0 px3 py2 background-blue color-white h5">Shipping Address</h3>
+    <div class="px3 py2 background-gray-light">
+      <address class="mb2">
+        {{ payment.ccname }}<br />
+        {{ billing.addr1 }}<br />
+        {{ billing.addr2 }}<br />
+        {{ billing.city }}, {{ billing.state }} {{ billing.zip }}
+      </address>
+      <a class="text-link" href="">Edit Details</a>
+    </div>
+  </div>
+</div>
+
+<!-- Purchasing Item List -->
+<table class="cart mb3" ng-show="shoppingOrder.items.length > 0">
+  <thead>
+    <tr>
+      <th class="px3 py2 background-blue color-white left-align">Cart</th>
+      <th class="p2 background-blue color-white">Price</th>
+      <th class="p2 background-blue color-white">Details</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr ng-repeat="item in shoppingOrder.items">
+        <td class="px3 py2">{{item.salesdesc}}</td>
+        <td class="p2">{{item.amount | currency}}</td>
+        <td class="p2 center">
+          <svg class="cart-details" xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17">
+        			<title>Product Details</title>
+      				<circle cx="8.5" cy="8.5" r="8.5" />
+      				<text fill="#FFFFFF" font-family="TimesNewRomanPS-BoldMT, Times New Roman" font-size="13" font-weight="bold">
+      					<tspan x="6.611" y="12.944">i</tspan>
+      				</text>
+      		</svg>
+        </td>
+      </tr>
+  </tbody>
+  <tfoot>
+    <tr class="total">
+      <td class="px3 py2 h4 bold caps align-right">Total</td>
+      <td class="p2">{{shoppingOrder.summary.total | currency}}</td>
+      <td>&nbsp;</td>
+    </tr>
+  </tfoot>
+</table>
+
+<div class="checkout-actions clearfix">
+  <div class="left">
+    <a ng-disabled="submitted" href="" class="mr2 button button-secondary no-icon">Edit Cart</a>
+    <a ng-disabled="submitted" href="" class="mr2 button button-secondary no-icon">Add More Products</a>
+  </div>
+  <div class="right">
+    <input ng-show="!submitted" ng-class="confirmClass" type="submit" value="Confirm Purchase" ng-click="submitOrder()" />
+    <div ng-show="submitted" class="bubblingG">
+		<span id="bubblingG_1">
+		</span>
+		<span id="bubblingG_2">
+		</span>
+		<span id="bubblingG_3">
+		</span>
+	</div>
+    
+  </div>
+</div>

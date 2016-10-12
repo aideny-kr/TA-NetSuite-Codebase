@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 1 elements(s) to &apos;TA Sandbox&apos;&#x0A;- Original project: &apos;TaxAnalysts&apos;&#x0A;- Destination element: &apos;TA Sandbox&apos;&#x0A;- Original element: &apos;TA Multiyear Upsell Suitelet.js&apos;" description="Copy file" element1="TA Multiyear Upsell Suitelet.js" files="1" flags="589830" folders="0" id="org.eclipse.wst.jsdt.ui.copy" log="TA Multiyear Upsell Suitelet.js&#x09;true&#x09;false" policy="org.eclipse.wst.jsdt.ui.copyResources" stamp="1464015890496" target="/TA Sandbox" units="0" version="1.0"/>
+</session>

@@ -1,0 +1,12 @@
+<centertab scriptid="custcentertab_">
+    <allroles>T</allroles>
+    <center></center>
+    <label></label>
+    <portlets>
+        <portlet scriptid="">
+            <portlet></portlet>
+            <portletcolumn>1</portletcolumn>
+            <isportletshown>T</isportletshown>
+        </portlet>
+    </portlets>
+</centertab>

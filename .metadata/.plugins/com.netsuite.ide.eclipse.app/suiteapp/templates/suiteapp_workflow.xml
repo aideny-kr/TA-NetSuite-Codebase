@@ -1,0 +1,17 @@
+<workflow scriptid="customworkflow_">
+    <initconditioninbuilder>F</initconditioninbuilder>
+    <recordtypes></recordtypes>
+    <releasestatus>NOTRUNNING</releasestatus>
+    <initoncreate>F</initoncreate>
+    <initonvieworupdate>F</initonvieworupdate>
+    <initonschedule>F</initonschedule>
+    <inittriggertype></inittriggertype>
+    <name></name>
+    <workflowstates>
+        <workflowstate scriptid="workflowstate_">
+            <name></name>
+            <positionx>50</positionx>
+            <positiony>110</positiony>
+        </workflowstate>
+    </workflowstates>
+</workflow>

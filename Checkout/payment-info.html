@@ -1,0 +1,79 @@
+<form name="paymentForm" ng-submit="addPayment()">
+	<div class="clearfix">
+	<fieldset name="payment-fld-set">
+	    <label class="cc-name mb2 regular">
+			<span class="black">Name on Card</span>
+			<input class="my1" type="text" id="name" name="name" ng-model="payment.ccname" required/>
+		</label>
+	    
+	    <label class="cc-type mb2 regular">
+			<span class="black">Payment Method</span>
+			<select class="my1" id="cctype" name="cctype" ng-model="payment.paymentmethod" >
+	  			<option ng-repeat="(key, value) in paymentTypes" value="{{ value }}">{{key}}</option>
+	  		</select>
+		</label>
+	    
+	    <label class="cc-number mb2 regular">
+			<span class="black">Card Number</span>
+			<input class="my1" type="text" id="ccnumber" name="ccnumber" ng-model="payment.ccnumber" payments-validate="card" payments-format="card" payments-type-model="type"  required />
+		</label>
+	    
+	    <div class="clearfix mb2 regular">
+	      <label class="cc-expiration col-6">
+	        <span class="black">Expiration Date</span>
+	        <input class="my1" type="text" id="expiration" ng-model="payment.expiration" payments-validate="expiry" payments-format="expiry" placeholder="MM/YYYY" required />
+	      </label>
+	
+	      <label class="cc-sec-code col-6">
+	        <span class="black">Security Code</span>
+	        <input class="my1" type="text" id="cvc" ng-model="payment.ccsecuritycode" payments-validate="cvc" payments-format="cvc" payments-type-model="type" required />
+	      </label>
+		</div>
+	
+		<label class="cc-store regular">
+			<input type="checkbox" ng-model="payment.ccStore" checked="yes" /> I want to store my credit card information for future purchases.
+		</label>
+	</fieldset>
+
+	<fieldset name="billing-fld-set">	
+		<label class="billing-country mb2 regular">
+			<span class="black">Country</span>
+			<select ng-model="billing.country" >
+				<option ng-repeat="country in countries" value="{{country.code}}">{{country.name}}</option>
+			</select>
+		</label>
+		
+		<label class="billing-address-1 mb2 regular">
+			<span class="black">Address</span>
+			<input type="text" id="address" name="addr1" ng-model="billing.addr1" />
+		</label>
+		
+		<label class="billing-address-2 mb2 regular">
+			<span class="black">Address 2</span>
+			<input type="text" id="address2" name="addr2" ng-model="billing.addr2" placeholder="APT, Unit, Building #"/>
+		</label>
+		
+		<label class="billing-address-city mb2 regular">
+			<span class="black">City</span>
+			<input type="text" id="city" name="city" ng-model="billing.city" />
+		</label>
+		
+		<div class="mb2 regular">
+			<label class="billing-address-state col-6">
+				<span class="black">State/Province</span>
+				<select ng-model="billing.state">
+					<option ng-repeat="state in selectedStates" value="{{state.code}}">{{state.name}}</option>
+				</select>
+			</label>
+			<label class="billing-address-zip col-6">
+				<span class="black">Zip Code</span>
+				<input type="text" ng-model="billing.zip"/>
+			</label>
+		</div>
+	</fieldset>
+	</div>
+	
+	<div class="block mt3">
+		<input type="submit" ng-disabled="paymentForm.$invalid" />  
+	</div>
+</form>	

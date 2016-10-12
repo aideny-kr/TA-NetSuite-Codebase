@@ -1,0 +1,16 @@
+<scheduledscript scriptid="customscript_">
+    <defaultfunction></defaultfunction>
+    <description></description>
+    <isinactive></isinactive>
+    <name></name>
+    <notifyowner>T</notifyowner>
+    <scriptfile>[]</scriptfile>
+    <scriptdeployments>
+        <scriptdeployment scriptid="customdeploy_">
+            <isdeployed>T</isdeployed>
+            <loglevel>DEBUG</loglevel>
+            <status>TESTING</status>
+            <title></title>
+        </scriptdeployment>
+    </scriptdeployments>
+</scheduledscript>

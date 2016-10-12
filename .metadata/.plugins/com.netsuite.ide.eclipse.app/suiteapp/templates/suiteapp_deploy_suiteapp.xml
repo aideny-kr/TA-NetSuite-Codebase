@@ -1,0 +1,8 @@
+<deploy>
+    <files>
+        <path>~/*</path>
+    </files>
+    <objects>
+        <path>~/*</path>
+    </objects>
+</deploy>

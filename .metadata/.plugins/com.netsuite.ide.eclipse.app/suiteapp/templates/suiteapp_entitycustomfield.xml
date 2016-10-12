@@ -1,0 +1,20 @@
+<entitycustomfield scriptid="custentity_">
+    <accesslevel>2</accesslevel>
+    <appliestocontact>F</appliestocontact>
+    <appliestocustomer>F</appliestocustomer>
+    <appliestoemployee>F</appliestoemployee>
+    <appliestogroup>F</appliestogroup>
+    <appliestoothername>F</appliestoothername>
+    <appliestopartner>F</appliestopartner>
+    <appliestopricelist>F</appliestopricelist>
+    <appliestoproject>F</appliestoproject>
+    <appliestoprojecttemplate>F</appliestoprojecttemplate>
+    <appliestostatement>F</appliestostatement>
+    <appliestovendor>F</appliestovendor>
+    <appliestowebsite>F</appliestowebsite>
+    <description></description>
+    <fieldtype>TEXT</fieldtype>
+    <label></label>
+    <showinlist>F</showinlist>
+    <storevalue>T</storevalue>
+</entitycustomfield>

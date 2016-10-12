@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item value="false" key="isRegEx"/>
+		<item value="context" key="selection"/>
+		<item value="true" key="casesensitive"/>
+		<item value="false" key="incremental"/>
+		<item value="true" key="wrap"/>
+		<item value="false" key="wholeword"/>
+		<list key="findhistory">
+			<item value="context"/>
+			<item value="nlapiSendEmail"/>
+			<item value="custrecord_ta_renewed_value"/>
+			<item value="taGetCustomerWithSameDomain"/>
+			<item value="suitelet_multiyear_call_btn"/>
+			<item value="taGetCustomer"/>
+			<item value="entityid"/>
+			<item value="custbody_swe_from_contract"/>
+		</list>
+		<list key="replacehistory">
+			<item value="dataOut"/>
+			<item value="paymentObj"/>
+			<item value=""/>
+		</list>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
+		<item value="265" key="DIALOG_WIDTH"/>
+		<item value="1|.SF NS Text|11.0|0|COCOA|1|.SFNSText" key="DIALOG_FONT_NAME"/>
+		<item value="399" key="DIALOG_HEIGHT"/>
+		<item value="221" key="DIALOG_Y_ORIGIN"/>
+		<item value="17" key="DIALOG_X_ORIGIN"/>
+	</section>
+</section>

@@ -1,0 +1,1804 @@
+<list id='generic_standard_field'>
+	<value>STDBILLINGACCOUNTAUTONAME</value>  <!-- Auto -->
+	<value>STDBILLINGACCOUNTBILLINGSCHEDULE</value>  <!-- Billing Schedule -->
+	<value>STDBILLINGACCOUNTCASHSALEFORM</value>  <!-- Cash Sale Form -->
+	<value>STDBILLINGACCOUNTCLASS</value>  <!-- Class -->
+	<value>STDBILLINGACCOUNTCREATEDBY</value>  <!-- Created By -->
+	<value>STDBILLINGACCOUNTCREATEDDATE</value>  <!-- Created -->
+	<value>STDBILLINGACCOUNTCURRENCY</value>  <!-- Currency -->
+	<value>STDBILLINGACCOUNTCUSTOMER</value>  <!-- Customer -->
+	<value>STDBILLINGACCOUNTCUSTOMERDEFAULT</value>  <!-- Customer Default -->
+	<value>STDBILLINGACCOUNTDEPARTMENT</value>  <!-- Department -->
+	<value>STDBILLINGACCOUNTEXTERNALID</value>  <!-- External Id -->
+	<value>STDBILLINGACCOUNTFREQUENCY</value>  <!-- Frequency -->
+	<value>STDBILLINGACCOUNTIDNUMBER</value>  <!-- Account Number -->
+	<value>STDBILLINGACCOUNTINACTIVE</value>  <!-- Inactive -->
+	<value>STDBILLINGACCOUNTINVOICEFORM</value>  <!-- Invoice Form -->
+	<value>STDBILLINGACCOUNTLASTBILLCYCLEDATE</value>  <!-- Last Bill Cycle Date -->
+	<value>STDBILLINGACCOUNTLASTBILLDATE</value>  <!-- Last Bill Date -->
+	<value>STDBILLINGACCOUNTLOCATION</value>  <!-- Location -->
+	<value>STDBILLINGACCOUNTMEMO</value>  <!-- Account Description -->
+	<value>STDBILLINGACCOUNTNAME</value>  <!-- Name -->
+	<value>STDBILLINGACCOUNTNEXTBILLCYCLEDATE</value>  <!-- Next Bill Cycle Date -->
+	<value>STDBILLINGACCOUNTSTARTDATE</value>  <!-- Start Date -->
+	<value>STDBILLINGACCOUNTSUBSIDIARY</value>  <!-- Subsidiary -->
+	<value>STDBODYACCOUNT</value>  <!-- Account -->
+	<value>STDBODYACCOUNTINGAPPROVAL</value>  <!-- Accounting Approval -->
+	<value>STDBODYACCOUNTINGBOOK</value>  <!-- Accounting Book -->
+	<value>STDBODYACTIONITEM</value>  <!-- Action Item -->
+	<value>STDBODYADDRESS</value>  <!-- Address -->
+	<value>STDBODYADJLOCATION</value>  <!-- Adjustment Location -->
+	<value>STDBODYADVANCE</value>  <!-- Advance to Apply -->
+	<value>STDBODYADVANCEACCOUNT</value>  <!-- Advance To Apply Account -->
+	<value>STDBODYALTSALESRANGEHIGH</value>  <!-- Alt. High Range -->
+	<value>STDBODYALTSALESRANGELOW</value>  <!-- Alt. Low Range -->
+	<value>STDBODYALTSALESTOTAL</value>  <!-- Total (Alt. Sales) -->
+	<value>STDBODYALTSHIPPINGCOST</value>  <!-- Shipping Total -->
+	<value>STDBODYAMOUNT</value>  <!-- Amount -->
+	<value>STDBODYAPACCT</value>  <!-- A/P Account -->
+	<value>STDBODYAPPLIED</value>  <!-- Applied Amount -->
+	<value>STDBODYAPPROVALSTATUS</value>  <!-- Approval Status -->
+	<value>STDBODYAPPROVED</value>  <!-- Approved -->
+	<value>STDBODYARACCT</value>  <!-- A/R Account -->
+	<value>STDBODYASSEMBLYITEM</value>  <!-- Assembly Item -->
+	<value>STDBODYAUTHCODE</value>  <!-- Authorization Code -->
+	<value>STDBODYBALANCE</value>  <!-- Balance -->
+	<value>STDBODYBIDCLOSEDATE</value>  <!-- Bid Close Date -->
+	<value>STDBODYBIDOPENDATE</value>  <!-- Bid Open Date -->
+	<value>STDBODYBILLADDRESS</value>  <!-- Bill To Address -->
+	<value>STDBODYBILLINGACCOUNT</value>  <!-- Billing Account -->
+	<value>STDBODYBILLINGADDRESS_TEXT</value>  <!-- Billing Address -->
+	<value>STDBODYBILLINGINSTRUCTIONS</value>  <!-- Billing Instructions -->
+	<value>STDBODYBILLINGSCHEDULE</value>  <!-- Billing Schedule -->
+	<value>STDBODYBINNUMBERS</value>  <!-- Bin Numbers -->
+	<value>STDBODYBUILDABLE</value>  <!-- Buildable -->
+	<value>STDBODYBUILT</value>  <!-- Built -->
+	<value>STDBODYBUYINGREASON</value>  <!-- Buying Reason -->
+	<value>STDBODYBUYINGTIMEFRAME</value>  <!-- Buying Time Frame -->
+	<value>STDBODYCARRIER</value>  <!-- Carrier -->
+	<value>STDBODYCCAPPROVED</value>  <!-- Credit Card Approved -->
+	<value>STDBODYCCEXPIREDATE</value>  <!-- Credit Card Expires (MM/YYYY) -->
+	<value>STDBODYCCISPURCHASECARDBIN</value>  <!-- Purchase Card BIN -->
+	<value>STDBODYCCNAME</value>  <!-- Name on Card -->
+	<value>STDBODYCCNUMBER</value>  <!-- Credit Card # -->
+	<value>STDBODYCCSECURITYCODE</value>  <!-- Credit Card Security Code -->
+	<value>STDBODYCCSTREET</value>  <!-- Credit Card Street -->
+	<value>STDBODYCCZIPCODE</value>  <!-- Credit Card Zip Code -->
+	<value>STDBODYCHECKNUM</value>  <!-- Check # -->
+	<value>STDBODYCLASS</value>  <!-- Class (Main) -->
+	<value>STDBODYCOMPLETE</value>  <!-- Complete -->
+	<value>STDBODYCREATEDFROM</value>  <!-- Created From -->
+	<value>STDBODYCREDITLIMIT</value>  <!-- Credit Limit -->
+	<value>STDBODYCURRENCY</value>  <!-- Currency -->
+	<value>STDBODYCURRENCYNAME</value>  <!-- Currency (Name) -->
+	<value>STDBODYCUSTOMER</value>  <!-- Customer -->
+	<value>STDBODYCUSTOMFORM</value>  <!-- Custom Form -->
+	<value>STDBODYDATEELIGIBLE</value>  <!-- Date Eligible -->
+	<value>STDBODYDECISIONMAKER</value>  <!-- Decision Maker -->
+	<value>STDBODYDEFERREDREVENUE</value>  <!-- Deferred Revenue -->
+	<value>STDBODYDEPARTMENT</value>  <!-- Department (Main) -->
+	<value>STDBODYDEPOSIT</value>  <!-- Deposit Application Of -->
+	<value>STDBODYDEPOSITDATE</value>  <!-- Deposit Date -->
+	<value>STDBODYDISCOUNTAMOUNT</value>  <!-- Disc. Amt. -->
+	<value>STDBODYDISCOUNTDATE</value>  <!-- Disc. Date -->
+	<value>STDBODYDISCOUNTITEM</value>  <!-- Discount Item -->
+	<value>STDBODYDISCOUNTRATE</value>  <!-- Discount Rate -->
+	<value>STDBODYDISCOUNTTOTAL</value>  <!-- Discount Total -->
+	<value>STDBODYDOCUMENTSTATUS</value>  <!-- Document Status -->
+	<value>STDBODYDRACCOUNT</value>  <!-- Deferred Revenue Account for Revenue Reclassification -->
+	<value>STDBODYDUEDATE</value>  <!-- Due Date -->
+	<value>STDBODYEFFECTIVITYBASEDON</value>  <!-- Effectivity Based On -->
+	<value>STDBODYEMAIL</value>  <!-- Email -->
+	<value>STDBODYEMPLOYEE</value>  <!-- Employee -->
+	<value>STDBODYENDDATE</value>  <!-- End Date -->
+	<value>STDBODYENTITY</value>  <!-- Entity -->
+	<value>STDBODYENTITYEMPLOYEE</value>  <!-- Entity (Employee) -->
+	<value>STDBODYENTITYSTATUS</value>  <!-- Opportunity/Estimate Status -->
+	<value>STDBODYESTGROSSPROFIT</value>  <!-- Est. Gross Profit -->
+	<value>STDBODYESTGROSSPROFITPERCENT</value>  <!-- Est. Gross Profit Percent -->
+	<value>STDBODYESTIMATEDBUDGET</value>  <!-- Estimated Budget -->
+	<value>STDBODYESTIMATEDTOTAL</value>  <!-- Estimated Total -->
+	<value>STDBODYESTIMATEDTOTALVALUE</value>  <!-- Estimated Total Value -->
+	<value>STDBODYEXCHANGERATE</value>  <!-- Exchange Rate -->
+	<value>STDBODYEXCLUDECOMMISSION</value>  <!-- Exclude Commissions -->
+	<value>STDBODYEXPANDASSEMBLY</value>  <!-- Build Sub-Assemblies -->
+	<value>STDBODYEXPECTEDCLOSE</value>  <!-- Expected Close -->
+	<value>STDBODYEXPENSEACCOUNT</value>  <!-- Expense Account -->
+	<value>STDBODYEXTERNALID</value>  <!-- External ID -->
+	<value>STDBODYFIRMED</value>  <!-- Firmed -->
+	<value>STDBODYFOB</value>  <!-- FOB -->
+	<value>STDBODYFORECASTTYPE</value>  <!-- Forecast Type -->
+	<value>STDBODYFXACCOUNT</value>  <!-- Foreign Currency Adjustment Revenue Account -->
+	<value>STDBODYGENERATETRANIDONSAVE</value>  <!-- Generate TranId on Save -->
+	<value>STDBODYHANDLINGCOST</value>  <!-- Handling Cost -->
+	<value>STDBODYINCOTERM</value>  <!-- Incoterm -->
+	<value>STDBODYISBUDGETAPPROVED</value>  <!-- Budget Approved -->
+	<value>STDBODYISCUSTOMAPPROVAL</value>  <!-- Custom Approval -->
+	<value>STDBODYISRECURRINGPAYMENT</value>  <!-- Recurring Payment -->
+	<value>STDBODYISTAXABLE</value>  <!-- Taxable -->
+	<value>STDBODYITEM</value>  <!-- Assembly -->
+	<value>STDBODYITEMFULFILLMENT</value>  <!-- Item Fulfillment -->
+	<value>STDBODYJOB</value>  <!-- Job (Main) -->
+	<value>STDBODYLEADSOURCE</value>  <!-- Lead Source -->
+	<value>STDBODYLINKEDTRACKINGNUMBERS</value>  <!-- Tracking # -->
+	<value>STDBODYLOCATION</value>  <!-- Location (Main) -->
+	<value>STDBODYMAXIMUMAMOUNT</value>  <!-- Maximum Amount -->
+	<value>STDBODYMEMO</value>  <!-- Memo -->
+	<value>STDBODYMESSAGE</value>  <!-- Customer Message -->
+	<value>STDBODYMINIMUMAMOUNT</value>  <!-- Minimum Amount -->
+	<value>STDBODYNEXTAPPROVER</value>  <!-- Next Approver -->
+	<value>STDBODYONETIME</value>  <!-- One Time -->
+	<value>STDBODYOPPORTUNITY</value>  <!-- Opportunity -->
+	<value>STDBODYORDERSTATUS</value>  <!-- Order Status -->
+	<value>STDBODYOTHERREFNUM</value>  <!-- PO/Check # -->
+	<value>STDBODYPACKINGLISTINSTRUCTIONS</value>  <!-- Packing List Instructions -->
+	<value>STDBODYPARENTEXPENSEALLOC</value>  <!-- Created From Allocation -->
+	<value>STDBODYPARTNER</value>  <!-- Partner -->
+	<value>STDBODYPAYMENT</value>  <!-- Payment Amount -->
+	<value>STDBODYPAYMENTCUSTOMER</value>  <!-- Customer (Payments and Deposits) -->
+	<value>STDBODYPAYMENTHOLD</value>  <!-- Payment Hold -->
+	<value>STDBODYPAYMENTMETHOD</value>  <!-- Payment Method -->
+	<value>STDBODYPAYMENTSESSIONAMOUNT</value>  <!-- Payment Session Amount -->
+	<value>STDBODYPAYPALAUTHID</value>  <!-- PayPal Authorization ID -->
+	<value>STDBODYPAYPALORDERID</value>  <!-- PayPal Order ID -->
+	<value>STDBODYPAYPALPROCESS</value>  <!-- Process PayPal Payment -->
+	<value>STDBODYPAYPALSTATUS</value>  <!-- PayPal Status -->
+	<value>STDBODYPAYPALTRANID</value>  <!-- PayPal Tran. ID -->
+	<value>STDBODYPAYROLLITEM</value>  <!-- Commission Item -->
+	<value>STDBODYPNREFNUM</value>  <!-- P/N Ref. -->
+	<value>STDBODYPOSTINGPERIOD</value>  <!-- Period -->
+	<value>STDBODYPRINTVOUCHER</value>  <!-- Voucher -->
+	<value>STDBODYPROBABILITY</value>  <!-- Probability -->
+	<value>STDBODYPRODUCTLABELINGINSTRUCTIONS</value>  <!-- Product Labeling Instructions -->
+	<value>STDBODYPROJALTSALESAMT</value>  <!-- Alt. Sales Total -->
+	<value>STDBODYPROJECTEDTOTAL</value>  <!-- Projected Total -->
+	<value>STDBODYPROMOCODE</value>  <!-- Promotion Code -->
+	<value>STDBODYPURCHASECONTRACT</value>  <!-- Purchase Contract -->
+	<value>STDBODYPURCHASEORDERINSTRUCTIONS</value>  <!-- Purchase Order Instructions -->
+	<value>STDBODYQUANTITY</value>  <!-- Quantity -->
+	<value>STDBODYRANGEHIGH</value>  <!-- High Range -->
+	<value>STDBODYRANGELOW</value>  <!-- Low Range -->
+	<value>STDBODYRECOGNIZEDREVENUE</value>  <!-- Recognized Revenue -->
+	<value>STDBODYRECURANNUALLY</value>  <!-- Annually -->
+	<value>STDBODYRECURMONTHLY</value>  <!-- Monthly -->
+	<value>STDBODYRECURQUARTERLY</value>  <!-- Quarterly -->
+	<value>STDBODYRECURWEEKLY</value>  <!-- Weekly -->
+	<value>STDBODYREFUNDCHECK</value>  <!-- Create Check -->
+	<value>STDBODYRETURNTRACKINGNUMBERS</value>  <!-- Return Tracking # -->
+	<value>STDBODYREVCOMMITSTATUS</value>  <!-- Rev. Commit. Status -->
+	<value>STDBODYREVENUESTATUS</value>  <!-- Revenue Status -->
+	<value>STDBODYREVERSALDATE</value>  <!-- Reversal Date -->
+	<value>STDBODYREVERSALDEFER</value>  <!-- Defer Entry -->
+	<value>STDBODYREVISION</value>  <!-- Revision -->
+	<value>STDBODYREVISIONMEMO</value>  <!-- Revision Memo -->
+	<value>STDBODYREVRECONREVCOMMITMENT</value>  <!-- Rev Rec on Rev Commit. -->
+	<value>STDBODYSALESEFFECTIVEDATE</value>  <!-- Sales Effective Date -->
+	<value>STDBODYSALESORDER</value>  <!-- Sales Order -->
+	<value>STDBODYSALESREADINESS</value>  <!-- Sales Readiness -->
+	<value>STDBODYSALESREP</value>  <!-- Sales Rep -->
+	<value>STDBODYSERIALNUMBERS</value>  <!-- Serial Numbers -->
+	<value>STDBODYSHIPADDR1</value>  <!-- Address 1 -->
+	<value>STDBODYSHIPADDR2</value>  <!-- Address 2 -->
+	<value>STDBODYSHIPADDRESS</value>  <!-- Ship To Address -->
+	<value>STDBODYSHIPADDRESSLIST</value>  <!-- Select Address -->
+	<value>STDBODYSHIPATTENTION</value>  <!-- Attention -->
+	<value>STDBODYSHIPCITY</value>  <!-- City -->
+	<value>STDBODYSHIPCOMPANY</value>  <!-- Addressee -->
+	<value>STDBODYSHIPCOMPLETE</value>  <!-- Ship Complete -->
+	<value>STDBODYSHIPCOUNTRY</value>  <!-- Country -->
+	<value>STDBODYSHIPDATE</value>  <!-- Ship Date -->
+	<value>STDBODYSHIPISRESIDENTIAL</value>  <!-- Residential Address -->
+	<value>STDBODYSHIPMETHOD</value>  <!-- Ship Via -->
+	<value>STDBODYSHIPOVERRIDE</value>  <!-- Override -->
+	<value>STDBODYSHIPPHONE</value>  <!-- Phone -->
+	<value>STDBODYSHIPPINGADDRESS_TEXT</value>  <!-- Shipping Address -->
+	<value>STDBODYSHIPPINGCOST</value>  <!-- Shipping Cost -->
+	<value>STDBODYSHIPPINGTAX1RATE</value>  <!-- Shipping Tax Rate -->
+	<value>STDBODYSHIPPINGTAXCODE</value>  <!-- Shipping Tax Code -->
+	<value>STDBODYSHIPSTATE</value>  <!-- State/Province -->
+	<value>STDBODYSHIPSTATUS</value>  <!-- Shipping Status -->
+	<value>STDBODYSHIPTO</value>  <!-- Ship To -->
+	<value>STDBODYSHIPZIP</value>  <!-- Zip -->
+	<value>STDBODYSOFTDESCRIPTOR</value>  <!-- Soft Descriptor -->
+	<value>STDBODYSOURCE</value>  <!-- Source -->
+	<value>STDBODYSTARTDATE</value>  <!-- Start Date -->
+	<value>STDBODYSTATUS</value>  <!-- Status -->
+	<value>STDBODYSUBSCRIPTIONS</value>  <!-- Subscriptions -->
+	<value>STDBODYSUBSIDIARY</value>  <!-- Subsidiary (Main) -->
+	<value>STDBODYSUPERVISOR</value>  <!-- Supervisor -->
+	<value>STDBODYSUPERVISORAPPROVAL</value>  <!-- Supervisor Approval -->
+	<value>STDBODYTAXITEM</value>  <!-- Tax Item -->
+	<value>STDBODYTAXPERIOD</value>  <!-- Tax Period -->
+	<value>STDBODYTAXRATE</value>  <!-- Tax Rate % -->
+	<value>STDBODYTAXTOTAL</value>  <!-- Tax Total -->
+	<value>STDBODYTERMS</value>  <!-- Terms -->
+	<value>STDBODYTITLE</value>  <!-- Title -->
+	<value>STDBODYTOACH</value>  <!-- To ACH -->
+	<value>STDBODYTOBEEMAILED</value>  <!-- To Be E-mailed -->
+	<value>STDBODYTOBEFAXED</value>  <!-- To Be Faxed -->
+	<value>STDBODYTOBEPRINTED</value>  <!-- To Be Printed -->
+	<value>STDBODYTOLOCATION</value>  <!-- To Location -->
+	<value>STDBODYTOSUBSIDIARY</value>  <!-- To Subsidiary -->
+	<value>STDBODYTOTAL</value>  <!-- Total -->
+	<value>STDBODYTOTALALLOCATIONAMOUNT</value>  <!-- Total Carve-Out -->
+	<value>STDBODYTOTALCOSTESTIMATE</value>  <!-- Est. Extended Cost -->
+	<value>STDBODYTOTALREVENUEAMOUNT</value>  <!-- Total Revenue Amount -->
+	<value>STDBODYTOTALSELLINGAMOUNT</value>  <!-- Transaction Total -->
+	<value>STDBODYTRACKINGNUMBERS</value>  <!-- Additional Tracking # -->
+	<value>STDBODYTRANDATE</value>  <!-- Date -->
+	<value>STDBODYTRANID</value>  <!-- Ref. No. -->
+	<value>STDBODYTRANISVSOEBUNDLE</value>  <!-- Transaction Is VSOE Bundle -->
+	<value>STDBODYTRANSACTIONNUMBER</value>  <!-- Transaction Number -->
+	<value>STDBODYTRANSFERLOCATION</value>  <!-- Destination Location -->
+	<value>STDBODYTRANSTATUS</value>  <!-- Custom Transaction Status -->
+	<value>STDBODYTRANTYPE</value>  <!-- Type -->
+	<value>STDBODYUNAPPLIED</value>  <!-- Unapplied Amount -->
+	<value>STDBODYUNDEPFUNDS</value>  <!-- Undep. Funds -->
+	<value>STDBODYUSEITEMCOSTASTRANSFERCOST</value>  <!-- Use Item Cost As Transfer Cost -->
+	<value>STDBODYUSEMULTICURRENCY</value>  <!-- Use Multi Currency -->
+	<value>STDBODYUSERAMOUNT</value>  <!-- User Amount -->
+	<value>STDBODYUSERTOTAL</value>  <!-- Total Amount -->
+	<value>STDBODYVENDOR</value>  <!-- Vendor -->
+	<value>STDBODYVISIBLETOCUSTOMER</value>  <!-- Available In Customer Center -->
+	<value>STDBODYVSOEAUTOCALC</value>  <!-- Auto Calculate VSOE Allocation -->
+	<value>STDBODYWEIGHTEDTOTAL</value>  <!-- Weighted Total -->
+	<value>STDBODYWHICHCHARGESTOADD</value>  <!-- Add Charges -->
+	<value>STDBODYWINLOSSREASON</value>  <!-- Win/Loss Reason -->
+	<value>STDCHARGEAMOUNT</value>  <!-- Amount -->
+	<value>STDCHARGEBILLDATE</value>  <!-- Bill Date -->
+	<value>STDCHARGEBILLINGMODE</value>  <!-- Billing Mode -->
+	<value>STDCHARGEBILLINGSCHEDULE</value>  <!-- Billing Schedule -->
+	<value>STDCHARGECHARGERULE</value>  <!-- Charge Rule -->
+	<value>STDCHARGECLASS</value>  <!-- Class -->
+	<value>STDCHARGECURRENCY</value>  <!-- Currency -->
+	<value>STDCHARGECUSTOMER</value>  <!-- Customer -->
+	<value>STDCHARGEDATE</value>  <!-- Date -->
+	<value>STDCHARGEDEPARTMENT</value>  <!-- Department -->
+	<value>STDCHARGEEMPLOYEE</value>  <!-- Employee -->
+	<value>STDCHARGEFIXEDCHARGERULE</value>  <!-- Fixed Charge Rule -->
+	<value>STDCHARGEGROUPORDER</value>  <!-- Group Order -->
+	<value>STDCHARGEITEM</value>  <!-- Item -->
+	<value>STDCHARGELOCATION</value>  <!-- Location -->
+	<value>STDCHARGENOTES</value>  <!-- Memo -->
+	<value>STDCHARGEPROJECTTASKSOURCE</value>  <!-- Project Task -->
+	<value>STDCHARGEQUANTITY</value>  <!-- Quantity -->
+	<value>STDCHARGERATE</value>  <!-- Unit Price -->
+	<value>STDCHARGERULEBILLINGRATECARD</value>  <!-- Billing Rate Card -->
+	<value>STDCHARGERULECAPHOURS</value>  <!-- Cap Hours -->
+	<value>STDCHARGERULECAPMONEY</value>  <!-- Cap Money -->
+	<value>STDCHARGERULECAPTYPE</value>  <!-- Cap Type -->
+	<value>STDCHARGERULECHARGERULETYPE</value>  <!-- Charge Rule Type -->
+	<value>STDCHARGERULECHARGESTAGE</value>  <!-- Charge Stage -->
+	<value>STDCHARGERULEDESCRIPTION</value>  <!-- Description -->
+	<value>STDCHARGERULEEXPAMTMULTIPLIER</value>  <!-- Expense Amount Multiplier -->
+	<value>STDCHARGERULEEXPSAVEDSEARCH</value>  <!-- Expense Saved Search -->
+	<value>STDCHARGERULEISINACTIVE</value>  <!-- Inactive -->
+	<value>STDCHARGERULEITEM</value>  <!-- Item -->
+	<value>STDCHARGERULENAME</value>  <!-- Name -->
+	<value>STDCHARGERULEORDER</value>  <!-- Rule Order -->
+	<value>STDCHARGERULEPROJECT</value>  <!-- Customer:Project -->
+	<value>STDCHARGERULERATEMULTIPLIER</value>  <!-- Rate Multiplier -->
+	<value>STDCHARGERULERATEROUNDINGTYPE</value>  <!-- Rate Rounding -->
+	<value>STDCHARGERULERATESOURCETYPE</value>  <!-- Rate Basis -->
+	<value>STDCHARGERULESALEUNIT</value>  <!-- Sale Units -->
+	<value>STDCHARGERULESAVEDSEARCH</value>  <!-- Saved Search -->
+	<value>STDCHARGERULESTOPIFCAPPED</value>  <!-- Do Not Bill Entries Exceeding Cap -->
+	<value>STDCHARGERULEUNITSTYPE</value>  <!-- Units Type -->
+	<value>STDCHARGERUNID</value>  <!-- Charge Run Id -->
+	<value>STDCHARGESALESORDER</value>  <!-- Sales Order -->
+	<value>STDCHARGESERVICEEND</value>  <!-- Service End -->
+	<value>STDCHARGESERVICESTART</value>  <!-- Service Start -->
+	<value>STDCHARGESOLINE</value>  <!-- Sales Order Line -->
+	<value>STDCHARGESTAGE</value>  <!-- Charge Stage -->
+	<value>STDCHARGESUBSCRIPTIONLINE</value>  <!-- Subscription Line -->
+	<value>STDCHARGETIMESOURCE</value>  <!-- Time Source -->
+	<value>STDCHARGETRANSACTION</value>  <!-- Expense Source -->
+	<value>STDCHARGETYPE</value>  <!-- Charge Type -->
+	<value>STDCHARGETYPENAME</value>  <!-- Name -->
+	<value>STDCHARGETYPESCRIPTID</value>  <!-- Script ID -->
+	<value>STDCHARGTRANSACTIONLINE</value>  <!-- Expense Line -->
+	<value>STDCOLACCOUNT</value>  <!-- Account (Line) -->
+	<value>STDCOLCALL</value>  <!-- Phone Call -->
+	<value>STDCOLCASE</value>  <!-- Case -->
+	<value>STDCOLCHARGE</value>  <!-- Charge -->
+	<value>STDCOLCLASS</value>  <!-- Class (Line) -->
+	<value>STDCOLCUSTOMER</value>  <!-- Customer (Line) -->
+	<value>STDCOLDEPARTMENT</value>  <!-- Department (Line) -->
+	<value>STDCOLEMPLOYEE</value>  <!-- Employee (Line) -->
+	<value>STDCOLENTITY</value>  <!-- Entity (Line) -->
+	<value>STDCOLEVENT</value>  <!-- Event -->
+	<value>STDCOLGLNUMBER</value>  <!-- GL Number -->
+	<value>STDCOLGLSEQUENCE</value>  <!-- GL Audit Numbering Sequence -->
+	<value>STDCOLITEM</value>  <!-- Item -->
+	<value>STDCOLJOB</value>  <!-- Job (Line) -->
+	<value>STDCOLLOCATION</value>  <!-- Location (Line) -->
+	<value>STDCOLRATEPLANFREQUENCYNAME</value>  <!-- Subscription Frequency -->
+	<value>STDCOLRATEPLANREPEATEVERY</value>
+	<value>STDCOLSUBSCRIPTION</value>  <!-- Subscription -->
+	<value>STDCOLSUBSCRIPTIONLINE</value>  <!-- Subscription Line -->
+	<value>STDCOLSUBSCRIPTIONLINEPERIODAMOUNT</value>  <!-- Subscription Amount Per Period -->
+	<value>STDCOLSUBSCRIPTIONLINERATE</value>  <!-- Subscription Rate -->
+	<value>STDCOLSUBSIDIARY</value>  <!-- Subsidiary (Line) -->
+	<value>STDCOLTASK</value>  <!-- Task -->
+	<value>STDENTITYACCESSROLE</value>  <!-- Role -->
+	<value>STDENTITYACCOUNTNUMBER</value>  <!-- Account -->
+	<value>STDENTITYACTUALTIME</value>  <!-- Actual Work -->
+	<value>STDENTITYADDRESS1</value>  <!-- Address 1 -->
+	<value>STDENTITYADDRESS2</value>  <!-- Address 2 -->
+	<value>STDENTITYALIENNUMBER</value>  <!-- Alien Number -->
+	<value>STDENTITYALLOCATEDTIME</value>  <!-- Allocated Work -->
+	<value>STDENTITYALLOWALLRESOURCESFORTASKS</value>  <!-- Display All Resources for Project Task Assignment -->
+	<value>STDENTITYALLOWEXPENSES</value>  <!-- Allow Expenses -->
+	<value>STDENTITYALLOWTIME</value>  <!-- Allow Time Entry -->
+	<value>STDENTITYALLOWTIMEFORRSRCALLOC</value>  <!-- Allow Allocated Resources to Enter Time to All Tasks -->
+	<value>STDENTITYALTCONTACT</value>  <!-- Alt. Contact -->
+	<value>STDENTITYALTEMAIL</value>  <!-- Alt. Email -->
+	<value>STDENTITYALTPHONE</value>  <!-- Alt. Phone -->
+	<value>STDENTITYAPPLYPROJECTEXPENSETYPETOALL</value>  <!-- Apply to all time entries -->
+	<value>STDENTITYAPPROVALLIMIT</value>  <!-- Expense Approval Limit -->
+	<value>STDENTITYAPPROVER</value>  <!-- Expense Approver -->
+	<value>STDENTITYASSISTANT</value>  <!-- Assistant -->
+	<value>STDENTITYASSISTANTPHONE</value>  <!-- Assist. Phone -->
+	<value>STDENTITYAUTHWORKDATE</value>  <!-- Authorized to work until -->
+	<value>STDENTITYBALANCE</value>  <!-- Balance (Base) -->
+	<value>STDENTITYBALANCEPRIMARY</value>  <!-- Balance -->
+	<value>STDENTITYBALANCEPRIMARYCURRENCY</value>  <!-- Balance Currency Symbol -->
+	<value>STDENTITYBCN</value>  <!-- Business Number -->
+	<value>STDENTITYBILLADDRESS</value>  <!-- Bill To -->
+	<value>STDENTITYBILLINGCLASS</value>  <!-- Billing Class -->
+	<value>STDENTITYBILLINGPHONE</value>  <!-- Billing Phone -->
+	<value>STDENTITYBILLINGRATECARD</value>  <!-- Billing Rate Card -->
+	<value>STDENTITYBILLINGSCHEDULE</value>  <!-- Billing Schedule -->
+	<value>STDENTITYBILLPAY</value>  <!-- Enable Online Bill Pay -->
+	<value>STDENTITYBIRTHDATE</value>  <!-- Birth Date -->
+	<value>STDENTITYBUYINGREASON</value>  <!-- Buying Reason -->
+	<value>STDENTITYBUYINGTIMEFRAME</value>  <!-- Buying Time Frame -->
+	<value>STDENTITYCALCULATEDENDDATE</value>  <!-- Calculated End Date -->
+	<value>STDENTITYCAMPAIGNCATEGORY</value>  <!-- Campaign Category -->
+	<value>STDENTITYCAMPAIGNEVENT</value>  <!-- Campaign Event -->
+	<value>STDENTITYCHARGEAMOUNTBILLED</value>  <!-- Billed -->
+	<value>STDENTITYCHARGEAMOUNTHOLDFORBILLING</value>  <!-- Hold For Billing -->
+	<value>STDENTITYCHARGEAMOUNTPENDING</value>  <!-- Pending -->
+	<value>STDENTITYCHARGEAMOUNTREADYFORBILLING</value>  <!-- Ready For Billing -->
+	<value>STDENTITYCHARGEAMOUNTREMAINING</value>  <!-- Remaining -->
+	<value>STDENTITYCHARGEEXPENSEAMOUNT</value>  <!-- Expense -->
+	<value>STDENTITYCHARGELABORAMOUNT</value>  <!-- Labor -->
+	<value>STDENTITYCITY</value>  <!-- City -->
+	<value>STDENTITYCLASS</value>  <!-- Class -->
+	<value>STDENTITYCLICKSTREAM</value>  <!-- Clickstream (1st Visit) -->
+	<value>STDENTITYCOMMENTS</value>  <!-- Comments -->
+	<value>STDENTITYCOMMISSIONPAYMENTPREFERENCE</value>  <!-- Pay Commissions Using -->
+	<value>STDENTITYCOMPANY</value>  <!-- Company -->
+	<value>STDENTITYCOMPANYNAME</value>  <!-- Company Name -->
+	<value>STDENTITYCONCURRENTWEBSERVICESUSER</value>  <!-- Concurrent Web Services User -->
+	<value>STDENTITYCONSOLBALANCE</value>  <!-- Consolidated Balance -->
+	<value>STDENTITYCONSOLDAYSOVERDUE</value>  <!-- Consolidated Days Overdue -->
+	<value>STDENTITYCONSOLOVERDUEBALANCE</value>  <!-- Consolidated Overdue Balance -->
+	<value>STDENTITYCONSOLUNBILLEDORDERS</value>  <!-- Consolidated Unbilled Orders -->
+	<value>STDENTITYCONTACT</value>  <!-- Contact -->
+	<value>STDENTITYCONTACTCAMPAIGNEVENT</value>  <!-- Contact Campaign Event -->
+	<value>STDENTITYCONTACTSOURCE</value>  <!-- Contact Lead Source -->
+	<value>STDENTITYCONTACTSOURCECAMPAIGNCATEGORY</value>  <!-- Contact Campaign Category -->
+	<value>STDENTITYCOUNTRY</value>  <!-- Country -->
+	<value>STDENTITYCOUNTRYNAME</value>  <!-- Country (Name) -->
+	<value>STDENTITYCREDITHOLDOVERRIDE</value>  <!-- Credit Hold -->
+	<value>STDENTITYCREDITLIMIT</value>  <!-- Credit Limit -->
+	<value>STDENTITYCREDITLIMITCURRENCY</value>  <!-- Credit Limit Currency Symbol -->
+	<value>STDENTITYCURRENCY</value>  <!-- Currency -->
+	<value>STDENTITYCUSTOMERCUSTOMFORM</value>  <!-- Custom Form (Customer) -->
+	<value>STDENTITYCUSTTYPE</value>  <!-- Customer Category -->
+	<value>STDENTITYDATECREATED</value>  <!-- Date Created -->
+	<value>STDENTITYDAYSOVERDUE</value>  <!-- Days Overdue -->
+	<value>STDENTITYDEFAULTADDRESS</value>  <!-- Address -->
+	<value>STDENTITYDEFAULTORDERPRIORITY</value>  <!-- Default Order Priority -->
+	<value>STDENTITYDEPARTMENT</value>  <!-- Department -->
+	<value>STDENTITYDIRECTDEPOSIT</value>  <!-- Use Direct Deposit -->
+	<value>STDENTITYDISPLAYSYMBOL</value>  <!-- Currency Symbol -->
+	<value>STDENTITYDRACCOUNT</value>  <!-- Deferred Revenue Account for Revenue Reclassification -->
+	<value>STDENTITYDRIVERSLICENSENUMBER</value>  <!-- Driver's License Number -->
+	<value>STDENTITYELIGIBLEFORCOMMISSION</value>  <!-- Eligible for Commission -->
+	<value>STDENTITYEMAIL</value>  <!-- E-mail -->
+	<value>STDENTITYEMAILPREFERENCE</value>  <!-- Email Preference -->
+	<value>STDENTITYEMAILTRANSACTIONS</value>  <!-- Email Transactions -->
+	<value>STDENTITYEMPLOYEESTATUS</value>  <!-- Employee Status -->
+	<value>STDENTITYEMPTYPE</value>  <!-- Employee Type -->
+	<value>STDENTITYENDDATE</value>  <!-- Renewal Date -->
+	<value>STDENTITYENTITYFIRSTNAME</value>  <!-- First Name -->
+	<value>STDENTITYENTITYID</value>  <!-- Name/ID -->
+	<value>STDENTITYENTITYLASTNAME</value>  <!-- Last Name -->
+	<value>STDENTITYENTITYMIDDLENAME</value>  <!-- Middle Name -->
+	<value>STDENTITYENTITYSALUTATION</value>  <!-- Salutation -->
+	<value>STDENTITYESTIMATEDBUDGET</value>  <!-- Estimated Budget -->
+	<value>STDENTITYESTIMATEDGROSSPROFIT</value>  <!-- Estimated Gross Profit -->
+	<value>STDENTITYESTIMATEDGROSSPROFITPERCENT</value>  <!-- Estimated Gross Profit Percent -->
+	<value>STDENTITYESTIMATEDLABORCOST</value>  <!-- Estimated Labor Cost -->
+	<value>STDENTITYESTIMATEDLABORREVENUE</value>  <!-- Estimated Labor Revenue -->
+	<value>STDENTITYESTIMATEDTIMEOVERRIDE</value>  <!-- Estimated Work -->
+	<value>STDENTITYESTIMATEREVRECTEMPLATE</value>  <!-- Rev Rec Forecast Template -->
+	<value>STDENTITYETHNICITY</value>  <!-- Ethnicity -->
+	<value>STDENTITYEXPENSEACCOUNT</value>  <!-- Default Expense Account -->
+	<value>STDENTITYEXPENSELIMIT</value>  <!-- Expense Limit -->
+	<value>STDENTITYEXTERNALID</value>  <!-- External ID -->
+	<value>STDENTITYFAX</value>  <!-- Fax -->
+	<value>STDENTITYFAXTRANSACTIONS</value>  <!-- Fax Transactions -->
+	<value>STDENTITYFIRSTVISIT</value>  <!-- Date of First Visit -->
+	<value>STDENTITYFXACCOUNT</value>  <!-- Foreign Currency Adjustment Revenue Account -->
+	<value>STDENTITYFXRATE</value>  <!-- Exchange Rate -->
+	<value>STDENTITYGIVEACCESS</value>  <!-- Give Access -->
+	<value>STDENTITYGLOBALSUBSCRIPTIONSTATUS</value>  <!-- Global Subscription Status -->
+	<value>STDENTITYHASOFFLINEACCESS</value>  <!-- Offline Client Access -->
+	<value>STDENTITYHIREDATE</value>  <!-- Hire Date -->
+	<value>STDENTITYHOMEPHONE</value>  <!-- Home Phone -->
+	<value>STDENTITYI9VERIFIED</value>  <!-- I-9 Verified -->
+	<value>STDENTITYIMAGE</value>  <!-- Image -->
+	<value>STDENTITYINCLUDECRMTASKSINTOTALS</value>  <!-- Include CRM Tasks in Job Totals -->
+	<value>STDENTITYINCOTERM</value>  <!-- Incoterm -->
+	<value>STDENTITYINHERITIPRULES</value>  <!-- Inherit IP Rules from Company -->
+	<value>STDENTITYINITIALS</value>  <!-- Initials -->
+	<value>STDENTITYIPADDRESSRULE</value>  <!-- IP Address Restriction -->
+	<value>STDENTITYIS1099ELIGIBLE</value>  <!-- 1099 Eligible -->
+	<value>STDENTITYISBUDGETAPPROVED</value>  <!-- Budget Approved -->
+	<value>STDENTITYISEXEMPTTIME</value>  <!-- Classify Time as Exempt -->
+	<value>STDENTITYISINACTIVE</value>  <!-- Inactive -->
+	<value>STDENTITYISJOB</value>  <!-- Is Job -->
+	<value>STDENTITYISJOBRESOURCE</value>  <!-- Is Job Resource -->
+	<value>STDENTITYISJOBRESOURCEVEND</value>  <!-- Job Resource -->
+	<value>STDENTITYISJOBRESOURCEVENDOR</value>  <!-- Is Job Resource (Vendor) -->
+	<value>STDENTITYISPERSON</value>  <!-- Is Person -->
+	<value>STDENTITYISPRIVATE</value>  <!-- Private -->
+	<value>STDENTITYISPRODUCTIVETIME</value>  <!-- Classify Time as Productive -->
+	<value>STDENTITYISSALESREP</value>  <!-- Is Sales Rep -->
+	<value>STDENTITYISSUPPORTREP</value>  <!-- Is Support Rep -->
+	<value>STDENTITYISUTILIZEDTIME</value>  <!-- Classify Time as Utilized -->
+	<value>STDENTITYJOBBILLINGTYPE</value>  <!-- Billing Type -->
+	<value>STDENTITYJOBDESCRIPTION</value>  <!-- Job Description -->
+	<value>STDENTITYJOBITEM</value>  <!-- Billing Item -->
+	<value>STDENTITYJOBPRICE</value>  <!-- Project Price -->
+	<value>STDENTITYJOBTYPE</value>  <!-- Job Type -->
+	<value>STDENTITYKEYWORDS</value>  <!-- Search Engine Keywords (1st Visit) -->
+	<value>STDENTITYLABORCOST</value>  <!-- Labor Cost -->
+	<value>STDENTITYLABORPRICE</value>  <!-- Price -->
+	<value>STDENTITYLANGUAGE</value>  <!-- Language -->
+	<value>STDENTITYLASTBASELINEDATE</value>  <!-- Last Baseline Date -->
+	<value>STDENTITYLASTPAGEVISITED</value>  <!-- Last Page Visited -->
+	<value>STDENTITYLASTPAIDDATE</value>  <!-- Last Paid Date -->
+	<value>STDENTITYLASTREVIEWDATE</value>  <!-- Last Review Date -->
+	<value>STDENTITYLASTVISIT</value>  <!-- Date of Last Visit -->
+	<value>STDENTITYLEADSOURCE</value>  <!-- Lead Source -->
+	<value>STDENTITYLEGALNAME</value>  <!-- Legal Name -->
+	<value>STDENTITYLIMITTIMETOASSIGNEES</value>  <!-- Limit Time and Expenses To Resources -->
+	<value>STDENTITYLOCATION</value>  <!-- Location -->
+	<value>STDENTITYMARITALSTATUS</value>  <!-- Marital Status -->
+	<value>STDENTITYMATERIALIZETIME</value>  <!-- Create Planned Time Entries -->
+	<value>STDENTITYMOBILEPHONE</value>  <!-- Mobile Phone -->
+	<value>STDENTITYNEGATIVENUMBERFORMAT</value>  <!-- Negative Number Format -->
+	<value>STDENTITYNEXTREVIEWDATE</value>  <!-- Next Review Date -->
+	<value>STDENTITYNUMBERFORMAT</value>  <!-- Number Format -->
+	<value>STDENTITYOFFICEPHONE</value>  <!-- Office Phone -->
+	<value>STDENTITYOVERDUEBALANCE</value>  <!-- Overdue Balance -->
+	<value>STDENTITYOVERRIDECURRENCYFORMAT</value>  <!-- Override Currency Format -->
+	<value>STDENTITYPARENT</value>  <!-- Parent -->
+	<value>STDENTITYPARENTPARTNER</value>  <!-- Parent (Partner) -->
+	<value>STDENTITYPARTNER</value>  <!-- Partner -->
+	<value>STDENTITYPARTNERCODE</value>  <!-- Partner Code -->
+	<value>STDENTITYPARTNERCUSTOMFORM</value>  <!-- Custom Form (Partner) -->
+	<value>STDENTITYPASSPORTNUMBER</value>  <!-- Passport Number -->
+	<value>STDENTITYPAYABLESACCOUNT</value>  <!-- Default Payables Account -->
+	<value>STDENTITYPAYFREQUENCY</value>  <!-- Pay Frequency -->
+	<value>STDENTITYPERCENTCOMPLETE</value>  <!-- Percent Complete -->
+	<value>STDENTITYPERCENTCOMPLETEBYRSRCALLOC</value>  <!-- Percent Complete by Allocated Work -->
+	<value>STDENTITYPERCENTTIMECOMPLETE</value>  <!-- Percent Work Complete -->
+	<value>STDENTITYPHONE</value>  <!-- Phone -->
+	<value>STDENTITYPREFCCPROCESSOR</value>  <!-- Pref. CC Processor -->
+	<value>STDENTITYPRICELEVEL</value>  <!-- Price Level -->
+	<value>STDENTITYPRINTONCHECKAS</value>  <!-- Print on Check As -->
+	<value>STDENTITYPRINTTRANSACTIONS</value>  <!-- Print -->
+	<value>STDENTITYPROBABILITY</value>  <!-- Probability -->
+	<value>STDENTITYPROJECTCOMPLETELYBILLED</value>  <!-- Project Completely Billed -->
+	<value>STDENTITYPROJECTEXPENSETYPE</value>  <!-- Project Expense Type -->
+	<value>STDENTITYPURCHASEORDERAMOUNT</value>  <!-- Vendor Bill - Purchase Order Amount Tolerance -->
+	<value>STDENTITYPURCHASEORDERAPPROVALLIMIT</value>  <!-- Purchase Approval Limit -->
+	<value>STDENTITYPURCHASEORDERAPPROVER</value>  <!-- Purchase Approver -->
+	<value>STDENTITYPURCHASEORDERLIMIT</value>  <!-- Purchase Limit -->
+	<value>STDENTITYPURCHASEORDERQUANTITY</value>  <!-- Vendor Bill - Purchase Order Quantity Tolerance -->
+	<value>STDENTITYPURCHASEORDERQUANTITYDIFF</value>  <!-- Vendor Bill - Purchase Order Quantity Difference -->
+	<value>STDENTITYRATE</value>  <!-- Hourly Rate -->
+	<value>STDENTITYRECEIPTAMOUNT</value>  <!-- Vendor Bill - Item Receipt Amount Tolerance -->
+	<value>STDENTITYRECEIPTQUANTITY</value>  <!-- Vendor Bill - Item Receipt Quantity Tolerance -->
+	<value>STDENTITYRECEIPTQUANTITYDIFF</value>  <!-- Vendor Bill - Item Receipt Quantity Difference -->
+	<value>STDENTITYRECEIVABLESACCOUNT</value>  <!-- Default Receivables Account -->
+	<value>STDENTITYREFERRER</value>  <!-- Referrer (1st Visit) -->
+	<value>STDENTITYRELEASEDATE</value>  <!-- Termination/Release Date -->
+	<value>STDENTITYREMINDERDAYS</value>  <!-- Reminder Days -->
+	<value>STDENTITYRESALENUMBER</value>  <!-- Resale Number -->
+	<value>STDENTITYRESIDENTSTATUS</value>  <!-- Resident Status -->
+	<value>STDENTITYSALESREADINESS</value>  <!-- Sales Readiness -->
+	<value>STDENTITYSALESREP</value>  <!-- Sales Rep -->
+	<value>STDENTITYSALESROLE</value>  <!-- Sales Role -->
+	<value>STDENTITYSHIPADDRESS</value>  <!-- Ship To -->
+	<value>STDENTITYSHIPCOMPLETE</value>  <!-- Ship Complete -->
+	<value>STDENTITYSHIPPINGITEM</value>  <!-- Shipping Item -->
+	<value>STDENTITYSHIPPINGPHONE</value>  <!-- Shipping Phone -->
+	<value>STDENTITYSOCIALSECURITYNUMBER</value>  <!-- Soc. Sec. # -->
+	<value>STDENTITYSTAGE</value>  <!-- Stage -->
+	<value>STDENTITYSTAGENAME</value>  <!-- Stage (Name) -->
+	<value>STDENTITYSTARTDATE</value>  <!-- Expected Close Date -->
+	<value>STDENTITYSTARTDATETIMEOFFCALC</value>  <!-- Start Date for Time-Off Calculations -->
+	<value>STDENTITYSTATE</value>  <!-- State -->
+	<value>STDENTITYSTATENAME</value>  <!-- State (Name) -->
+	<value>STDENTITYSTATUS</value>  <!-- Status -->
+	<value>STDENTITYSUBPARTNERLOGIN</value>  <!-- Can give login access To Subpartners -->
+	<value>STDENTITYSUBSIDIARY</value>  <!-- Subsidiary -->
+	<value>STDENTITYSUPERVISOR</value>  <!-- Supervisor -->
+	<value>STDENTITYSUPERVISORPHONE</value>  <!-- Sup. Phone -->
+	<value>STDENTITYSYMBOLPLACEMENT</value>  <!-- Currency Symbol Placement Before Number -->
+	<value>STDENTITYTAXABLE</value>  <!-- Taxable -->
+	<value>STDENTITYTAXEXEMPT</value>  <!-- PST Exempt -->
+	<value>STDENTITYTAXIDNUM</value>  <!-- Tax ID -->
+	<value>STDENTITYTAXITEM</value>  <!-- Tax Item -->
+	<value>STDENTITYTAXROUNDING</value>  <!-- Tax Rounding -->
+	<value>STDENTITYTERMINATIONDETAILS</value>  <!-- Termination Details -->
+	<value>STDENTITYTERMINATIONREASON</value>  <!-- Termination Reason -->
+	<value>STDENTITYTERMS</value>  <!-- Terms -->
+	<value>STDENTITYTERRITORY</value>  <!-- Territory -->
+	<value>STDENTITYTIMEAPPROVER</value>  <!-- Time Approver -->
+	<value>STDENTITYTIMEOFFPLAN</value>  <!-- Employee time-off plan -->
+	<value>STDENTITYTIMEREMAINING</value>  <!-- Remaining Work -->
+	<value>STDENTITYTITLE</value>  <!-- Job Title -->
+	<value>STDENTITYTYPE</value>  <!-- Type -->
+	<value>STDENTITYUNBILLEDORDERS</value>  <!-- Unbilled Orders (Base) -->
+	<value>STDENTITYUNBILLEDORDERSPRIMARY</value>  <!-- Unbilled Orders -->
+	<value>STDENTITYUNBILLEDORDERSPRIMARYCURRENCY</value>  <!-- Unbilled Orders Currency Symbol -->
+	<value>STDENTITYURL</value>  <!-- Web Address -->
+	<value>STDENTITYUSEALLOCATEDTIMEFORFORECAST</value>  <!-- Use Allocated Time for Forecast -->
+	<value>STDENTITYUSEPERQUEST</value>  <!-- Include in Payroll -->
+	<value>STDENTITYVATREGNUMBER</value>  <!-- Tax Reg. Number -->
+	<value>STDENTITYVENDORCUSTOMFORM</value>  <!-- Custom Form (Vendor) -->
+	<value>STDENTITYVENDTYPE</value>  <!-- Vendor Category -->
+	<value>STDENTITYVISAEXPDATE</value>  <!-- Visa Expiration Date -->
+	<value>STDENTITYVISATYPE</value>  <!-- Visa Type -->
+	<value>STDENTITYVISITS</value>  <!-- Number of Visits -->
+	<value>STDENTITYWEBLEAD</value>  <!-- Web Lead -->
+	<value>STDENTITYWORKCALENDAR</value>  <!-- Work Calendar -->
+	<value>STDENTITYWORKPLACE</value>  <!-- Workplace -->
+	<value>STDENTITYZIP</value>  <!-- Zip -->
+	<value>STDEVENTACCESSLEVEL</value>  <!-- Private -->
+	<value>STDEVENTACTUALTIME</value>  <!-- Actual Time -->
+	<value>STDEVENTACTUALWORK</value>  <!-- Actual Work -->
+	<value>STDEVENTALLDAYEVENT</value>  <!-- All Day Event -->
+	<value>STDEVENTALLOCATEDWORK</value>  <!-- Allocated Work -->
+	<value>STDEVENTALLOCATIONPROJECT</value>  <!-- Project -->
+	<value>STDEVENTALLOCATIONPROJECTTASK</value>  <!-- Project Task -->
+	<value>STDEVENTALLOCATIONTYPE</value>  <!-- Allocation Type -->
+	<value>STDEVENTALLOCATIONUNIT</value>  <!-- Allocation Unit -->
+	<value>STDEVENTAPPROVALSTATUS</value>  <!-- Approval Status -->
+	<value>STDEVENTASSIGNED</value>  <!-- Assigned -->
+	<value>STDEVENTAUDIENCE</value>  <!-- Audience Description -->
+	<value>STDEVENTBASECOST</value>  <!-- Base Cost -->
+	<value>STDEVENTCALLSTATUS</value>  <!-- Phone Call Status -->
+	<value>STDEVENTCAMPAIGNCATEGORY</value>  <!-- Campaign Category -->
+	<value>STDEVENTCAMPAIGNID</value>  <!-- ID -->
+	<value>STDEVENTCASECATEGORY</value>  <!-- Case Type -->
+	<value>STDEVENTCASENUMBER</value>  <!-- Case Number -->
+	<value>STDEVENTCASEPRIORITY</value>  <!-- Priority (Case) -->
+	<value>STDEVENTCASEPROFILE</value>  <!-- Case Profile -->
+	<value>STDEVENTCASESTATUS</value>  <!-- Case Status -->
+	<value>STDEVENTCOMPANY</value>  <!-- Company -->
+	<value>STDEVENTCOMPLETEDDATE</value>  <!-- Completed Date -->
+	<value>STDEVENTCONSTRAINTTYPE</value>  <!-- Constraint Type -->
+	<value>STDEVENTCONTACT</value>  <!-- Contact -->
+	<value>STDEVENTCONVCOSTPERCUSTOMER</value>  <!-- Cost per Purchaser -->
+	<value>STDEVENTCONVERSIONS</value>  <!-- Number of Purchasers -->
+	<value>STDEVENTCOST</value>  <!-- Cost -->
+	<value>STDEVENTCOSTPERCUSTOMER</value>  <!-- Cost per Lead -->
+	<value>STDEVENTCREATEDDATE</value>  <!-- Date Created -->
+	<value>STDEVENTCUSTOMER</value>  <!-- Customer -->
+	<value>STDEVENTCUSTOMFORM</value>  <!-- Custom Form -->
+	<value>STDEVENTDISPLAYONLINE</value>  <!-- Display Online -->
+	<value>STDEVENTDUEDATE</value>  <!-- Due Date -->
+	<value>STDEVENTDUPLICATEOF</value>  <!-- Duplicate Of -->
+	<value>STDEVENTEMAIL</value>  <!-- Email -->
+	<value>STDEVENTEMAILASSIGNEE</value>  <!-- E-mail Assignee -->
+	<value>STDEVENTENDBYDATE</value>  <!-- End By -->
+	<value>STDEVENTENDDATE</value>  <!-- End Date -->
+	<value>STDEVENTENDTIME</value>  <!-- End Time -->
+	<value>STDEVENTESTIMATEDTIME</value>  <!-- Initial Time Budget -->
+	<value>STDEVENTESTIMATEDTIMEOVERRIDE</value>  <!-- Current Time Budget -->
+	<value>STDEVENTESTIMATEDWORK</value>  <!-- Estimated Work -->
+	<value>STDEVENTEXPECTEDREVENUE</value>  <!-- Expected Revenue -->
+	<value>STDEVENTEXTERNALABSTRACT</value>  <!-- External Abstract -->
+	<value>STDEVENTEXTERNALDETAILS</value>  <!-- External Details -->
+	<value>STDEVENTEXTERNALID</value>  <!-- External ID -->
+	<value>STDEVENTFAMILY</value>  <!-- Family -->
+	<value>STDEVENTFINISHBYDATE</value>  <!-- Finish By Date -->
+	<value>STDEVENTHELPDESK</value>  <!-- Help Desk -->
+	<value>STDEVENTHELPDESKEMPLOYEE</value>  <!-- Help Desk Employee -->
+	<value>STDEVENTINBOUNDEMAIL</value>  <!-- Inbound Email Address -->
+	<value>STDEVENTINCOMINGMESSAGE</value>  <!-- Incoming Case Message -->
+	<value>STDEVENTISINACTIVE</value>  <!-- Inactive -->
+	<value>STDEVENTISOWNER</value>  <!-- I Own This Issue -->
+	<value>STDEVENTISREVIEWED</value>  <!-- Reviewed -->
+	<value>STDEVENTISSHOWSTOPPER</value>  <!-- Showstopper -->
+	<value>STDEVENTISSUE</value>  <!-- Case Issue -->
+	<value>STDEVENTISSUEABSTRACT</value>  <!-- Abstract -->
+	<value>STDEVENTISSUENUMBER</value>  <!-- Issue Number -->
+	<value>STDEVENTISSUESTATUS</value>  <!-- Issue Status -->
+	<value>STDEVENTISSUETYPE</value>  <!-- Issue Type -->
+	<value>STDEVENTITEM</value>  <!-- Item -->
+	<value>STDEVENTJOB</value>  <!-- Job -->
+	<value>STDEVENTKEYWORD</value>  <!-- Keyword -->
+	<value>STDEVENTLASTMESSAGEDATE</value>  <!-- Last Message Date -->
+	<value>STDEVENTLASTMODIFIEDDATE</value>  <!-- Last Modified Date/Time -->
+	<value>STDEVENTLASTREOPENEDDATE</value>  <!-- Date Last Reopened -->
+	<value>STDEVENTLEADSGENERATED</value>  <!-- Leads Generated -->
+	<value>STDEVENTLOCATION</value>  <!-- Location -->
+	<value>STDEVENTLONGDESCRIPTION</value>  <!-- Solution Description -->
+	<value>STDEVENTMESSAGE</value>  <!-- Message -->
+	<value>STDEVENTMILESTONE</value>  <!-- Milestone -->
+	<value>STDEVENTMODULE</value>  <!-- Module -->
+	<value>STDEVENTNEXTAPPROVER</value>  <!-- Next Approver -->
+	<value>STDEVENTNOENDDATE</value>  <!-- No End Date -->
+	<value>STDEVENTNONBILLABLETASK</value>  <!-- Non-billable -->
+	<value>STDEVENTNOTES</value>  <!-- Notes -->
+	<value>STDEVENTNUMBER</value>  <!-- Number -->
+	<value>STDEVENTNUMBERTEXT</value>  <!-- Code/ID -->
+	<value>STDEVENTNUMHOURS</value>  <!-- Number of Hours -->
+	<value>STDEVENTOFFER</value>  <!-- Offer -->
+	<value>STDEVENTOPPORTUNITY</value>  <!-- Opportunity -->
+	<value>STDEVENTORDER</value>  <!-- Insert Before -->
+	<value>STDEVENTORGANIZER</value>  <!-- Organizer -->
+	<value>STDEVENTORIGIN</value>  <!-- Case Origin -->
+	<value>STDEVENTOWNER</value>  <!-- Owner -->
+	<value>STDEVENTPARENT</value>  <!-- Parent Task -->
+	<value>STDEVENTPERCENTCOMPLETE</value>  <!-- Percent Complete -->
+	<value>STDEVENTPERCENTCOMPLETEBYRSRCALLOC</value>  <!-- Percent Complete by Allocated Work -->
+	<value>STDEVENTPERCENTOFTIME</value>  <!-- Percentage of Time -->
+	<value>STDEVENTPERCENTTIMECOMPLETE</value>  <!-- Percent Time Complete -->
+	<value>STDEVENTPHONE</value>  <!-- Phone Number -->
+	<value>STDEVENTPRIORITY</value>  <!-- Priority (Task/Call) -->
+	<value>STDEVENTPRIORITYNAME</value>  <!-- Priority (Name) -->
+	<value>STDEVENTPRODUCT</value>  <!-- Product -->
+	<value>STDEVENTPRODUCTTEAM</value>  <!-- Product Team -->
+	<value>STDEVENTPROFIT</value>  <!-- Profit -->
+	<value>STDEVENTPROMOTIONCODE</value>  <!-- Promotion Code -->
+	<value>STDEVENTREMAININGWORK</value>  <!-- Remaining Work -->
+	<value>STDEVENTREMINDERMINUTES</value>  <!-- Reminder -->
+	<value>STDEVENTREMINDERTYPE</value>  <!-- Reminder Type -->
+	<value>STDEVENTREPORTEDBY</value>  <!-- Reported By -->
+	<value>STDEVENTREPRODUCE</value>  <!-- Reproduced -->
+	<value>STDEVENTREQUESTEDBY</value>  <!-- Requested By -->
+	<value>STDEVENTRESOURCE</value>  <!-- Resource -->
+	<value>STDEVENTREVIEWER</value>  <!-- Reviewer -->
+	<value>STDEVENTROI</value>  <!-- Return on Investment -->
+	<value>STDEVENTSEARCHENGINE</value>  <!-- Search Engine -->
+	<value>STDEVENTSENDEMAIL</value>  <!-- Send E-mail -->
+	<value>STDEVENTSERIESSTARTDATE</value>  <!-- Series Start Date -->
+	<value>STDEVENTSEVERITY</value>  <!-- Severity -->
+	<value>STDEVENTSOLUTIONCODE</value>  <!-- Solution Code -->
+	<value>STDEVENTSOURCE</value>  <!-- Source -->
+	<value>STDEVENTSTARTDATE</value>  <!-- Start Date -->
+	<value>STDEVENTSTARTTIME</value>  <!-- Start Time -->
+	<value>STDEVENTSTATUS</value>  <!-- Status -->
+	<value>STDEVENTSTATUSNAME</value>  <!-- Status (Name) -->
+	<value>STDEVENTSUBSIDIARY</value>  <!-- Subsidiary -->
+	<value>STDEVENTSUPPORTCASE</value>  <!-- Support Case -->
+	<value>STDEVENTTASKSTATUS</value>  <!-- Task Status -->
+	<value>STDEVENTTIMEDEVENT</value>  <!-- Reserve Time -->
+	<value>STDEVENTTIMEREMAINING</value>  <!-- Time Remaining -->
+	<value>STDEVENTTITLE</value>  <!-- Title -->
+	<value>STDEVENTTOTALREVENUE</value>  <!-- Total Revenue -->
+	<value>STDEVENTTRANSACTION</value>  <!-- Transaction -->
+	<value>STDEVENTUNIQUEVISITORS</value>  <!-- Unique Visitors -->
+	<value>STDEVENTURL</value>  <!-- URL -->
+	<value>STDEVENTVERTICAL</value>  <!-- Vertical -->
+	<value>STDGLSEQUENCEINACTIVE</value>  <!-- Inactive -->
+	<value>STDGLSEQUENCEINITNUM</value>  <!-- Initial Number -->
+	<value>STDGLSEQUENCEINVALIDNUMCOUNT</value>  <!-- Invalid Numbers Count -->
+	<value>STDGLSEQUENCELASTRUN</value>  <!-- Date Last Run -->
+	<value>STDGLSEQUENCEMINDIGITS</value>  <!-- Minimum Digits -->
+	<value>STDGLSEQUENCENAME</value>  <!-- Name -->
+	<value>STDGLSEQUENCENUMASSIGNEDCOUNT</value>  <!-- Numbers Assigned Count -->
+	<value>STDGLSEQUENCEORDERTYPE</value>  <!-- Order By -->
+	<value>STDGLSEQUENCEPERIOD</value>  <!-- Period -->
+	<value>STDGLSEQUENCEPREFIX</value>  <!-- Prefix -->
+	<value>STDGLSEQUENCERUNAUTHOR</value>  <!-- Last Run By -->
+	<value>STDGLSEQUENCESUBSIDIARIES</value>  <!-- Subsidiaries -->
+	<value>STDGLSEQUENCESUFFIX</value>  <!-- Suffix -->
+	<value>STDINVENTORYNUMBERITEM</value>  <!-- Item -->
+	<value>STDITEMACCOUNT</value>  <!-- Account (Income/Expense) -->
+	<value>STDITEMADVANCERENEWALPERIODNUMBER</value>  <!-- Advance Renewal Period Number -->
+	<value>STDITEMADVANCERENEWALPERIODUNIT</value>  <!-- Advance Renewal Period Unit -->
+	<value>STDITEMAMORTIZATIONPERIOD</value>  <!-- Amortization Period -->
+	<value>STDITEMAMORTIZATIONTEMPLATE</value>  <!-- Amortization Template -->
+	<value>STDITEMASSETACCOUNT</value>  <!-- Asset Account -->
+	<value>STDITEMAUTOLEADTIME</value>  <!-- Auto-Calculate -->
+	<value>STDITEMAUTOPREFERREDSTOCKLEVEL</value>  <!-- Auto-Calculate Stock Level -->
+	<value>STDITEMAUTORENEWAL</value>  <!-- Automatically Initiate Renewal Process -->
+	<value>STDITEMAUTOREORDERPOINT</value>  <!-- Auto-Calculate Reorder Point -->
+	<value>STDITEMAVAILABLE</value>  <!-- Available -->
+	<value>STDITEMAVAILABLETOPARTNERS</value>  <!-- Available to Adv. Partners -->
+	<value>STDITEMAVERAGECOST</value>  <!-- Average Cost -->
+	<value>STDITEMBACKORDERED</value>  <!-- Back Ordered -->
+	<value>STDITEMBILLEXCHRATEVARIANCEACCT</value>  <!-- Bill Exchange Rate Variance Account -->
+	<value>STDITEMBILLINGSCHEDULE</value>  <!-- Billing Schedule -->
+	<value>STDITEMBILLPRICEVARIANCEACCT</value>  <!-- Bill Price Variance Account -->
+	<value>STDITEMBILLQTYVARIANCEACCT</value>  <!-- Bill Quantity Variance Account -->
+	<value>STDITEMBUILDENTIREASSEMBLY</value>  <!-- Build Sub-Assemblies -->
+	<value>STDITEMCITY</value>  <!-- City -->
+	<value>STDITEMCLASS</value>  <!-- Class -->
+	<value>STDITEMCOGSACCOUNT</value>  <!-- COGS Account -->
+	<value>STDITEMCOPYDESCRIPTION</value>  <!-- Copy from Sales Order -->
+	<value>STDITEMCOST</value>  <!-- Purchase Price -->
+	<value>STDITEMCOSTESTIMATE</value>  <!-- Item Defined Cost -->
+	<value>STDITEMCOSTESTIMATETYPE</value>  <!-- Cost Estimate Type -->
+	<value>STDITEMCOSTINGMETHOD</value>  <!-- Costing Method -->
+	<value>STDITEMCOUNTRYOFMANUFACTURE</value>  <!-- Manufacturer Country -->
+	<value>STDITEMCOUNTY</value>  <!-- County -->
+	<value>STDITEMCREATEDDATE</value>  <!-- Date Created -->
+	<value>STDITEMCREATEJOB</value>  <!-- Create Job -->
+	<value>STDITEMCREATEREVENUEPLANSON</value>  <!-- Create Revenue Plans On -->
+	<value>STDITEMCURRENCY</value>  <!-- Currency -->
+	<value>STDITEMCUSTOMFORM</value>  <!-- Custom Form -->
+	<value>STDITEMCUSTRETURNVARIANCEACCOUNT</value>  <!-- Customer Return Variance Account -->
+	<value>STDITEMDAYSBEFOREEXPIRATION</value>  <!-- Days Before Expiration -->
+	<value>STDITEMDEFAULTRENEWALMETHOD</value>  <!-- Default Renewal Method -->
+	<value>STDITEMDEFAULTRENEWALPLAN</value>  <!-- Default Renewal Subscription Plan -->
+	<value>STDITEMDEFAULTRENEWALTERM</value>  <!-- Default Renewal Term -->
+	<value>STDITEMDEFAULTRENEWALTRANTYPE</value>  <!-- Default Renewal Transaction Type -->
+	<value>STDITEMDEFAULTRETURNCOST</value>  <!-- Default Return Cost -->
+	<value>STDITEMDEFAULTREVISION</value>  <!-- Default Revision -->
+	<value>STDITEMDEFERRALACCOUNT</value>  <!-- Deferred Expense Account -->
+	<value>STDITEMDEFERREDREVENUEACCOUNT</value>  <!-- Deferred Revenue Account -->
+	<value>STDITEMDEFERREVREC</value>  <!-- Hold Revenue Recognition -->
+	<value>STDITEMDEMANDMODIFIER</value>  <!-- Expected Demand Change -->
+	<value>STDITEMDEPARTMENT</value>  <!-- Department -->
+	<value>STDITEMDESCRIPTION</value>  <!-- Description -->
+	<value>STDITEMDISPLAYNAME</value>  <!-- Display Name -->
+	<value>STDITEMDONTSHOWPRICE</value>  <!-- Don't Show Price -->
+	<value>STDITEMDROPSHIPEXPENSEACCOUNT</value>  <!-- Dropship Expense Account -->
+	<value>STDITEMEFFECTIVEBOMCONTROL</value>  <!-- Effective BOM Control -->
+	<value>STDITEMENFORCEMINQTYINTERNALLY</value>  <!-- Enforce Minimum Quantity Internally -->
+	<value>STDITEMEXCLUDEFROMSITEMAP</value>  <!-- Exclude From Sitemap -->
+	<value>STDITEMEXPENSEACCOUNT</value>  <!-- Expense/COGS Account -->
+	<value>STDITEMEXTERNALID</value>  <!-- External ID -->
+	<value>STDITEMFEATUREDDESCRIPTION</value>  <!-- Featured Description -->
+	<value>STDITEMFRAUDRISK</value>  <!-- Fraud Risk -->
+	<value>STDITEMGAINLOSSACCOUNT</value>  <!-- Gain/Loss Account -->
+	<value>STDITEMGCOCOMPLIANT</value>  <!-- Google Compliant -->
+	<value>STDITEMGENERATEACCRUALS</value>  <!-- Generate Accruals -->
+	<value>STDITEMHANDLINGCOST</value>  <!-- Handling Cost -->
+	<value>STDITEMIMMEDIATEDOWNLOAD</value>  <!-- Immediate Download -->
+	<value>STDITEMINCLUDECHILDREN</value>  <!-- Include Children -->
+	<value>STDITEMINCLUDESTARTENDLINES</value>  <!-- Include Start/End Lines -->
+	<value>STDITEMINCOMEACCOUNT</value>  <!-- Income Account -->
+	<value>STDITEMINITIALTERM</value>  <!-- Initial Term -->
+	<value>STDITEMINTERNALID</value>  <!-- Internal ID -->
+	<value>STDITEMISDONATIONITEM</value>  <!-- Variable Amount -->
+	<value>STDITEMISDROPSHIPITEM</value>  <!-- Drop Ship Item -->
+	<value>STDITEMISFULFILLABLE</value>  <!-- Can be Fulfilled/Received -->
+	<value>STDITEMISINACTIVE</value>  <!-- Inactive -->
+	<value>STDITEMISONLINE</value>  <!-- Available Online -->
+	<value>STDITEMISPRETAX</value>  <!-- Apply Before Sales Tax -->
+	<value>STDITEMISSPECIALORDERITEM</value>  <!-- Special Order Item -->
+	<value>STDITEMISSPECIALWORKORDERITEM</value>  <!-- Special Work Order Item -->
+	<value>STDITEMISSUEPRODUCT</value>  <!-- Product -->
+	<value>STDITEMISTAXABLE</value>  <!-- Taxable -->
+	<value>STDITEMISVSOEBUNDLE</value>  <!-- Is VSOE Bundle -->
+	<value>STDITEMITEMREVENUECATEGORY</value>  <!-- Item Revenue Category -->
+	<value>STDITEMITEMTYPE</value>  <!-- Type -->
+	<value>STDITEMLASTPURCHASEPRICE</value>  <!-- Last Purchase Price -->
+	<value>STDITEMLEADTIME</value>  <!-- Lead Time -->
+	<value>STDITEMLIABILITYACCOUNT</value>  <!-- Liability Account -->
+	<value>STDITEMLOCATION</value>  <!-- Location -->
+	<value>STDITEMMANUFACTURER</value>  <!-- Manufacturer -->
+	<value>STDITEMMATCHBILLTORECEIPT</value>  <!-- Match Bill To Receipt -->
+	<value>STDITEMMATRIXITEMNAMETEMPLATE</value>  <!-- Matrix Item Name Template -->
+	<value>STDITEMMAXDONATIONAMOUNT</value>  <!-- Maximum Variable Amount -->
+	<value>STDITEMMETATAGHTML</value>  <!-- Meta Tag HTML -->
+	<value>STDITEMMINIMUMQUANTITY</value>  <!-- Minimum Quantity -->
+	<value>STDITEMMOSS</value>  <!-- MOSS Applies -->
+	<value>STDITEMMPN</value>  <!-- MPN -->
+	<value>STDITEMNAME</value>  <!-- Name -->
+	<value>STDITEMNEXTAGCATEGORY</value>  <!-- NexTag Category -->
+	<value>STDITEMNONPOSTING</value>  <!-- Non-posting -->
+	<value>STDITEMNOPRICEMESSAGE</value>  <!-- No Price Message -->
+	<value>STDITEMNUMOFALLOWEDDOWNLOADS</value>  <!-- Number Of Allowed Downloads -->
+	<value>STDITEMOFFERSUPPORT</value>  <!-- Offer Support -->
+	<value>STDITEMONHAND</value>  <!-- On Hand -->
+	<value>STDITEMONLINENAME</value>  <!-- Online Name -->
+	<value>STDITEMONORDER</value>  <!-- On Order -->
+	<value>STDITEMONSPECIAL</value>  <!-- On Special -->
+	<value>STDITEMOUTOFSTOCKBEHAVIOR</value>  <!-- Out Of Stock Behavior -->
+	<value>STDITEMOUTOFSTOCKMESSAGE</value>  <!-- Out Of Stock Message -->
+	<value>STDITEMOVERALLQUANTITYPRICINGTYPE</value>  <!-- Calculate Quantity Discounts -->
+	<value>STDITEMPAGETITLE</value>  <!-- Page Title -->
+	<value>STDITEMPARENT</value>  <!-- Subitem of -->
+	<value>STDITEMPAYMENTMETHOD</value>  <!-- Payment Method -->
+	<value>STDITEMPREFERREDLOCATION</value>  <!-- Preferred Location -->
+	<value>STDITEMPREFERREDSTOCKLEVEL</value>  <!-- Preferred Stock Level -->
+	<value>STDITEMPREFERREDSTOCKLEVELDAYS</value>  <!-- Days -->
+	<value>STDITEMPRICINGGROUP</value>  <!-- Pricing Group -->
+	<value>STDITEMPRINTITEMS</value>  <!-- Print Items -->
+	<value>STDITEMPROJECTEXPENSETYPE</value>  <!-- Project Expense Type -->
+	<value>STDITEMPROJECTTEMPLATE</value>  <!-- Project Template -->
+	<value>STDITEMPURCHASEDESCRIPTION</value>  <!-- Purchase Description -->
+	<value>STDITEMPURCHASEORDERAMOUNT</value>  <!-- Vendor Bill - Purchase Order Amount Tolerance -->
+	<value>STDITEMPURCHASEORDERQUANTITY</value>  <!-- Vendor Bill - Purchase Order Quantity Tolerance -->
+	<value>STDITEMPURCHASEORDERQUANTITYDIFF</value>  <!-- Vendor Bill - Purchase Order Quantity Difference -->
+	<value>STDITEMPURCHASEUNIT</value>  <!-- Purchase Units -->
+	<value>STDITEMQUANTITYCOMMITTED</value>  <!-- Quantity Committed -->
+	<value>STDITEMQUANTITYPRICINGSCHEDULE</value>  <!-- Quantity Pricing Schedule -->
+	<value>STDITEMRATE</value>  <!-- Base Price -->
+	<value>STDITEMRECEIPTAMOUNT</value>  <!-- Vendor Bill - Item Receipt Amount Tolerance -->
+	<value>STDITEMRECEIPTQUANTITY</value>  <!-- Vendor Bill - Item Receipt Quantity Tolerance -->
+	<value>STDITEMRECEIPTQUANTITYDIFF</value>  <!-- Vendor Bill - Item Receipt Quantity Difference -->
+	<value>STDITEMRELATEDITEMSDESCRIPTION</value>  <!-- Related Items Description -->
+	<value>STDITEMREORDERMULTIPLE</value>  <!-- Reorder Multiple -->
+	<value>STDITEMREORDERPOINT</value>  <!-- Reorder Point -->
+	<value>STDITEMRESIDUAL</value>  <!-- Residual -->
+	<value>STDITEMREVENUEALLOCATIONGROUP</value>  <!-- Revenue Allocation Group -->
+	<value>STDITEMREVENUERECOGNITIONRULE</value>  <!-- Revenue Recognition Rule -->
+	<value>STDITEMREVRECSCHEDULE</value>  <!-- Revenue Recognition Template -->
+	<value>STDITEMROUNDUPASCOMPONENT</value>  <!-- Round Up Quantity as Component -->
+	<value>STDITEMSAFETYSTOCKLEVEL</value>  <!-- Safety Stock Level -->
+	<value>STDITEMSAFETYSTOCKLEVELDAYS</value>  <!-- Safety Stock Level Days -->
+	<value>STDITEMSALESDESCRIPTION</value>  <!-- Sales Description -->
+	<value>STDITEMSALEUNIT</value>  <!-- Sale Units -->
+	<value>STDITEMSEARCHKEYWORDS</value>  <!-- Search Keywords -->
+	<value>STDITEMSEASONALDEMAND</value>  <!-- Seasonal Demand -->
+	<value>STDITEMSHIPINDIVIDUALLY</value>  <!-- Ships Individually -->
+	<value>STDITEMSHIPPACKAGE</value>  <!-- Package -->
+	<value>STDITEMSHIPPINGCOST</value>  <!-- Shipping Cost -->
+	<value>STDITEMSHOPPINGDOTCOMCATEGORY</value>  <!-- Shopping.com Category -->
+	<value>STDITEMSHOPZILLACATEGORYID</value>  <!-- Shopzilla Category ID -->
+	<value>STDITEMSHOWDEFAULTDONATIONAMOUNT</value>  <!-- Show Default Amount -->
+	<value>STDITEMSOFTDESCRIPTOR</value>  <!-- Soft Descriptor -->
+	<value>STDITEMSPECIALSDESCRIPTION</value>  <!-- Specials Description -->
+	<value>STDITEMSTATE</value>  <!-- State -->
+	<value>STDITEMSTOCKDESCRIPTION</value>  <!-- Stock Description -->
+	<value>STDITEMSTOCKUNIT</value>  <!-- Stock Units -->
+	<value>STDITEMSTOREDESCRIPTION</value>  <!-- Store Description -->
+	<value>STDITEMSTOREDETAILEDDESCRIPTION</value>  <!-- Detailed Description -->
+	<value>STDITEMSTOREDISPLAYIMAGE</value>  <!-- Item Display Image -->
+	<value>STDITEMSTOREDISPLAYTHUMBNAIL</value>  <!-- Item Display Thumbnail -->
+	<value>STDITEMSTOREITEMTEMPLATE</value>  <!-- Item Drilldown Template -->
+	<value>STDITEMSUBSIDIARY</value>  <!-- Subsidiary -->
+	<value>STDITEMTAXACCOUNT</value>  <!-- Tax Account -->
+	<value>STDITEMTAXAGENCY</value>  <!-- Tax Agency -->
+	<value>STDITEMTAXSCHEDULE</value>  <!-- Tax Schedule -->
+	<value>STDITEMTAXTYPE</value>  <!-- Tax Type -->
+	<value>STDITEMTOTALVALUE</value>  <!-- Total Value -->
+	<value>STDITEMTRACKLANDEDCOST</value>  <!-- Track Landed Cost -->
+	<value>STDITEMTRANSFERPRICE</value>  <!-- Transfer Price -->
+	<value>STDITEMUNBUILDVARIANCEACCOUNT</value>  <!-- Unbuild Variance Account -->
+	<value>STDITEMUNDEPFUNDS</value>  <!-- Group with Undeposited Funds -->
+	<value>STDITEMUNITSTYPE</value>  <!-- Units Type -->
+	<value>STDITEMUPCCODE</value>  <!-- UPC Code -->
+	<value>STDITEMUSEBINS</value>  <!-- Use Bins -->
+	<value>STDITEMUSECOMPONENTYIELD</value>  <!-- Use Component Yield -->
+	<value>STDITEMUSEMARGINALRATES</value>  <!-- Use Marginal Rates -->
+	<value>STDITEMVENDOR</value>  <!-- Preferred Vendor -->
+	<value>STDITEMVENDORCOST</value>  <!-- Preferred Vendor Price -->
+	<value>STDITEMVENDORNAME</value>  <!-- Vendor Name -->
+	<value>STDITEMVENDRETURNVARIANCEACCOUNT</value>  <!-- Vendor Return Variance Account -->
+	<value>STDITEMVSOEDEFERRAL</value>  <!-- Deferral -->
+	<value>STDITEMVSOEDELIVERED</value>  <!-- Default as Delivered -->
+	<value>STDITEMVSOEPERMITDISCOUNT</value>  <!-- Permit Discount -->
+	<value>STDITEMVSOEPRICE</value>  <!-- VSOE Price -->
+	<value>STDITEMVSOESOPGROUP</value>  <!-- Allocation Type -->
+	<value>STDITEMWEIGHT</value>  <!-- Weight -->
+	<value>STDITEMWEIGHTUNITS</value>  <!-- Weight Units -->
+	<value>STDITEMZIP</value>  <!-- Zip Codes -->
+	<value>STDLOCASSIGNCONFNAME</value>  <!-- Name of the configuration -->
+	<value>STDRECORDACCOUNTACCTNAME</value>  <!-- Name -->
+	<value>STDRECORDACCOUNTACCTNUMBER</value>  <!-- Number -->
+	<value>STDRECORDACCOUNTACCTTYPE</value>  <!-- Type -->
+	<value>STDRECORDACCOUNTBILLABLEEXPENSESACCT</value>  <!-- Track Billable Expenses in -->
+	<value>STDRECORDACCOUNTCASHFLOWRATE</value>  <!-- Cash Flow Rate Type -->
+	<value>STDRECORDACCOUNTCATEGORY1099MISC</value>  <!-- 1099-MISC Category -->
+	<value>STDRECORDACCOUNTCLASS</value>  <!-- Restrict To Class -->
+	<value>STDRECORDACCOUNTCURRENCY</value>  <!-- Currency -->
+	<value>STDRECORDACCOUNTDEFERRALACCT</value>  <!-- Deferral Account -->
+	<value>STDRECORDACCOUNTDEPARTMENT</value>  <!-- Restrict To Department -->
+	<value>STDRECORDACCOUNTDESCRIPTION</value>  <!-- Description -->
+	<value>STDRECORDACCOUNTELIMINATE</value>  <!-- Eliminate Intercompany Transactions -->
+	<value>STDRECORDACCOUNTEXCHANGERATE</value>  <!-- Exchange Rate -->
+	<value>STDRECORDACCOUNTEXTERNALID</value>  <!-- External ID -->
+	<value>STDRECORDACCOUNTGENERALRATE</value>  <!-- General Rate Type -->
+	<value>STDRECORDACCOUNTINCLUDECHILDREN</value>  <!-- Include Children -->
+	<value>STDRECORDACCOUNTINGBOOKEFFECTIVEPERIOD</value>  <!-- Effective Period -->
+	<value>STDRECORDACCOUNTINGBOOKEXTERNALID</value>  <!-- ExternalId -->
+	<value>STDRECORDACCOUNTINGBOOKINCLUDECHILDREN</value>  <!-- Include Children -->
+	<value>STDRECORDACCOUNTINGBOOKISCONSOLIDATED</value>  <!-- Enable Consolidation -->
+	<value>STDRECORDACCOUNTINGBOOKISPRIMARY</value>  <!-- Is Primary -->
+	<value>STDRECORDACCOUNTINGBOOKNAME</value>  <!-- Name -->
+	<value>STDRECORDACCOUNTINGBOOKSTATUS</value>  <!-- Status -->
+	<value>STDRECORDACCOUNTINGBOOKSUBSIDIARY</value>  <!-- Subsidiaries -->
+	<value>STDRECORDACCOUNTINGCONTEXTEXTERNALID</value>  <!-- ExternalId -->
+	<value>STDRECORDACCOUNTINGCONTEXTNAME</value>  <!-- Name -->
+	<value>STDRECORDACCOUNTINGPERIODALLOWNONGLCHANGES</value>  <!-- Allow Non-G/L Changes -->
+	<value>STDRECORDACCOUNTINGPERIODCLOSED</value>  <!-- Closed -->
+	<value>STDRECORDACCOUNTINGPERIODEND</value>  <!-- End Date -->
+	<value>STDRECORDACCOUNTINGPERIODISADJUST</value>  <!-- Period is Adjustment -->
+	<value>STDRECORDACCOUNTINGPERIODISQUARTER</value>  <!-- Period is a Quarter -->
+	<value>STDRECORDACCOUNTINGPERIODISYEAR</value>  <!-- Period is a Year -->
+	<value>STDRECORDACCOUNTINGPERIODOPEN</value>  <!-- Open -->
+	<value>STDRECORDACCOUNTINGPERIODPARENT</value>  <!-- Sub-period of -->
+	<value>STDRECORDACCOUNTINGPERIODPERIODNAME</value>  <!-- Period Name -->
+	<value>STDRECORDACCOUNTINGPERIODSTART</value>  <!-- Start Date -->
+	<value>STDRECORDACCOUNTINVENTORY</value>  <!-- Inventory -->
+	<value>STDRECORDACCOUNTISINACTIVE</value>  <!-- Inactive -->
+	<value>STDRECORDACCOUNTISSUMMARY</value>  <!-- Summary -->
+	<value>STDRECORDACCOUNTLEGALNAME</value>  <!-- Legal Name -->
+	<value>STDRECORDACCOUNTLOCATION</value>  <!-- Restrict To Location -->
+	<value>STDRECORDACCOUNTOPENINGBALANCE</value>  <!-- Opening Balance -->
+	<value>STDRECORDACCOUNTPARENT</value>  <!-- Subaccount of -->
+	<value>STDRECORDACCOUNTREVAL</value>  <!-- Revalue Open Balance for Foreign Currency Transactions -->
+	<value>STDRECORDADDRESSCOUNTRY</value>  <!-- Country -->
+	<value>STDRECORDAPPROVEDBY</value>  <!-- Approved By -->
+	<value>STDRECORDBILLINGCLASSCOST</value>  <!-- Cost -->
+	<value>STDRECORDBILLINGCLASSDESCRIPTION</value>  <!-- Description -->
+	<value>STDRECORDBILLINGCLASSEXTERNALID</value>  <!-- ExternalId -->
+	<value>STDRECORDBILLINGCLASSISINACTIVE</value>  <!-- Inactive -->
+	<value>STDRECORDBILLINGCLASSNAME</value>  <!-- Billing Class -->
+	<value>STDRECORDBILLINGCLASSPRICE</value>  <!-- Price -->
+	<value>STDRECORDBILLINGCLASSSALEUNIT</value>  <!-- Sale Units -->
+	<value>STDRECORDBILLINGCLASSUNITSTYPE</value>  <!-- Units Type -->
+	<value>STDRECORDBILLINGRATECARDISINACTIVE</value>  <!-- Inactive -->
+	<value>STDRECORDBILLINGRATECARDNAME</value>  <!-- Name -->
+	<value>STDRECORDBILLINGSCHEDULEAPPLYTOSUBTOTAL</value>  <!-- Apply To Subtotal -->
+	<value>STDRECORDBILLINGSCHEDULEEXTERNALID</value>  <!-- External ID -->
+	<value>STDRECORDBILLINGSCHEDULEFREQUENCY</value>  <!-- Recurrence Frequency -->
+	<value>STDRECORDBILLINGSCHEDULEINARREARS</value>  <!-- In Arrears -->
+	<value>STDRECORDBILLINGSCHEDULEINITIALAMOUNT</value>  <!-- Initial Amount -->
+	<value>STDRECORDBILLINGSCHEDULEINITIALTERMS</value>  <!-- Initial Payment Terms -->
+	<value>STDRECORDBILLINGSCHEDULEISINACTIVE</value>  <!-- Inactive -->
+	<value>STDRECORDBILLINGSCHEDULEISPUBLIC</value>  <!-- Public -->
+	<value>STDRECORDBILLINGSCHEDULENAME</value>  <!-- Name -->
+	<value>STDRECORDBILLINGSCHEDULENUMBERREMAINING</value>  <!-- Recurrence Count -->
+	<value>STDRECORDBILLINGSCHEDULERECURRENCETERMS</value>  <!-- Recurrence Payment Terms -->
+	<value>STDRECORDBILLINGSCHEDULESCHEDULETYPE</value>  <!-- Type -->
+	<value>STDRECORDBILLINGSCHEDULETRANSACTION</value>  <!-- Transaction -->
+	<value>STDRECORDBUDGETACCOUNT</value>
+	<value>STDRECORDBUDGETAMOUNT</value>
+	<value>STDRECORDBUDGETCLASS</value>
+	<value>STDRECORDBUDGETCUSTOMER</value>
+	<value>STDRECORDBUDGETDEPARTMENT</value>
+	<value>STDRECORDBUDGETITEM</value>
+	<value>STDRECORDBUDGETLOCATION</value>
+	<value>STDRECORDBUDGETSUBSIDIARY</value>
+	<value>STDRECORDBUYINGREASONISINACTIVE</value>  <!-- Inactive -->
+	<value>STDRECORDBUYINGREASONNAME</value>  <!-- Buying Reason -->
+	<value>STDRECORDBUYINGTIMEFRAMEISINACTIVE</value>  <!-- Inactive -->
+	<value>STDRECORDBUYINGTIMEFRAMENAME</value>  <!-- Buying Time Frame -->
+	<value>STDRECORDCAMPAIGNAUDIENCEDESCRIPTION</value>  <!-- Description -->
+	<value>STDRECORDCAMPAIGNAUDIENCEEXTERNALID</value>  <!-- External ID -->
+	<value>STDRECORDCAMPAIGNAUDIENCEISINACTIVE</value>  <!-- Inactive -->
+	<value>STDRECORDCAMPAIGNAUDIENCENAME</value>  <!-- Name -->
+	<value>STDRECORDCAMPAIGNCATEGORYDESCRIPTION</value>  <!-- Description -->
+	<value>STDRECORDCAMPAIGNCATEGORYEXTERNALID</value>  <!-- External ID -->
+	<value>STDRECORDCAMPAIGNCATEGORYISEXTERNAL</value>  <!-- Available Externally -->
+	<value>STDRECORDCAMPAIGNCATEGORYISINACTIVE</value>  <!-- Inactive -->
+	<value>STDRECORDCAMPAIGNCATEGORYLEADSOURCE</value>  <!-- Default Lead Source -->
+	<value>STDRECORDCAMPAIGNCATEGORYNAME</value>  <!-- Name -->
+	<value>STDRECORDCAMPAIGNCATEGORYPARENT</value>  <!-- Subcategory of -->
+	<value>STDRECORDCAMPAIGNCHANNELDESCRIPTION</value>  <!-- Description -->
+	<value>STDRECORDCAMPAIGNCHANNELEVENTTYPE</value>  <!-- Type -->
+	<value>STDRECORDCAMPAIGNCHANNELEXTERNALID</value>  <!-- External ID -->
+	<value>STDRECORDCAMPAIGNCHANNELISINACTIVE</value>  <!-- Inactive -->
+	<value>STDRECORDCAMPAIGNCHANNELNAME</value>  <!-- Name -->
+	<value>STDRECORDCAMPAIGNFAMILYDESCRIPTION</value>  <!-- Description -->
+	<value>STDRECORDCAMPAIGNFAMILYEXTERNALID</value>  <!-- External ID -->
+	<value>STDRECORDCAMPAIGNFAMILYISINACTIVE</value>  <!-- Inactive -->
+	<value>STDRECORDCAMPAIGNFAMILYNAME</value>  <!-- Name -->
+	<value>STDRECORDCAMPAIGNOFFERDESCRIPTION</value>  <!-- Description -->
+	<value>STDRECORDCAMPAIGNOFFEREXTERNALID</value>  <!-- External ID -->
+	<value>STDRECORDCAMPAIGNOFFERISINACTIVE</value>  <!-- Inactive -->
+	<value>STDRECORDCAMPAIGNOFFERNAME</value>  <!-- Name -->
+	<value>STDRECORDCAMPAIGNRESPONSECAMPAIGNEVENT</value>  <!-- Event -->
+	<value>STDRECORDCAMPAIGNRESPONSECAMPAIGNRESPONSEDATE</value>  <!-- Date -->
+	<value>STDRECORDCAMPAIGNRESPONSECHANNEL</value>  <!-- Channel -->
+	<value>STDRECORDCAMPAIGNRESPONSEENTITY</value>  <!-- Recipient -->
+	<value>STDRECORDCAMPAIGNRESPONSEEXTERNALID</value>  <!-- External ID -->
+	<value>STDRECORDCAMPAIGNRESPONSELEADSOURCE</value>  <!-- Campaign -->
+	<value>STDRECORDCAMPAIGNRESPONSENEWRESPONSEDATE</value>  <!-- New Response Date -->
+	<value>STDRECORDCAMPAIGNRESPONSENEWRESPONSETIME</value>  <!-- New Response Time -->
+	<value>STDRECORDCAMPAIGNRESPONSERESPONSE</value>  <!-- Response Detail -->
+	<value>STDRECORDCAMPAIGNRESPONSERESPONSETYPE</value>  <!-- Response -->
+	<value>STDRECORDCAMPAIGNSEARCHENGINEDESCRIPTION</value>  <!-- Description -->
+	<value>STDRECORDCAMPAIGNSEARCHENGINEEXTERNALID</value>  <!-- External ID -->
+	<value>STDRECORDCAMPAIGNSEARCHENGINEISINACTIVE</value>  <!-- Inactive -->
+	<value>STDRECORDCAMPAIGNSEARCHENGINENAME</value>  <!-- Name -->
+	<value>STDRECORDCAMPAIGNSUBSCRIPTIONDESCRIPTION</value>  <!-- Description -->
+	<value>STDRECORDCAMPAIGNSUBSCRIPTIONEXTERNALDESCRIPTION</value>  <!-- External Description -->
+	<value>STDRECORDCAMPAIGNSUBSCRIPTIONEXTERNALNAME</value>  <!-- External Name -->
+	<value>STDRECORDCAMPAIGNSUBSCRIPTIONISINACTIVE</value>  <!-- Inactive -->
+	<value>STDRECORDCAMPAIGNSUBSCRIPTIONNAME</value>  <!-- Name -->
+	<value>STDRECORDCAMPAIGNSUBSCRIPTIONSUBSCRIBEDBYDEFAULT</value>  <!-- Subscribed by Default -->
+	<value>STDRECORDCAMPAIGNVERTICALDESCRIPTION</value>  <!-- Description -->
+	<value>STDRECORDCAMPAIGNVERTICALEXTERNALID</value>  <!-- External ID -->
+	<value>STDRECORDCAMPAIGNVERTICALISINACTIVE</value>  <!-- Inactive -->
+	<value>STDRECORDCAMPAIGNVERTICALNAME</value>  <!-- Name -->
+	<value>STDRECORDCASEISSUEDESCRIPTION</value>  <!-- Description -->
+	<value>STDRECORDCASEISSUEEXTERNALID</value>  <!-- External ID -->
+	<value>STDRECORDCASEISSUEISINACTIVE</value>  <!-- Inactive -->
+	<value>STDRECORDCASEISSUENAME</value>  <!-- Case Issue -->
+	<value>STDRECORDCASEORIGINDESCRIPTION</value>  <!-- Description -->
+	<value>STDRECORDCASEORIGINEXTERNALID</value>  <!-- External ID -->
+	<value>STDRECORDCASEORIGINISINACTIVE</value>  <!-- Inactive -->
+	<value>STDRECORDCASEORIGINNAME</value>  <!-- Case Origin -->
+	<value>STDRECORDCASEPRIORITYDESCRIPTION</value>  <!-- Description -->
+	<value>STDRECORDCASEPRIORITYEXTERNALID</value>  <!-- External ID -->
+	<value>STDRECORDCASEPRIORITYISINACTIVE</value>  <!-- Inactive -->
+	<value>STDRECORDCASEPRIORITYNAME</value>  <!-- Case Priority -->
+	<value>STDRECORDCASESTATUSAUTOCLOSECASE</value>  <!-- Auto Close With Issues -->
+	<value>STDRECORDCASESTATUSCASEONHOLD</value>  <!-- On Hold -->
+	<value>STDRECORDCASESTATUSDESCRIPTION</value>  <!-- Description -->
+	<value>STDRECORDCASESTATUSEXTERNALID</value>  <!-- External ID -->
+	<value>STDRECORDCASESTATUSISINACTIVE</value>  <!-- Inactive -->
+	<value>STDRECORDCASESTATUSNAME</value>  <!-- Case Status -->
+	<value>STDRECORDCASESTATUSSHOWAWAITINGREPLY</value>  <!-- Show Awaiting Support Reply -->
+	<value>STDRECORDCASESTATUSSTAGE</value>  <!-- Stage -->
+	<value>STDRECORDCASETYPEDESCRIPTION</value>  <!-- Description -->
+	<value>STDRECORDCASETYPEEXTERNALID</value>  <!-- External ID -->
+	<value>STDRECORDCASETYPEISINACTIVE</value>  <!-- Inactive -->
+	<value>STDRECORDCASETYPENAME</value>  <!-- Case Type -->
+	<value>STDRECORDCATCHUPPERIOD</value>  <!-- Catch Up Period -->
+	<value>STDRECORDCHARGERULEEXTERNALID</value>  <!-- ExternalId -->
+	<value>STDRECORDCLASSEXTERNALID</value>  <!-- External ID -->
+	<value>STDRECORDCLASSINCLUDECHILDREN</value>  <!-- Include Children -->
+	<value>STDRECORDCLASSISINACTIVE</value>  <!-- Class is Inactive -->
+	<value>STDRECORDCLASSNAME</value>  <!-- Name -->
+	<value>STDRECORDCLASSPARENT</value>  <!-- Subclass of -->
+	<value>STDRECORDCLOSEDATE</value>  <!-- Close Date -->
+	<value>STDRECORDCOMMERCECATALOGDESCRIPTION</value>  <!-- Description -->
+	<value>STDRECORDCOMMERCECATALOGEXTERNALID</value>  <!-- ExternalId -->
+	<value>STDRECORDCOMMERCECATALOGID</value>  <!-- ID -->
+	<value>STDRECORDCOMMERCECATALOGINTERNALID</value>  <!-- Internal ID -->
+	<value>STDRECORDCOMMERCECATALOGNAME</value>  <!-- Name -->
+	<value>STDRECORDCOMMERCECATALOGSITE</value>  <!-- Site ID -->
+	<value>STDRECORDCOMMERCECATEGORYADDTOHEAD</value>  <!-- Add to Head -->
+	<value>STDRECORDCOMMERCECATEGORYCATALOG</value>  <!-- Catalog -->
+	<value>STDRECORDCOMMERCECATEGORYCREATED</value>  <!-- Creation Date/Time -->
+	<value>STDRECORDCOMMERCECATEGORYDESCRIPTION</value>  <!-- Description -->
+	<value>STDRECORDCOMMERCECATEGORYDISPLAYINSITE</value>  <!-- Display in Web Site -->
+	<value>STDRECORDCOMMERCECATEGORYEXTERNALID</value>  <!-- ExternalId -->
+	<value>STDRECORDCOMMERCECATEGORYID</value>  <!-- ID -->
+	<value>STDRECORDCOMMERCECATEGORYINTERNALID</value>  <!-- Internal ID -->
+	<value>STDRECORDCOMMERCECATEGORYISINACTIVE</value>  <!-- Inactive -->
+	<value>STDRECORDCOMMERCECATEGORYITEMS</value>  <!-- Items -->
+	<value>STDRECORDCOMMERCECATEGORYLASTMODIFIED</value>  <!-- Last Modified -->
+	<value>STDRECORDCOMMERCECATEGORYLASTMODIFIEDBY</value>  <!-- Modified By -->
+	<value>STDRECORDCOMMERCECATEGORYMETADESCRIPTION</value>  <!-- Meta Description -->
+	<value>STDRECORDCOMMERCECATEGORYMETAKEYWORDS</value>  <!-- Meta Keywords -->
+	<value>STDRECORDCOMMERCECATEGORYNAME</value>  <!-- Name -->
+	<value>STDRECORDCOMMERCECATEGORYPAGEBANNER</value>  <!-- Page Banner -->
+	<value>STDRECORDCOMMERCECATEGORYPAGEHEADING</value>  <!-- Heading -->
+	<value>STDRECORDCOMMERCECATEGORYPAGETITLE</value>  <!-- Page Title -->
+	<value>STDRECORDCOMMERCECATEGORYPRIMARYPARENT</value>  <!-- Primary Parent -->
+	<value>STDRECORDCOMMERCECATEGORYSEQUENCENUMBER</value>  <!-- Sequence Number -->
+	<value>STDRECORDCOMMERCECATEGORYSITEMAPPRIORITY</value>  <!-- Sitemap Priority -->
+	<value>STDRECORDCOMMERCECATEGORYSUBCATEGORIES</value>  <!-- Subcategories -->
+	<value>STDRECORDCOMMERCECATEGORYTHUMBNAIL</value>  <!-- Thumbnail Image -->
+	<value>STDRECORDCOMMERCECATEGORYTITLE</value>  <!-- Title -->
+	<value>STDRECORDCOMMERCECATEGORYURLFRAGMENT</value>  <!-- URL -->
+	<value>STDRECORDCOMMERCECATEGORYVERSION</value>  <!-- Version -->
+	<value>STDRECORDCOMMISSIONPLANDESCR</value>  <!-- Description -->
+	<value>STDRECORDCOMMISSIONPLANINACTIVE</value>  <!-- Inactive -->
+	<value>STDRECORDCOMMISSIONPLANPLANNAME</value>  <!-- Name -->
+	<value>STDRECORDCOMMISSIONSCHEDULECURRENCYSYMBOL</value>  <!-- Currency -->
+	<value>STDRECORDCOMMISSIONSCHEDULEFORMGR</value>  <!-- Manager Schedule -->
+	<value>STDRECORDCOMMISSIONSCHEDULEFULLYPAIDELIGIBILITY</value>  <!-- Commission eligible on Invoices paid in full only -->
+	<value>STDRECORDCOMMISSIONSCHEDULEINACTIVE</value>  <!-- Inactive -->
+	<value>STDRECORDCOMMISSIONSCHEDULELINEITEMMAPPING</value>  <!-- Use Sales Order - Invoice Line Item mapping for commission eligibility -->
+	<value>STDRECORDCOMMISSIONSCHEDULENAME</value>  <!-- Schedule Name -->
+	<value>STDRECORDCOMMISSIONSCHEDULESUBSIDIARY</value>  <!-- Subsidiary -->
+	<value>STDRECORDCOMMISSIONSCHEDULETARGET</value>  <!-- Target Amount -->
+	<value>STDRECORDCOMPETITORDESCRIPTION</value>  <!-- Description -->
+	<value>STDRECORDCOMPETITOREXTERNALID</value>  <!-- External ID -->
+	<value>STDRECORDCOMPETITORISINACTIVE</value>  <!-- Inactive -->
+	<value>STDRECORDCOMPETITORNAME</value>  <!-- Name -->
+	<value>STDRECORDCOMPETITORPRODUCTSERVICE</value>  <!-- Products & Services -->
+	<value>STDRECORDCOMPETITORSTRATEGY</value>  <!-- Strategy -->
+	<value>STDRECORDCOMPETITORSTRENGTHS</value>  <!-- Strengths -->
+	<value>STDRECORDCOMPETITORURL</value>  <!-- URL -->
+	<value>STDRECORDCOMPETITORWEAKNESSES</value>  <!-- Weaknesses -->
+	<value>STDRECORDCONTACTCATEGORYEXTERNALID</value>  <!-- External ID -->
+	<value>STDRECORDCONTACTCATEGORYISINACTIVE</value>  <!-- Inactive -->
+	<value>STDRECORDCONTACTCATEGORYNAME</value>  <!-- Contact Category -->
+	<value>STDRECORDCONTACTCATEGORYPRIVATE</value>  <!-- Private -->
+	<value>STDRECORDCONTACTCATEGORYSYNC</value>  <!-- Sync -->
+	<value>STDRECORDCONTACTROLEDESCRIPTION</value>  <!-- Description -->
+	<value>STDRECORDCONTACTROLEEXTERNALID</value>  <!-- External ID -->
+	<value>STDRECORDCONTACTROLEISINACTIVE</value>  <!-- Inactive -->
+	<value>STDRECORDCONTACTROLENAME</value>  <!-- Role -->
+	<value>STDRECORDCOSTCATEGORYACCOUNT</value>  <!-- Expense Account -->
+	<value>STDRECORDCOSTCATEGORYISINACTIVE</value>  <!-- Inactive -->
+	<value>STDRECORDCOSTCATEGORYNAME</value>  <!-- Name -->
+	<value>STDRECORDCREATED</value>  <!-- Created -->
+	<value>STDRECORDCURRENCYCURRENCYFORMATSAMPLE</value>  <!-- Format Sample -->
+	<value>STDRECORDCURRENCYCURRENCYPRECISION</value>  <!-- Currency Precision -->
+	<value>STDRECORDCURRENCYDISPLAYSYMBOL</value>  <!-- Currency Symbol -->
+	<value>STDRECORDCURRENCYEXCHANGERATE</value>  <!-- Default Exchange Rate -->
+	<value>STDRECORDCURRENCYEXTERNALID</value>  <!-- External ID -->
+	<value>STDRECORDCURRENCYINCLUDEINFXRATEUPDATES</value>  <!-- Automatic Update -->
+	<value>STDRECORDCURRENCYISINACTIVE</value>  <!-- Inactive -->
+	<value>STDRECORDCURRENCYLOCALE</value>  <!-- Locale -->
+	<value>STDRECORDCURRENCYNAME</value>  <!-- Name -->
+	<value>STDRECORDCURRENCYOVERRIDECURRENCYFORMAT</value>  <!-- Override Currency Format -->
+	<value>STDRECORDCURRENCYSYMBOL</value>  <!-- Symbol -->
+	<value>STDRECORDCURRENCYSYMBOLPLACEMENT</value>  <!-- Symbol Placement -->
+	<value>STDRECORDCUSTOMERCATEGORYEXTERNALID</value>  <!-- External ID -->
+	<value>STDRECORDCUSTOMERCATEGORYISINACTIVE</value>  <!-- Inactive -->
+	<value>STDRECORDCUSTOMERCATEGORYNAME</value>  <!-- Customer -->
+	<value>STDRECORDCUSTOMERMESSAGEDESCRIPTION</value>  <!-- Long Text -->
+	<value>STDRECORDCUSTOMERMESSAGEEXTERNALID</value>  <!-- External ID -->
+	<value>STDRECORDCUSTOMERMESSAGEISINACTIVE</value>  <!-- Inactive -->
+	<value>STDRECORDCUSTOMERMESSAGENAME</value>  <!-- Customer Message -->
+	<value>STDRECORDCUSTOMERMESSAGEPREFERRED</value>  <!-- Preferred -->
+	<value>STDRECORDCUSTOMFORM</value>  <!-- Custom Form -->
+	<value>STDRECORDDEPARTMENTEXTERNALID</value>  <!-- External ID -->
+	<value>STDRECORDDEPARTMENTINCLUDECHILDREN</value>  <!-- Include Children -->
+	<value>STDRECORDDEPARTMENTISINACTIVE</value>  <!-- Department is Inactive -->
+	<value>STDRECORDDEPARTMENTNAME</value>  <!-- Name -->
+	<value>STDRECORDDEPARTMENTPARENT</value>  <!-- Subdepartment of -->
+	<value>STDRECORDDOCUMENTSTATUSTRANSACTIONTYPE</value>  <!-- Transaction Type -->
+	<value>STDRECORDDRIVERSLICENSECLASS</value>  <!-- Class/Level -->
+	<value>STDRECORDDRIVERSLICENSEDATEOFISSUE</value>  <!-- Date Of Issue -->
+	<value>STDRECORDDRIVERSLICENSEDESCRIPTION</value>  <!-- Description -->
+	<value>STDRECORDDRIVERSLICENSEEMPLOYEE</value>  <!-- Employee -->
+	<value>STDRECORDDRIVERSLICENSEEXPIRATIONDATE</value>  <!-- Date Of Expiration -->
+	<value>STDRECORDDRIVERSLICENSEISINACTIVE</value>  <!-- Inactive -->
+	<value>STDRECORDDRIVERSLICENSEISSUER</value>  <!-- Issuing Authority/Region -->
+	<value>STDRECORDDRIVERSLICENSENAMEONDOCUMENT</value>  <!-- Name As It Appears On Document -->
+	<value>STDRECORDDRIVERSLICENSENUMBERVALUE</value>  <!-- Driver's License Number -->
+	<value>STDRECORDEMAILTEMPLATEDESCRIPTION</value>  <!-- Description -->
+	<value>STDRECORDEMAILTEMPLATEEMAILASSALESREP</value>  <!-- Email as Sales Rep -->
+	<value>STDRECORDEMAILTEMPLATEFROMEMAIL</value>  <!-- From Email Address -->
+	<value>STDRECORDEMAILTEMPLATEFROMNAME</value>  <!-- From Name -->
+	<value>STDRECORDEMAILTEMPLATEISINACTIVE</value>  <!-- Inactive -->
+	<value>STDRECORDEMAILTEMPLATEISPRIVATE</value>  <!-- Private -->
+	<value>STDRECORDEMAILTEMPLATENAME</value>  <!-- Name -->
+	<value>STDRECORDEMAILTEMPLATERECORDTYPE</value>  <!-- Record Type -->
+	<value>STDRECORDEMAILTEMPLATEREPLYEMAIL</value>  <!-- Reply to Email Address -->
+	<value>STDRECORDEMAILTEMPLATERESTRICTGROUP</value>  <!-- Restrict To Group -->
+	<value>STDRECORDEMAILTEMPLATESHOWCOMPANYINFO</value>  <!-- Add Company Address to Message Footer -->
+	<value>STDRECORDEMAILTEMPLATESUBSCRIPTION</value>  <!-- Subscription -->
+	<value>STDRECORDEMAILTEMPLATETRACKEMAIL</value>  <!-- Track Outgoing Email -->
+	<value>STDRECORDEMAILTEMPLATEUNSUBSCRIBE</value>  <!-- Add Unsubscribe Link to Message Footer -->
+	<value>STDRECORDENTITYSTATUSDESCRIPTION</value>  <!-- Description -->
+	<value>STDRECORDENTITYSTATUSEXTERNALID</value>  <!-- External ID -->
+	<value>STDRECORDENTITYSTATUSINCLUDEINLEADREPORTS</value>  <!-- Include In Lead Reports -->
+	<value>STDRECORDENTITYSTATUSISINACTIVE</value>  <!-- Inactive -->
+	<value>STDRECORDENTITYSTATUSNAME</value>  <!-- Status -->
+	<value>STDRECORDENTITYSTATUSPROBABILITY</value>  <!-- Probability -->
+	<value>STDRECORDENTITYSTATUSSTAGE</value>  <!-- Stage -->
+	<value>STDRECORDENTITYSTATUSSTAGENAME</value>  <!-- Stage (Name) -->
+	<value>STDRECORDEXPENSECATEGORYDEFAULTRATE</value>  <!-- Default Rate -->
+	<value>STDRECORDEXPENSECATEGORYDESCRIPTION</value>  <!-- Description -->
+	<value>STDRECORDEXPENSECATEGORYEXPENSEACCT</value>  <!-- Expense Account -->
+	<value>STDRECORDEXPENSECATEGORYEXPENSEITEM</value>  <!-- Expense Item -->
+	<value>STDRECORDEXPENSECATEGORYEXTERNALID</value>  <!-- External ID -->
+	<value>STDRECORDEXPENSECATEGORYISINACTIVE</value>  <!-- Inactive -->
+	<value>STDRECORDEXPENSECATEGORYNAME</value>  <!-- Name -->
+	<value>STDRECORDEXPENSECATEGORYRATEREQUIRED</value>  <!-- Rate is Required -->
+	<value>STDRECORDEXTERNALID</value>  <!-- External ID -->
+	<value>STDRECORDFIELDDATATYPE</value>  <!-- Data Type -->
+	<value>STDRECORDFIELDDATATYPENAME</value>  <!-- Data Type (Name) -->
+	<value>STDRECORDFIELDLISTRECORD</value>  <!-- List/Record -->
+	<value>STDRECORDFIELDRECORDTYPE</value>  <!-- Record Type -->
+	<value>STDRECORDFIELDSCRIPTID</value>  <!-- Script ID -->
+	<value>STDRECORDFIELDSTOREVALUE</value>  <!-- Store Value -->
+	<value>STDRECORDFIELDTYPE</value>  <!-- Type -->
+	<value>STDRECORDFISCALCALENDAREXTERNALID</value>  <!-- ExternalId -->
+	<value>STDRECORDFISCALCALENDARISDEFAULT</value>  <!-- Default Fiscal Calendar -->
+	<value>STDRECORDFISCALCALENDARNAME</value>  <!-- Name -->
+	<value>STDRECORDFIXEDAMOUNTPROJECTREVENUERULEDESCRIPTION</value>  <!-- Description -->
+	<value>STDRECORDFIXEDAMOUNTPROJECTREVENUERULEFIXEDAMOUNTTYPE</value>  <!-- Recognize By -->
+	<value>STDRECORDFIXEDAMOUNTPROJECTREVENUERULEFIXEDSCHEDULETYPE</value>  <!-- Based On -->
+	<value>STDRECORDFIXEDAMOUNTPROJECTREVENUERULEISINACTIVE</value>  <!-- Inactive -->
+	<value>STDRECORDFIXEDAMOUNTPROJECTREVENUERULENAME</value>  <!-- Name -->
+	<value>STDRECORDFIXEDAMOUNTPROJECTREVENUERULEPROJECT</value>  <!-- Project -->
+	<value>STDRECORDFIXEDAMOUNTPROJECTREVENUERULEREVENUERECONCILED</value>  <!-- Revenue Reconciled -->
+	<value>STDRECORDFIXEDAMOUNTPROJECTREVENUERULESERVICEITEM</value>  <!-- Service Item -->
+	<value>STDRECORDFIXEDAMOUNTPROJECTREVENUERULETOTALAMOUNTTORECOGNIZE</value>  <!-- Total Amount to Recognize -->
+	<value>STDRECORDGLOBALACCOUNTMAPPINGACCOUNTINGBOOK</value>  <!-- Accounting Book -->
+	<value>STDRECORDGLOBALACCOUNTMAPPINGCLASS</value>  <!-- Class -->
+	<value>STDRECORDGLOBALACCOUNTMAPPINGDEPARTMENT</value>  <!-- Department -->
+	<value>STDRECORDGLOBALACCOUNTMAPPINGDESTINATIONACCOUNT</value>  <!-- Destination Account -->
+	<value>STDRECORDGLOBALACCOUNTMAPPINGEFFECTIVEDATE</value>  <!-- Effective Date -->
+	<value>STDRECORDGLOBALACCOUNTMAPPINGENDDATE</value>  <!-- End Date -->
+	<value>STDRECORDGLOBALACCOUNTMAPPINGEXTERNALID</value>  <!-- ExternalId -->
+	<value>STDRECORDGLOBALACCOUNTMAPPINGLOCATION</value>  <!-- Location -->
+	<value>STDRECORDGLOBALACCOUNTMAPPINGSOURCEACCOUNT</value>  <!-- Source Account -->
+	<value>STDRECORDGLOBALACCOUNTMAPPINGSUBSIDIARY</value>  <!-- Subsidiary -->
+	<value>STDRECORDGOVERNMENTISSUEDIDTYPEDESCRIPTION</value>  <!-- Government-Issued ID Type Description -->
+	<value>STDRECORDGOVERNMENTISSUEDIDTYPEISALLOWMULTIPLE</value>  <!-- Government-Issued ID Type Allow Multiple -->
+	<value>STDRECORDGOVERNMENTISSUEDIDTYPEISINACTIVE</value>  <!-- Government-Issued ID Type Inactive -->
+	<value>STDRECORDGOVERNMENTISSUEDIDTYPENAME</value>  <!-- Government-Issued ID Type -->
+	<value>STDRECORDHEADCOUNT</value>  <!-- Headcount -->
+	<value>STDRECORDHIRINGMANAGER</value>  <!-- Hiring Manager -->
+	<value>STDRECORDHOLDREVENUERECOGNITION</value>  <!-- Hold Revenue Recognition -->
+	<value>STDRECORDID</value>  <!-- ID -->
+	<value>STDRECORDINCOTERMDESCRIPTION</value>  <!-- Description -->
+	<value>STDRECORDINCOTERMISINACTIVE</value>  <!-- Inactive -->
+	<value>STDRECORDINCOTERMNAME</value>  <!-- Name -->
+	<value>STDRECORDISINACTIVE</value>  <!-- Inactive -->
+	<value>STDRECORDITEMACCOUNTMAPPINGACCOUNTINGBOOK</value>  <!-- Accounting Book -->
+	<value>STDRECORDITEMACCOUNTMAPPINGCLASS</value>  <!-- Class -->
+	<value>STDRECORDITEMACCOUNTMAPPINGDEPARTMENT</value>  <!-- Department -->
+	<value>STDRECORDITEMACCOUNTMAPPINGDESTINATIONACCOUNT</value>  <!-- Destination Account -->
+	<value>STDRECORDITEMACCOUNTMAPPINGEFFECTIVEDATE</value>  <!-- Effective Date -->
+	<value>STDRECORDITEMACCOUNTMAPPINGENDDATE</value>  <!-- End Date -->
+	<value>STDRECORDITEMACCOUNTMAPPINGEXTERNALID</value>  <!-- ExternalId -->
+	<value>STDRECORDITEMACCOUNTMAPPINGITEMACCOUNT</value>  <!-- Item Account Type -->
+	<value>STDRECORDITEMACCOUNTMAPPINGLOCATION</value>  <!-- Location -->
+	<value>STDRECORDITEMACCOUNTMAPPINGSOURCEACCOUNT</value>  <!-- Source Account -->
+	<value>STDRECORDITEMACCOUNTMAPPINGSUBSIDIARY</value>  <!-- Subsidiary -->
+	<value>STDRECORDITEMREVISIONEFFECTIVEDATE</value>  <!-- Effective Date -->
+	<value>STDRECORDITEMREVISIONEXTERNALID</value>  <!-- ExternalId -->
+	<value>STDRECORDITEMREVISIONINACTIVE</value>  <!-- Inactive -->
+	<value>STDRECORDITEMREVISIONITEM</value>  <!-- Item -->
+	<value>STDRECORDITEMREVISIONMEMO</value>  <!-- Memo -->
+	<value>STDRECORDITEMREVISIONNAME</value>  <!-- Name -->
+	<value>STDRECORDITEMREVISIONOBSOLETEDATE</value>  <!-- Obsolete Date -->
+	<value>STDRECORDJOB</value>  <!-- Job -->
+	<value>STDRECORDJOBID</value>  <!-- Job -->
+	<value>STDRECORDJOBREQUISITIONID</value>  <!-- Internal ID -->
+	<value>STDRECORDLABORBASEDPROJECTREVENUERULEBILLINGRATECARD</value>
+	<value>STDRECORDLABORBASEDPROJECTREVENUERULEDESCRIPTION</value>  <!-- Description -->
+	<value>STDRECORDLABORBASEDPROJECTREVENUERULEISINACTIVE</value>  <!-- Inactive -->
+	<value>STDRECORDLABORBASEDPROJECTREVENUERULENAME</value>  <!-- Name -->
+	<value>STDRECORDLABORBASEDPROJECTREVENUERULEPROJECT</value>  <!-- Project -->
+	<value>STDRECORDLABORBASEDPROJECTREVENUERULERATEMULTIPLIER</value>  <!-- Rate Multiplier -->
+	<value>STDRECORDLABORBASEDPROJECTREVENUERULERATEROUNDINGTYPE</value>  <!-- Time Rounding -->
+	<value>STDRECORDLABORBASEDPROJECTREVENUERULERATESOURCETYPE</value>  <!-- Rate Basis -->
+	<value>STDRECORDLABORBASEDPROJECTREVENUERULEREVENUERECONCILED</value>  <!-- Revenue Reconciled -->
+	<value>STDRECORDLABORBASEDPROJECTREVENUERULESAVEDSEARCH</value>  <!-- Saved Search -->
+	<value>STDRECORDLABORBASEDPROJECTREVENUERULESERVICEITEM</value>  <!-- Service Item -->
+	<value>STDRECORDLABORBASEDPROJECTREVENUERULETOTALAMOUNTTORECOGNIZE</value>  <!-- Total Amount to Recognize -->
+	<value>STDRECORDLOCATIONADDRESS1</value>  <!-- Address 1 -->
+	<value>STDRECORDLOCATIONADDRESS2</value>  <!-- Address 2 -->
+	<value>STDRECORDLOCATIONADDRESSEE</value>  <!-- Addressee -->
+	<value>STDRECORDLOCATIONADDRTEXT</value>  <!-- Address -->
+	<value>STDRECORDLOCATIONATTENTION</value>  <!-- Attention -->
+	<value>STDRECORDLOCATIONBUFFERSTOCK</value>  <!-- Buffer Stock -->
+	<value>STDRECORDLOCATIONCANPICKUP</value>  <!-- Store pickup is possible -->
+	<value>STDRECORDLOCATIONCITY</value>  <!-- City -->
+	<value>STDRECORDLOCATIONCOSTINGGROUPCOSTINGGROUPCURRENCY</value>  <!-- Costing Group Currency -->
+	<value>STDRECORDLOCATIONCOSTINGGROUPMEMO</value>  <!-- Memo -->
+	<value>STDRECORDLOCATIONCOSTINGGROUPNAME</value>  <!-- Name -->
+	<value>STDRECORDLOCATIONCOUNTRY</value>  <!-- Country -->
+	<value>STDRECORDLOCATIONCOUNTRYNAME</value>  <!-- Country (Name) -->
+	<value>STDRECORDLOCATIONEXTERNALID</value>  <!-- External ID -->
+	<value>STDRECORDLOCATIONINCLUDECHILDREN</value>  <!-- Include Children -->
+	<value>STDRECORDLOCATIONINCLUDEINSUPPLYPLANNING</value>  <!-- Include in Supply Planning -->
+	<value>STDRECORDLOCATIONINVTTURNOVERVEL</value>  <!-- General inventory turn-over velocity -->
+	<value>STDRECORDLOCATIONISINACTIVE</value>  <!-- Location is Inactive -->
+	<value>STDRECORDLOCATIONLOCATIONCOSTINGGROUP</value>  <!-- Location Costing Group -->
+	<value>STDRECORDLOCATIONLOCATIONTYPE</value>  <!-- Location Type -->
+	<value>STDRECORDLOCATIONLOGO</value>  <!-- Logo -->
+	<value>STDRECORDLOCATIONMAINADDRESS</value>  <!-- Location Main Address -->
+	<value>STDRECORDLOCATIONMAINADDRESS_TEXT</value>  <!-- Address Text -->
+	<value>STDRECORDLOCATIONMAKEINVENTORYAVAILABLE</value>  <!-- Make Inventory Available -->
+	<value>STDRECORDLOCATIONMAKEINVENTORYAVAILABLESTORE</value>  <!-- Make Inventory Available in Web Store -->
+	<value>STDRECORDLOCATIONMAXSHIPPERDAY</value>  <!-- Daily Shipping Capacity -->
+	<value>STDRECORDLOCATIONNAME</value>  <!-- Name -->
+	<value>STDRECORDLOCATIONOVERRIDE</value>  <!-- Override -->
+	<value>STDRECORDLOCATIONPARENT</value>  <!-- Sublocation of -->
+	<value>STDRECORDLOCATIONPHONE</value>  <!-- Phone -->
+	<value>STDRECORDLOCATIONPICKUPALERTEMAIL</value>  <!-- Email for Store Pickup alerts -->
+	<value>STDRECORDLOCATIONRETURNADDR</value>  <!-- Return Address -->
+	<value>STDRECORDLOCATIONRETURNADDRESS</value>  <!-- Location Return Address -->
+	<value>STDRECORDLOCATIONRETURNADDRESS1</value>  <!-- Return Address1 -->
+	<value>STDRECORDLOCATIONRETURNADDRESS2</value>  <!-- Return Address2 -->
+	<value>STDRECORDLOCATIONRETURNADDRESS_TEXT</value>  <!-- Return Address Text -->
+	<value>STDRECORDLOCATIONRETURNCITY</value>  <!-- Return City -->
+	<value>STDRECORDLOCATIONRETURNCOUNTRY</value>  <!-- Return Country -->
+	<value>STDRECORDLOCATIONRETURNSTATE</value>  <!-- Return State -->
+	<value>STDRECORDLOCATIONRETURNZIP</value>  <!-- Return Zip -->
+	<value>STDRECORDLOCATIONSHIPCUTOFF</value>  <!-- Same day ship cut-off time -->
+	<value>STDRECORDLOCATIONSTATE</value>  <!-- State -->
+	<value>STDRECORDLOCATIONSTATENAME</value>  <!-- State (Name) -->
+	<value>STDRECORDLOCATIONSTOREFULFILLMENTMEMO</value>  <!-- Store Fulfillment Memo -->
+	<value>STDRECORDLOCATIONSUBSIDIARY</value>  <!-- Subsidiary -->
+	<value>STDRECORDLOCATIONTIMEZONE</value>  <!-- Time Zone -->
+	<value>STDRECORDLOCATIONTOTALSHIPPINGCAPACITY</value>  <!-- Total Shipping Capacity -->
+	<value>STDRECORDLOCATIONTRANINTERNALPREFIX</value>  <!-- Internal Transaction Prefix -->
+	<value>STDRECORDLOCATIONTRANPREFIX</value>  <!-- Transaction Prefix -->
+	<value>STDRECORDLOCATIONZIP</value>  <!-- Zip -->
+	<value>STDRECORDMODULEPRODUCT</value>  <!-- Product -->
+	<value>STDRECORDNAME</value>  <!-- Name -->
+	<value>STDRECORDNOTEDIRECTION</value>  <!-- Direction -->
+	<value>STDRECORDNOTEEXTERNALID</value>  <!-- ExternalId -->
+	<value>STDRECORDNOTENOTE</value>  <!-- Memo -->
+	<value>STDRECORDNOTENOTEDATE</value>  <!-- Date -->
+	<value>STDRECORDNOTENOTETYPE</value>  <!-- Type -->
+	<value>STDRECORDNOTETIME</value>  <!-- Time -->
+	<value>STDRECORDNOTETITLE</value>  <!-- Title -->
+	<value>STDRECORDNOTETYPEDESCRIPTION</value>  <!-- Description -->
+	<value>STDRECORDNOTETYPEEXTERNALID</value>  <!-- External ID -->
+	<value>STDRECORDNOTETYPEISINACTIVE</value>  <!-- Inactive -->
+	<value>STDRECORDNOTETYPENAME</value>  <!-- Note Type -->
+	<value>STDRECORDOPENDATE</value>  <!-- Open Date -->
+	<value>STDRECORDORDERSTATUSCOUNTRY</value>  <!-- Country -->
+	<value>STDRECORDORDERSTATUSDESCRIPTION</value>  <!-- Description -->
+	<value>STDRECORDORDERSTATUSSTATE</value>  <!-- State -->
+	<value>STDRECORDOTHERGOVERNMENTISSUEDIDDESCRIPTION</value>  <!-- Description -->
+	<value>STDRECORDOTHERGOVERNMENTISSUEDIDEMPLOYEE</value>  <!-- Employee -->
+	<value>STDRECORDOTHERGOVERNMENTISSUEDIDEXPIRATIONDATE</value>  <!-- Date Of Expiration -->
+	<value>STDRECORDOTHERGOVERNMENTISSUEDIDIDTYPE</value>  <!-- Government-Issued ID Type -->
+	<value>STDRECORDOTHERGOVERNMENTISSUEDIDISINACTIVE</value>  <!-- Inactive -->
+	<value>STDRECORDOTHERGOVERNMENTISSUEDIDNAMEONDOCUMENT</value>  <!-- Name As It Appears On Document -->
+	<value>STDRECORDOTHERGOVERNMENTISSUEDIDNUMBERVALUE</value>  <!-- Government-Issued ID Number -->
+	<value>STDRECORDOTHERNAMECATEGORYEXTERNALID</value>  <!-- External ID -->
+	<value>STDRECORDOTHERNAMECATEGORYISINACTIVE</value>  <!-- Inactive -->
+	<value>STDRECORDOTHERNAMECATEGORYNAME</value>  <!-- Other Name -->
+	<value>STDRECORDOWNER</value>  <!-- Owner -->
+	<value>STDRECORDPARENT</value>  <!-- Parent -->
+	<value>STDRECORDPARTERCATEGORYISINACTIVE</value>  <!-- Inactive -->
+	<value>STDRECORDPARTERCATEGORYNAME</value>  <!-- Partner Category/Role -->
+	<value>STDRECORDPARTERCATEGORYPARENT</value>  <!-- Subtype of -->
+	<value>STDRECORDPARTNERCATEGORYEXTERNALID</value>  <!-- External ID -->
+	<value>STDRECORDPASSPORTDATEOFISSUE</value>  <!-- Date Of Issue -->
+	<value>STDRECORDPASSPORTDESCRIPTION</value>  <!-- Description -->
+	<value>STDRECORDPASSPORTEMPLOYEE</value>  <!-- Employee -->
+	<value>STDRECORDPASSPORTEXPIRATIONDATE</value>  <!-- Date Of Expiration -->
+	<value>STDRECORDPASSPORTISINACTIVE</value>  <!-- Inactive -->
+	<value>STDRECORDPASSPORTISSUER</value>  <!-- Issuing Authority/Region -->
+	<value>STDRECORDPASSPORTNAMEONDOCUMENT</value>  <!-- Name As It Appears On Document -->
+	<value>STDRECORDPASSPORTNATIONALITY</value>  <!-- Nationality -->
+	<value>STDRECORDPASSPORTNUMBERVALUE</value>  <!-- Passport Number -->
+	<value>STDRECORDPAYMENTMETHODACCOUNT</value>  <!-- Account -->
+	<value>STDRECORDPAYMENTMETHODCREDITCARD</value>  <!-- Credit Card -->
+	<value>STDRECORDPAYMENTMETHODEXTERNALID</value>  <!-- External ID -->
+	<value>STDRECORDPAYMENTMETHODISEMV</value>  <!-- EMV -->
+	<value>STDRECORDPAYMENTMETHODISINACTIVE</value>  <!-- Inactive -->
+	<value>STDRECORDPAYMENTMETHODISONLINE</value>  <!-- Display in Web Site -->
+	<value>STDRECORDPAYMENTMETHODNAME</value>  <!-- Payment Method -->
+	<value>STDRECORDPAYMENTMETHODTOKENIZED</value>  <!-- Tokenized -->
+	<value>STDRECORDPAYMENTMETHODVISUALTAGS</value>  <!-- Tags -->
+	<value>STDRECORDPAYROLLBATCHSUBSIDIARY</value>  <!-- Subsidiary -->
+	<value>STDRECORDPAYROLLITEMALLOWBULKENTRY</value>  <!-- Allow entry from Create Payroll -->
+	<value>STDRECORDPAYROLLITEMAPPLYLIMIT</value>  <!-- Apply Limit to All Employees -->
+	<value>STDRECORDPAYROLLITEMAPPLYRATE</value>  <!-- Apply Rate to All Employees -->
+	<value>STDRECORDPAYROLLITEMBASEDONQUANTITY</value>  <!-- Based on quantity -->
+	<value>STDRECORDPAYROLLITEMDEFAULTRATE</value>  <!-- Default Rate -->
+	<value>STDRECORDPAYROLLITEMEMPLOYEEPAID</value>  <!-- Employee Paid -->
+	<value>STDRECORDPAYROLLITEMEXPENSEACCOUNT</value>  <!-- Expense Account -->
+	<value>STDRECORDPAYROLLITEMEXTERNALID</value>  <!-- ExternalId -->
+	<value>STDRECORDPAYROLLITEMINACTIVE</value>  <!-- Inactive -->
+	<value>STDRECORDPAYROLLITEMLIABILITYACCOUNT</value>  <!-- Liability Account -->
+	<value>STDRECORDPAYROLLITEMLIMIT</value>  <!-- Limit -->
+	<value>STDRECORDPAYROLLITEMNAME</value>  <!-- Item Name -->
+	<value>STDRECORDPAYROLLITEMSHOWINEMPLOYEECENTER</value>  <!-- View in Employee Center -->
+	<value>STDRECORDPAYROLLITEMSUBSIDIARY</value>  <!-- Subsidiary -->
+	<value>STDRECORDPAYROLLITEMUSEDEFAULTS</value>  <!-- Use System Defaults -->
+	<value>STDRECORDPAYROLLITEMVENDOR</value>  <!-- Agency -->
+	<value>STDRECORDPCTCOMPLETEPROJECTREVENUERULEDESCRIPTION</value>  <!-- Description -->
+	<value>STDRECORDPCTCOMPLETEPROJECTREVENUERULEISINACTIVE</value>  <!-- Inactive -->
+	<value>STDRECORDPCTCOMPLETEPROJECTREVENUERULENAME</value>  <!-- Name -->
+	<value>STDRECORDPCTCOMPLETEPROJECTREVENUERULEPROJECT</value>  <!-- Project -->
+	<value>STDRECORDPCTCOMPLETEPROJECTREVENUERULEREVENUERECONCILED</value>  <!-- Revenue Reconciled -->
+	<value>STDRECORDPCTCOMPLETEPROJECTREVENUERULESERVICEITEM</value>  <!-- Service Item -->
+	<value>STDRECORDPCTCOMPLETEPROJECTREVENUERULETOTALAMOUNTTORECOGNIZE</value>  <!-- Total Amount to Recognize -->
+	<value>STDRECORDPOSTINGDESCRIPTION</value>  <!-- Posting Description -->
+	<value>STDRECORDPOSTINGTYPE</value>  <!-- Posting Type -->
+	<value>STDRECORDPRICELEVELDISCOUNTPCT</value>  <!-- Markup/Discount % -->
+	<value>STDRECORDPRICELEVELEXTERNALID</value>  <!-- External ID -->
+	<value>STDRECORDPRICELEVELISINACTIVE</value>  <!-- Inactive -->
+	<value>STDRECORDPRICELEVELISONLINE</value>  <!-- Online Price Level -->
+	<value>STDRECORDPRICELEVELNAME</value>  <!-- Price Level -->
+	<value>STDRECORDPRICINGGROUPEXTERNALID</value>  <!-- External ID -->
+	<value>STDRECORDPRICINGGROUPISINACTIVE</value>  <!-- Inactive -->
+	<value>STDRECORDPRICINGGROUPNAME</value>  <!-- Pricing Group -->
+	<value>STDRECORDPRODUCTBUILDVERSION</value>  <!-- Version -->
+	<value>STDRECORDPROJECTTYPEEXTERNALID</value>  <!-- External ID -->
+	<value>STDRECORDPROJECTTYPEISINACTIVE</value>  <!-- Inactive -->
+	<value>STDRECORDPROJECTTYPENAME</value>  <!-- Job Type -->
+	<value>STDRECORDPROJECTTYPEPARENT</value>  <!-- Subtype of -->
+	<value>STDRECORDPROMOTIONCODEAPPLYDISCOUNTTO</value>  <!-- Apply Discount To -->
+	<value>STDRECORDPROMOTIONCODECANNOTBECOMBINED</value>  <!-- Cannot be combined with other promotions -->
+	<value>STDRECORDPROMOTIONCODECODE</value>  <!-- Promotion Code -->
+	<value>STDRECORDPROMOTIONCODECODEPATTERN</value>  <!-- Code Pattern -->
+	<value>STDRECORDPROMOTIONCODEDESCRIPTION</value>  <!-- Description -->
+	<value>STDRECORDPROMOTIONCODEDISCOUNT</value>  <!-- Discount Item -->
+	<value>STDRECORDPROMOTIONCODEDISPLAYLINEDISCOUNTS</value>  <!-- Display Line Discounts -->
+	<value>STDRECORDPROMOTIONCODEENDDATE</value>  <!-- End Date -->
+	<value>STDRECORDPROMOTIONCODEEXCLUDEITEMS</value>  <!-- Exclude Items -->
+	<value>STDRECORDPROMOTIONCODEEXTERNALID</value>  <!-- External ID -->
+	<value>STDRECORDPROMOTIONCODEFREESHIPMETHOD</value>  <!-- Free Shipping Method -->
+	<value>STDRECORDPROMOTIONCODEISINACTIVE</value>  <!-- Inactive -->
+	<value>STDRECORDPROMOTIONCODEISPUBLIC</value>  <!-- Public -->
+	<value>STDRECORDPROMOTIONCODEMINIMUMORDERAMOUNT</value>  <!-- Minimum Order Amount -->
+	<value>STDRECORDPROMOTIONCODENAME</value>  <!-- Name -->
+	<value>STDRECORDPROMOTIONCODERATE</value>  <!-- Discount -->
+	<value>STDRECORDPROMOTIONCODESTARTDATE</value>  <!-- Start Date -->
+	<value>STDRECORDQUANTITYPRICINGSCHEDULEINACTIVE</value>  <!-- Inactive -->
+	<value>STDRECORDQUANTITYPRICINGSCHEDULENAME</value>  <!-- Name -->
+	<value>STDRECORDQUANTITYPRICINGSCHEDULEOVERALLQUANTITYPRICINGTYPE</value>  <!-- Calculate Quantity Discounts -->
+	<value>STDRECORDQUANTITYPRICINGSCHEDULEUSEMARGINALRATES</value>  <!-- Use Marginal Rates -->
+	<value>STDRECORDRATEPLANCURRENCY</value>  <!-- Currency -->
+	<value>STDRECORDRATEPLANCUSTOMFORM</value>  <!-- Custom Form -->
+	<value>STDRECORDRATEPLANFREQUENCY</value>  <!-- Frequency -->
+	<value>STDRECORDRATEPLANINCLUDEDUSAGE</value>  <!-- Included Usage -->
+	<value>STDRECORDRATEPLANISINACTIVE</value>  <!-- Inactive -->
+	<value>STDRECORDRATEPLANNAME</value>  <!-- Name -->
+	<value>STDRECORDRATEPLANPRICEMODELTYPE</value>  <!-- Price Model Type -->
+	<value>STDRECORDRATEPLANTYPE</value>  <!-- Type -->
+	<value>STDRECORDRECALCADJUSTPERIODOFFSET</value>  <!-- Recalculation Adjustment Period Offset -->
+	<value>STDRECORDRECORDFIELDTYPE</value>  <!-- Field Type -->
+	<value>STDRECORDRECORDISLIST</value>  <!-- List -->
+	<value>STDRECORDRECORDSEARCHTYPE</value>  <!-- Search Type -->
+	<value>STDRECORDRECRUITER</value>  <!-- Recruiter -->
+	<value>STDRECORDREFORECASTMETHOD</value>  <!-- Reforecast Method -->
+	<value>STDRECORDREQUISITIONSTATUS</value>  <!-- Requisition Status -->
+	<value>STDRECORDREVENUEELEMENTCREATEREVENUEPLANSON</value>  <!-- Create Revenue Plans On -->
+	<value>STDRECORDREVENUEELEMENTFORECASTENDDATE</value>  <!-- Forecast End Date -->
+	<value>STDRECORDREVENUEELEMENTFORECASTSTARTDATE</value>  <!-- Forecast Start Date -->
+	<value>STDRECORDREVENUEELEMENTREFERENCEID</value>  <!-- Reference Id -->
+	<value>STDRECORDREVENUEELEMENTREVENUEALLOCATIONGROUP</value>  <!-- Revenue Allocation Group -->
+	<value>STDRECORDREVENUEELEMENTREVRECENDDATE</value>  <!-- End Date -->
+	<value>STDRECORDREVENUEELEMENTREVRECSTARTDATE</value>  <!-- Start Date -->
+	<value>STDRECORDREVENUEELEMENTTERMINDAYS</value>  <!-- Term In Days -->
+	<value>STDRECORDREVENUEELEMENTTERMINMONTHS</value>  <!-- Term In Months -->
+	<value>STDRECORDREVENUEELEMENTALTERNATEQUANTITY</value>  <!-- Alternate Quantity -->
+	<value>STDRECORDREVENUERECOGNITIONRULE</value>  <!-- Revenue Recognition Rule -->
+	<value>STDRECORDREVENUERECOGNITIONSCHEDULEAMORTIZATIONPERIOD</value>  <!-- Recognition Period -->
+	<value>STDRECORDREVENUERECOGNITIONSCHEDULEAMORTIZATIONTYPE</value>  <!-- Type -->
+	<value>STDRECORDREVENUERECOGNITIONSCHEDULEINITIALAMOUNT</value>  <!-- Initial Amount -->
+	<value>STDRECORDREVENUERECOGNITIONSCHEDULEISINACTIVE</value>  <!-- Inactive -->
+	<value>STDRECORDREVENUERECOGNITIONSCHEDULEISPUBLIC</value>  <!-- Public -->
+	<value>STDRECORDREVENUERECOGNITIONSCHEDULEJOB</value>  <!-- Job -->
+	<value>STDRECORDREVENUERECOGNITIONSCHEDULENAME</value>  <!-- Name -->
+	<value>STDRECORDREVENUERECOGNITIONSCHEDULEPERIODOFFSET</value>  <!-- Period Offset -->
+	<value>STDRECORDREVENUERECOGNITIONSCHEDULERECURRENCETYPE</value>  <!-- Method -->
+	<value>STDRECORDREVENUERECOGNITIONSCHEDULEREVRECOFFSET</value>  <!-- Start Offset -->
+	<value>STDRECORDREVRECENDDATE</value>  <!-- Revenue Recognition End Date -->
+	<value>STDRECORDREVRECSTARTDATE</value>  <!-- Revenue Recognition Start Date -->
+	<value>STDRECORDSALESREADINESSISINACTIVE</value>  <!-- Inactive -->
+	<value>STDRECORDSALESREADINESSNAME</value>  <!-- Sales Readiness -->
+	<value>STDRECORDSALESROLEDESCRIPTION</value>  <!-- Description -->
+	<value>STDRECORDSALESROLEEXTERNALID</value>  <!-- External ID -->
+	<value>STDRECORDSALESROLEISINACTIVE</value>  <!-- Inactive -->
+	<value>STDRECORDSALESROLEISSALESREP</value>  <!-- Sales Rep -->
+	<value>STDRECORDSALESROLENAME</value>  <!-- Role -->
+	<value>STDRECORDSAVEDSEARCHRECORDTYPE</value>  <!-- Record Type -->
+	<value>STDRECORDSAVEDSEARCHSCRIPTEDRECORDTYPE</value>  <!-- Scripted Record Type -->
+	<value>STDRECORDSAVEDSEARCHTYPE</value>  <!-- Type -->
+	<value>STDRECORDSCRIPTEDRECORDBASETYPE</value>  <!-- Base Type -->
+	<value>STDRECORDSCRIPTEDRECORDLISTRECORD</value>  <!-- List/Record -->
+	<value>STDRECORDSCRIPTEDRECORDSCRIPTID</value>  <!-- Script ID -->
+	<value>STDRECORDSCRIPTEDRECORDSEARCHTYPE</value>  <!-- Search Type -->
+	<value>STDRECORDSTATECOUNTRY</value>  <!-- Country -->
+	<value>STDRECORDSUBSCRIPTIONADVANCERENEWALPERIODNUMBER</value>  <!-- Advance Renewal Period Number -->
+	<value>STDRECORDSUBSCRIPTIONADVANCERENEWALPERIODUNIT</value>  <!-- Advance Renewal Period Unit -->
+	<value>STDRECORDSUBSCRIPTIONAUTONAME</value>  <!-- Auto -->
+	<value>STDRECORDSUBSCRIPTIONAUTORENEWAL</value>  <!-- Automatically Initiate Renewal Process -->
+	<value>STDRECORDSUBSCRIPTIONBILLINGACCOUNT</value>  <!-- Billing Account -->
+	<value>STDRECORDSUBSCRIPTIONCURRENCY</value>  <!-- Currency -->
+	<value>STDRECORDSUBSCRIPTIONCUSTOMER</value>  <!-- Customer -->
+	<value>STDRECORDSUBSCRIPTIONDEFAULTRENEWALMETHOD</value>  <!-- Default Renewal Method -->
+	<value>STDRECORDSUBSCRIPTIONDEFAULTRENEWALPLAN</value>  <!-- Default Renewal Subscription Plan -->
+	<value>STDRECORDSUBSCRIPTIONDEFAULTRENEWALTERM</value>  <!-- Default Renewal Term -->
+	<value>STDRECORDSUBSCRIPTIONDEFAULTRENEWALTRANTYPE</value>  <!-- Default Renewal Transaction Type -->
+	<value>STDRECORDSUBSCRIPTIONENDDATE</value>  <!-- End Date -->
+	<value>STDRECORDSUBSCRIPTIONESTIMATEDREVRECENDDATE</value>  <!-- Estimated Revenue Recognition End Date -->
+	<value>STDRECORDSUBSCRIPTIONIDNUMBER</value>  <!-- Number -->
+	<value>STDRECORDSUBSCRIPTIONINITIALTERM</value>  <!-- Initial Term -->
+	<value>STDRECORDSUBSCRIPTIONLINEDISCOUNT</value>  <!-- Discount -->
+	<value>STDRECORDSUBSCRIPTIONLINEENDDATE</value>  <!-- End Date -->
+	<value>STDRECORDSUBSCRIPTIONLINEESTIMATEDREVRECENDDATE</value>  <!-- Estimated Revenue Recognition End Date -->
+	<value>STDRECORDSUBSCRIPTIONLINEINCLUDEDUSAGE</value>  <!-- Included Usage -->
+	<value>STDRECORDSUBSCRIPTIONLINEITEM</value>  <!-- Item -->
+	<value>STDRECORDSUBSCRIPTIONLINELINENUMBER</value>  <!-- Line Number -->
+	<value>STDRECORDSUBSCRIPTIONLINEPLANLINE</value>  <!-- Subscription Plan Line -->
+	<value>STDRECORDSUBSCRIPTIONLINEPRORATEENDDATE</value>  <!-- Prorate End Date -->
+	<value>STDRECORDSUBSCRIPTIONLINEPRORATESTARTDATE</value>  <!-- Prorate Start Date -->
+	<value>STDRECORDSUBSCRIPTIONLINEQUANTITY</value>  <!-- Quantity -->
+	<value>STDRECORDSUBSCRIPTIONLINERATEPLAN</value>  <!-- Rate Plan -->
+	<value>STDRECORDSUBSCRIPTIONLINERATEPLANFREQUENCY</value>  <!-- Rate Plan Frequency -->
+	<value>STDRECORDSUBSCRIPTIONLINERATEPLANTYPE</value>  <!-- Rate Plan Type -->
+	<value>STDRECORDSUBSCRIPTIONLINERECURRENCESTARTDATE</value>  <!-- Recurrence Start Date -->
+	<value>STDRECORDSUBSCRIPTIONLINEREVRECOPTION</value>  <!-- Revenue Recognition Option -->
+	<value>STDRECORDSUBSCRIPTIONLINESTARTDATE</value>  <!-- Start Date -->
+	<value>STDRECORDSUBSCRIPTIONLINESTATUS</value>  <!-- Subscription Line Status -->
+	<value>STDRECORDSUBSCRIPTIONLINESUBSCRIPTION</value>  <!-- Subscription -->
+	<value>STDRECORDSUBSCRIPTIONLINESUBSCRIPTIONPLAN</value>  <!-- Subscription Plan -->
+	<value>STDRECORDSUBSCRIPTIONLINEUSAGEMULTIPLIERLINE</value>  <!-- Included Usage Multiplier -->
+	<value>STDRECORDSUBSCRIPTIONNAME</value>  <!-- Name -->
+	<value>STDRECORDSUBSCRIPTIONNEXTRENEWALSTARTDATE</value>  <!-- Next Renewal Start Date -->
+	<value>STDRECORDSUBSCRIPTIONORIGINALENDDATE</value>  <!-- Original End Date -->
+	<value>STDRECORDSUBSCRIPTIONORIGINALSTARTDATE</value>  <!-- Original Start Date -->
+	<value>STDRECORDSUBSCRIPTIONPLAN</value>  <!-- Subscription Plan -->
+	<value>STDRECORDSUBSCRIPTIONSTARTDATE</value>  <!-- Start Date -->
+	<value>STDRECORDSUBSCRIPTIONSTATUS</value>  <!-- Billing Subscription Status -->
+	<value>STDRECORDSUBSCRIPTIONSUBSIDIARY</value>  <!-- Subsidiary -->
+	<value>STDRECORDSUBSIDIARYADDR1</value>  <!-- Address 1 -->
+	<value>STDRECORDSUBSIDIARYADDR2</value>  <!-- Address 2 -->
+	<value>STDRECORDSUBSIDIARYADDRESSEE</value>  <!-- Addressee -->
+	<value>STDRECORDSUBSIDIARYADDRPHONE</value>  <!-- Phone -->
+	<value>STDRECORDSUBSIDIARYADDRTEXT</value>  <!-- Address -->
+	<value>STDRECORDSUBSIDIARYATTENTION</value>  <!-- Attention -->
+	<value>STDRECORDSUBSIDIARYCITY</value>  <!-- City -->
+	<value>STDRECORDSUBSIDIARYCOUNTRY</value>  <!-- Country -->
+	<value>STDRECORDSUBSIDIARYCURRENCY</value>  <!-- Currency -->
+	<value>STDRECORDSUBSIDIARYEDITION</value>  <!-- Edition -->
+	<value>STDRECORDSUBSIDIARYEMAIL</value>  <!-- Return Email Address -->
+	<value>STDRECORDSUBSIDIARYEXTERNALID</value>  <!-- External ID -->
+	<value>STDRECORDSUBSIDIARYFAX</value>  <!-- Fax -->
+	<value>STDRECORDSUBSIDIARYFEDERALIDNUMBER</value>  <!-- Employer Identification Number (EIN) -->
+	<value>STDRECORDSUBSIDIARYFISCALCALENDAR</value>  <!-- Fiscal Calendar -->
+	<value>STDRECORDSUBSIDIARYINTERNALTRANPREFIX</value>  <!-- Internal Transaction Prefix -->
+	<value>STDRECORDSUBSIDIARYISELIMINATION</value>  <!-- Elimination -->
+	<value>STDRECORDSUBSIDIARYISINACTIVE</value>  <!-- Subsidiary is Inactive -->
+	<value>STDRECORDSUBSIDIARYLANGUAGELOCALE</value>  <!-- Language -->
+	<value>STDRECORDSUBSIDIARYLEGALNAME</value>  <!-- Legal Name -->
+	<value>STDRECORDSUBSIDIARYLOGO</value>  <!-- Subsidiary Logo (Forms) -->
+	<value>STDRECORDSUBSIDIARYMAINADDRESS</value>  <!-- Subsidiary Main Address -->
+	<value>STDRECORDSUBSIDIARYMAINADDRESS_TEXT</value>  <!-- Address Text -->
+	<value>STDRECORDSUBSIDIARYNAME</value>  <!-- Name -->
+	<value>STDRECORDSUBSIDIARYOVERRIDE</value>  <!-- Override -->
+	<value>STDRECORDSUBSIDIARYPAGELOGO</value>  <!-- Subsidiary Logo (Pages) -->
+	<value>STDRECORDSUBSIDIARYPARENT</value>  <!-- Subsubsidiary of -->
+	<value>STDRECORDSUBSIDIARYPURCHASEORDERAMOUNT</value>  <!-- Vendor Bill - Purchase Order Amount Tolerance -->
+	<value>STDRECORDSUBSIDIARYPURCHASEORDERQUANTITY</value>  <!-- Vendor Bill - Purchase Order Quantity Tolerance -->
+	<value>STDRECORDSUBSIDIARYPURCHASEORDERQUANTITYDIFF</value>  <!-- Vendor Bill - Purchase Order Quantity Difference -->
+	<value>STDRECORDSUBSIDIARYRECEIPTAMOUNT</value>  <!-- Vendor Bill - Item Receipt Amount Tolerance -->
+	<value>STDRECORDSUBSIDIARYRECEIPTQUANTITY</value>  <!-- Vendor Bill - Item Receipt Quantity Tolerance -->
+	<value>STDRECORDSUBSIDIARYRECEIPTQUANTITYDIFF</value>  <!-- Vendor Bill - Item Receipt Quantity Difference -->
+	<value>STDRECORDSUBSIDIARYRETURNADDR</value>  <!-- Return Address -->
+	<value>STDRECORDSUBSIDIARYRETURNADDRESS</value>  <!-- Subsidiary Return Address -->
+	<value>STDRECORDSUBSIDIARYRETURNADDRESS1</value>  <!-- Return Address1 -->
+	<value>STDRECORDSUBSIDIARYRETURNADDRESS2</value>  <!-- Return Address2 -->
+	<value>STDRECORDSUBSIDIARYRETURNADDRESS_TEXT</value>  <!-- Return Address Text -->
+	<value>STDRECORDSUBSIDIARYRETURNCITY</value>  <!-- Return City -->
+	<value>STDRECORDSUBSIDIARYRETURNCOUNTRY</value>  <!-- Return Country -->
+	<value>STDRECORDSUBSIDIARYRETURNSTATE</value>  <!-- Return County/State/Province -->
+	<value>STDRECORDSUBSIDIARYRETURNZIP</value>  <!-- Return Postal Code -->
+	<value>STDRECORDSUBSIDIARYSHIPADDR</value>  <!-- Ship Address -->
+	<value>STDRECORDSUBSIDIARYSHIPADDRESS1</value>  <!-- Ship Address1 -->
+	<value>STDRECORDSUBSIDIARYSHIPADDRESS2</value>  <!-- Ship Address2 -->
+	<value>STDRECORDSUBSIDIARYSHIPCITY</value>  <!-- Ship City -->
+	<value>STDRECORDSUBSIDIARYSHIPCOUNTRY</value>  <!-- Ship Country -->
+	<value>STDRECORDSUBSIDIARYSHIPPINGADDRESS</value>  <!-- Subsidiary Shipping Address -->
+	<value>STDRECORDSUBSIDIARYSHIPPINGADDRESS_TEXT</value>  <!-- Shipping Address Text -->
+	<value>STDRECORDSUBSIDIARYSHIPSTATE</value>  <!-- Ship County/State/Province -->
+	<value>STDRECORDSUBSIDIARYSHIPZIP</value>  <!-- Ship Postal Code -->
+	<value>STDRECORDSUBSIDIARYSHOWSUBSIDIARYNAME</value>  <!-- Always Display Subsidiary Name -->
+	<value>STDRECORDSUBSIDIARYSSNORTIN</value>  <!-- SSN or TIN (Social Security Number, Tax ID Number) -->
+	<value>STDRECORDSUBSIDIARYSTATE</value>  <!-- State/Province -->
+	<value>STDRECORDSUBSIDIARYSTATE1TAXNUMBER</value>  <!-- ACN -->
+	<value>STDRECORDSUBSIDIARYTAXFISCALCALENDAR</value>  <!-- Tax Fiscal Calendar -->
+	<value>STDRECORDSUBSIDIARYTRANPREFIX</value>  <!-- Transaction Prefix -->
+	<value>STDRECORDSUBSIDIARYURL</value>  <!-- Web Site -->
+	<value>STDRECORDSUBSIDIARYZIP</value>  <!-- Zip -->
+	<value>STDRECORDTARGETHIREDATE</value>  <!-- Target Hire Date -->
+	<value>STDRECORDTAXPERIODCLOSED</value>  <!-- Closed -->
+	<value>STDRECORDTAXPERIODEND</value>  <!-- End Date -->
+	<value>STDRECORDTAXPERIODISADJUST</value>  <!-- Period is Adjustment -->
+	<value>STDRECORDTAXPERIODISQUARTER</value>  <!-- Period is a Quarter -->
+	<value>STDRECORDTAXPERIODISYEAR</value>  <!-- Period is a Year -->
+	<value>STDRECORDTAXPERIODOPEN</value>  <!-- Open -->
+	<value>STDRECORDTAXPERIODPARENT</value>  <!-- Sub-period of -->
+	<value>STDRECORDTAXPERIODPERIODNAME</value>  <!-- Period Name -->
+	<value>STDRECORDTAXPERIODSTART</value>  <!-- Start Date -->
+	<value>STDRECORDTERMDAYDISCOUNTEXPIRES</value>  <!-- Day Discount Expires -->
+	<value>STDRECORDTERMDAYOFMONTHNETDUE</value>  <!-- Day Of Month Net Due -->
+	<value>STDRECORDTERMDAYSUNTILEXPIRY</value>  <!-- Days Till Discount Expires -->
+	<value>STDRECORDTERMDAYSUNTILNETDUE</value>  <!-- Days Till Net Due -->
+	<value>STDRECORDTERMDISCOUNTPERCENT</value>  <!-- % Discount -->
+	<value>STDRECORDTERMDISCOUNTPERCENTDATEDRIVEN</value>  <!-- % Discount (Date Driven) -->
+	<value>STDRECORDTERMDUENEXTMONTHIFWITHINDAYS</value>  <!-- Due Next Month If Within Days -->
+	<value>STDRECORDTERMEXTERNALID</value>  <!-- External ID -->
+	<value>STDRECORDTERMINATIONCATEGORY</value>  <!-- Termination Category -->
+	<value>STDRECORDTERMINATIONREASON</value>  <!-- Termination Reason -->
+	<value>STDRECORDTERMINATIONREASONINACTIVE</value>  <!-- Termination Reason Inactive -->
+	<value>STDRECORDTERMISINACTIVE</value>  <!-- Inactive -->
+	<value>STDRECORDTERMNAME</value>  <!-- Terms -->
+	<value>STDRECORDTERMPREFERRED</value>  <!-- Preferred -->
+	<value>STDRECORDTIMEENTRYBILLABLE</value>  <!-- Billable -->
+	<value>STDRECORDTIMEENTRYCASETASKEVENT</value>  <!-- Case/Task/Event -->
+	<value>STDRECORDTIMEENTRYCLASS</value>  <!-- Class -->
+	<value>STDRECORDTIMEENTRYCUSTOMER</value>  <!-- Customer:Project -->
+	<value>STDRECORDTIMEENTRYCUSTOMFORM</value>  <!-- Custom Form -->
+	<value>STDRECORDTIMEENTRYDAY</value>  <!-- Day -->
+	<value>STDRECORDTIMEENTRYDEPARTMENT</value>  <!-- Department -->
+	<value>STDRECORDTIMEENTRYDURATION</value>  <!-- Duration -->
+	<value>STDRECORDTIMEENTRYEMPLOYEE</value>  <!-- Employee -->
+	<value>STDRECORDTIMEENTRYEXEMPT</value>  <!-- Exempt -->
+	<value>STDRECORDTIMEENTRYEXTERNALID</value>  <!-- ExternalId -->
+	<value>STDRECORDTIMEENTRYITEM</value>  <!-- Service Item -->
+	<value>STDRECORDTIMEENTRYLOCATION</value>  <!-- Location -->
+	<value>STDRECORDTIMEENTRYLOCKRATE</value>  <!-- Lock this Rate -->
+	<value>STDRECORDTIMEENTRYMEMO</value>  <!-- Memo -->
+	<value>STDRECORDTIMEENTRYNEXTAPPROVER</value>  <!-- Next Approver -->
+	<value>STDRECORDTIMEENTRYPAIDEXTERNALLY</value>  <!-- Paid Externally -->
+	<value>STDRECORDTIMEENTRYPAYROLLITEM</value>  <!-- Payroll Item -->
+	<value>STDRECORDTIMEENTRYPAYROLLWORKPLACE</value>  <!-- Payroll Workplace -->
+	<value>STDRECORDTIMEENTRYPOSTED</value>  <!-- Posted -->
+	<value>STDRECORDTIMEENTRYPRODUCTIVE</value>  <!-- Productive -->
+	<value>STDRECORDTIMEENTRYRATE</value>  <!-- Rate -->
+	<value>STDRECORDTIMEENTRYREMAININGTIMETOCHARGE</value>  <!-- Remaining Time to Charge -->
+	<value>STDRECORDTIMEENTRYSTATUS</value>  <!-- Status -->
+	<value>STDRECORDTIMEENTRYSUBSIDIARY</value>  <!-- Subsidiary -->
+	<value>STDRECORDTIMEENTRYTYPE</value>  <!-- Type -->
+	<value>STDRECORDTIMEENTRYUTILIZED</value>  <!-- Utilized -->
+	<value>STDRECORDTIMEOFFCHANGEAMOUNT</value>  <!-- Amount -->
+	<value>STDRECORDTIMEOFFCHANGEDATEAPPLIED</value>  <!-- Date Applied -->
+	<value>STDRECORDTIMEOFFCHANGEDESCRIPTION</value>  <!-- Description -->
+	<value>STDRECORDTIMEOFFCHANGEEMPLOYEE</value>  <!-- Employee -->
+	<value>STDRECORDTIMEOFFCHANGEINTERNALID</value>  <!-- Internal ID -->
+	<value>STDRECORDTIMEOFFCHANGETIMEOFFTIMEUNIT</value>  <!-- Time Unit -->
+	<value>STDRECORDTIMEOFFCHANGETIMEOFFTYPE</value>  <!-- Time-off Type -->
+	<value>STDRECORDTIMEOFFPLANCLASS</value>  <!-- Class -->
+	<value>STDRECORDTIMEOFFPLANDEPARTMENT</value>  <!-- Department -->
+	<value>STDRECORDTIMEOFFPLANINTERNALID</value>  <!-- Internal ID -->
+	<value>STDRECORDTIMEOFFPLANISINACTIVE</value>  <!-- Inactive -->
+	<value>STDRECORDTIMEOFFPLANISINCLUDEFUTUREACCRUALS</value>  <!-- Include Future Accruals -->
+	<value>STDRECORDTIMEOFFPLANLOCATION</value>  <!-- Location -->
+	<value>STDRECORDTIMEOFFPLANNAME</value>  <!-- Name -->
+	<value>STDRECORDTIMEOFFPLANSUBSIDIARY</value>  <!-- Subsidiary -->
+	<value>STDRECORDTIMEOFFREQUESTAPPROVALSTATUS</value>  <!-- Approval Status -->
+	<value>STDRECORDTIMEOFFREQUESTEMPLOYEE</value>  <!-- Employee -->
+	<value>STDRECORDTIMEOFFREQUESTENDDATE</value>  <!-- End Date -->
+	<value>STDRECORDTIMEOFFREQUESTINTERNALID</value>  <!-- Internal ID -->
+	<value>STDRECORDTIMEOFFREQUESTMESSAGE</value>  <!-- Message -->
+	<value>STDRECORDTIMEOFFREQUESTSTARTDATE</value>  <!-- Start Date -->
+	<value>STDRECORDTIMEOFFRULEACCRUALFREQUENCY</value>  <!-- Accrual Frequency -->
+	<value>STDRECORDTIMEOFFRULEACCRUALTYPE</value>  <!-- Accrual Type -->
+	<value>STDRECORDTIMEOFFRULEALLOWCARRYOVER</value>  <!-- Allow Carryover -->
+	<value>STDRECORDTIMEOFFRULECARRYOVEREXPIRYMONTH</value>  <!-- Carryover Expiry Month -->
+	<value>STDRECORDTIMEOFFRULEDAYOFNEXTACCRUAL</value>  <!-- Day of Next Accrual -->
+	<value>STDRECORDTIMEOFFRULEDAYOFWEEKOFNEXTACCRUAL</value>  <!-- Day of Week of Next Accrual -->
+	<value>STDRECORDTIMEOFFRULEENTITLEMENT</value>  <!-- Entitlement -->
+	<value>STDRECORDTIMEOFFRULEEXPIREUNUSEDCARRYOVER</value>  <!-- Expire Unused Carryover -->
+	<value>STDRECORDTIMEOFFRULEINTERNALID</value>  <!-- Internal ID -->
+	<value>STDRECORDTIMEOFFRULEISAUTOMATICALLYACCRUE</value>  <!-- Automatically Accrue -->
+	<value>STDRECORDTIMEOFFRULEMAXIMUMCARRYOVER</value>  <!-- Maximum Carryover -->
+	<value>STDRECORDTIMEOFFRULEMINIMUMTENURE</value>  <!-- Minimum Tenure -->
+	<value>STDRECORDTIMEOFFRULERESETNEGATIVEBALANCES</value>  <!-- Reset Negative Balances -->
+	<value>STDRECORDTIMEOFFRULESHOULDLIMITCARRYOVER</value>  <!-- Should Limit Carryover -->
+	<value>STDRECORDTIMEOFFRULETIMEOFFPLAN</value>  <!-- Time-Off Plan -->
+	<value>STDRECORDTIMEOFFRULETIMEOFFTYPE</value>  <!-- Time-Off Type -->
+	<value>STDRECORDTIMEOFFTYPEDISPLAYNAME</value>  <!-- Display Name -->
+	<value>STDRECORDTIMEOFFTYPEINTERNALID</value>  <!-- Internal ID -->
+	<value>STDRECORDTIMEOFFTYPEISAUTOGENERATETIMEENTRY</value>  <!-- Automatically Generate Time Entry -->
+	<value>STDRECORDTIMEOFFTYPEISINACTIVE</value>  <!-- Inactive -->
+	<value>STDRECORDTIMEOFFTYPEISTRACKONLY</value>  <!-- Track Only -->
+	<value>STDRECORDTIMEOFFTYPEMINIMUMINCREMENT</value>  <!-- Minimum Increment -->
+	<value>STDRECORDTIMEOFFTYPENAME</value>  <!-- Name -->
+	<value>STDRECORDTIMEOFFTYPEPAYROLLITEM</value>  <!-- Payroll Item -->
+	<value>STDRECORDTIMESHEETAPPROVALSTATUS</value>  <!-- Approval Status -->
+	<value>STDRECORDTIMESHEETCUSTOMFORM</value>  <!-- Custom Form -->
+	<value>STDRECORDTIMESHEETEMPLOYEE</value>  <!-- Employee -->
+	<value>STDRECORDTIMESHEETENDDATE</value>  <!-- End Date -->
+	<value>STDRECORDTIMESHEETSTARTDATE</value>  <!-- Start Date -->
+	<value>STDRECORDTIMESHEETTOTALHOURS</value>  <!-- Total Hours -->
+	<value>STDRECORDTITLE</value>  <!-- Title -->
+	<value>STDRECORDUNITSTYPEISINACTIVE</value>  <!-- Inactive -->
+	<value>STDRECORDUNITSTYPENAME</value>  <!-- Type Name -->
+	<value>STDRECORDUSAGECUSTOMER</value>  <!-- Customer -->
+	<value>STDRECORDUSAGEDATE</value>  <!-- Usage Date -->
+	<value>STDRECORDUSAGEEXTERNALID</value>  <!-- External Id -->
+	<value>STDRECORDUSAGEITEM</value>  <!-- Item -->
+	<value>STDRECORDUSAGEMEMO</value>  <!-- Memo -->
+	<value>STDRECORDUSAGEQUANTITY</value>  <!-- Quantity -->
+	<value>STDRECORDUSAGESUBSCRIPTION</value>  <!-- Subscription -->
+	<value>STDRECORDUSAGESUBSCRIPTIONLINE</value>  <!-- Subscription Line -->
+	<value>STDRECORDUSAGESUBSCRIPTIONPLAN</value>  <!-- Subscription Plan -->
+	<value>STDRECORDVENDORCATEGORYEXTERNALID</value>  <!-- External ID -->
+	<value>STDRECORDVENDORCATEGORYISINACTIVE</value>  <!-- Inactive -->
+	<value>STDRECORDVENDORCATEGORYISTAXAGENCY</value>  <!-- Tax Agency -->
+	<value>STDRECORDVENDORCATEGORYNAME</value>  <!-- Vendor -->
+	<value>STDRECORDVERSIONPRODUCT</value>  <!-- Product -->
+	<value>STDRECORDWEBSITESITETYPE</value>  <!-- Site Type -->
+	<value>STDRECORDWINLOSSREASONEXTERNALID</value>  <!-- External ID -->
+	<value>STDRECORDWINLOSSREASONISINACTIVE</value>  <!-- Inactive -->
+	<value>STDRECORDWINLOSSREASONNAME</value>  <!-- Reason -->
+	<value>STDRECORDWORKCALENDARCOMMENTS</value>  <!-- Comments -->
+	<value>STDRECORDWORKCALENDARFRIDAY</value>  <!-- Friday -->
+	<value>STDRECORDWORKCALENDARISDEFAULT</value>  <!-- Default Calendar -->
+	<value>STDRECORDWORKCALENDARMONDAY</value>  <!-- Monday -->
+	<value>STDRECORDWORKCALENDARNAME</value>  <!-- Name -->
+	<value>STDRECORDWORKCALENDARSATURDAY</value>  <!-- Saturday -->
+	<value>STDRECORDWORKCALENDARSTARTHOUR</value>  <!-- Start At -->
+	<value>STDRECORDWORKCALENDARSUNDAY</value>  <!-- Sunday -->
+	<value>STDRECORDWORKCALENDARTHURSDAY</value>  <!-- Thursday -->
+	<value>STDRECORDWORKCALENDARTUESDAY</value>  <!-- Tuesday -->
+	<value>STDRECORDWORKCALENDARWEDNESDAY</value>  <!-- Wednesday -->
+	<value>STDRECORDWORKCALENDARWORKHOURSPERDAY</value>  <!-- Hours Per Day -->
+	<value>STDRECORDWORKFLOWDESCRIPTION</value>  <!-- Description -->
+	<value>STDRECORDWORKFLOWISINACTIVE</value>  <!-- Inactive -->
+	<value>STDRECORDWORKFLOWOWNER</value>  <!-- Owner -->
+	<value>STDRECORDWORKFLOWRECORDTYPE</value>  <!-- Record Type -->
+	<value>STDRECORDWORKFLOWRELEASESTATUS</value>  <!-- Release Status -->
+	<value>STDRECORDWORKFLOWRUNASADMIN</value>  <!-- Execute as Admin -->
+	<value>STDRECORDWORKFLOWSAVEDSEARCH</value>  <!-- Saved Search -->
+	<value>STDRECORDWORKFLOWSCRIPTID</value>  <!-- ID -->
+	<value>STDRECORDWORKFLOWTRIGGERCONDITIONTEXT</value>  <!-- Criteria -->
+	<value>STDRECORDWORKFLOWTRIGGERFORMULA</value>  <!-- Formula -->
+	<value>STDRECORDWORKFLOWTRIGGERONCREATE</value>  <!-- On Create -->
+	<value>STDRECORDWORKFLOWTRIGGERONUPDATE</value>  <!-- On Update -->
+	<value>STDRECORDWORKFLOWTRIGGERTYPE</value>  <!-- Trigger Type -->
+	<value>STDRECORDWORKFLOWWORKFLOWNAME</value>  <!-- Name -->
+	<value>STDRECORDWORKPLACEADDR1</value>  <!-- Address 1 -->
+	<value>STDRECORDWORKPLACEADDR2</value>  <!-- Address 2 -->
+	<value>STDRECORDWORKPLACEADDRESSEE</value>  <!-- Addressee -->
+	<value>STDRECORDWORKPLACEADDRPHONE</value>  <!-- Phone -->
+	<value>STDRECORDWORKPLACEADDRTEXT</value>  <!-- Address -->
+	<value>STDRECORDWORKPLACEATTENTION</value>  <!-- Attention -->
+	<value>STDRECORDWORKPLACECITY</value>  <!-- City -->
+	<value>STDRECORDWORKPLACECOUNTRY</value>  <!-- Country -->
+	<value>STDRECORDWORKPLACEEXTERNALID</value>
+	<value>STDRECORDWORKPLACEISINACTIVE</value>  <!-- Workplace is Inactive -->
+	<value>STDRECORDWORKPLACEMAINADDRESS_TEXT</value>  <!-- Address Text -->
+	<value>STDRECORDWORKPLACENAME</value>  <!-- Name -->
+	<value>STDRECORDWORKPLACEOVERRIDE</value>  <!-- Override -->
+	<value>STDRECORDWORKPLACEPARENT</value>  <!-- Subworkplace of -->
+	<value>STDRECORDWORKPLACESTATE</value>  <!-- State/Province -->
+	<value>STDRECORDWORKPLACESUBSIDIARY</value>  <!-- Subsidiary -->
+	<value>STDRECORDWORKPLACEZIP</value>  <!-- Zip -->
+	<value>STDRECURRINGBILL</value>  <!-- Recurring Bill -->
+	<value>STDREGIONFULFILLMENTPRIORITYLEVEL</value>  <!-- Fulfillment Priority Level -->
+	<value>STDREGIONINACTIVE</value>  <!-- Inactive -->
+	<value>STDREGIONNAME</value>  <!-- Name -->
+	<value>STDSUBSCRCHANGEORDERACTION</value>  <!-- Action -->
+	<value>STDSUBSCRCHANGEORDERAPPROVALDATE</value>  <!-- Date Approved -->
+	<value>STDSUBSCRCHANGEORDERAPPROVALSTATUS</value>  <!-- Approval Status -->
+	<value>STDSUBSCRCHANGEORDERAUTONAME</value>  <!-- Auto -->
+	<value>STDSUBSCRCHANGEORDERBILLINGACCOUNT</value>  <!-- Billing Account -->
+	<value>STDSUBSCRCHANGEORDERCREATEDBY</value>  <!-- Created By -->
+	<value>STDSUBSCRCHANGEORDERCUSTOMER</value>  <!-- Customer -->
+	<value>STDSUBSCRCHANGEORDERCUSTOMFORM</value>  <!-- Custom Form -->
+	<value>STDSUBSCRCHANGEORDERDATECREATED</value>  <!-- Date Created -->
+	<value>STDSUBSCRCHANGEORDEREFFECTIVEDATE</value>  <!-- Effective Date -->
+	<value>STDSUBSCRCHANGEORDEREXTERNALID</value>  <!-- External Id -->
+	<value>STDSUBSCRCHANGEORDERIDNUMBER</value>  <!-- Number -->
+	<value>STDSUBSCRCHANGEORDERMEMO</value>  <!-- Memo -->
+	<value>STDSUBSCRCHANGEORDERREACTIVATIONOPTION</value>  <!-- Reactivation Option -->
+	<value>STDSUBSCRCHANGEORDERRENEWALENDDATE</value>  <!-- Renewal End Date -->
+	<value>STDSUBSCRCHANGEORDERRENEWALMETHOD</value>  <!-- Renewal Method -->
+	<value>STDSUBSCRCHANGEORDERRENEWALPLAN</value>  <!-- Renewal Subscription Plan -->
+	<value>STDSUBSCRCHANGEORDERRENEWALSTARTDATE</value>  <!-- Renewal Start Date -->
+	<value>STDSUBSCRCHANGEORDERRENEWALTERM</value>  <!-- Renewal Term -->
+	<value>STDSUBSCRCHANGEORDERRENEWALTRANTYPE</value>  <!-- Renewal Transaction Type -->
+	<value>STDSUBSCRCHANGEORDERREQUESTOFFCYCLEINVOICE</value>  <!-- Request Off-Cycle Invoice For Advanced Charges -->
+	<value>STDSUBSCRCHANGEORDERREQUESTOR</value>  <!-- Requestor -->
+	<value>STDSUBSCRCHANGEORDERSUBSCRIPTION</value>  <!-- Subscription -->
+	<value>STDSUBSCRCHANGEORDERSUBSCRIPTIONPLAN</value>  <!-- Subscription Plan -->
+	<value>STDSUBSCRCHANGEORDERSUBSIDIARY</value>  <!-- Subsidiary -->
+	<value>STDTIMEAPPROVALSTATUS</value>  <!-- Approval Status -->
+	<value>STDTIMEBILLABLE</value>  <!-- Billable -->
+	<value>STDTIMECLASS</value>  <!-- Class -->
+	<value>STDTIMECUSTOMER</value>  <!-- Customer:Project -->
+	<value>STDTIMECUSTOMFORM</value>  <!-- Custom Form -->
+	<value>STDTIMEDATE</value>  <!-- Date -->
+	<value>STDTIMEDEPARTMENT</value>  <!-- Department -->
+	<value>STDTIMEDURATION</value>  <!-- Duration -->
+	<value>STDTIMEEMPLOYEE</value>  <!-- Employee -->
+	<value>STDTIMEEVENT</value>  <!-- Case/Task/Event -->
+	<value>STDTIMEEXEMPT</value>  <!-- Exempt -->
+	<value>STDTIMEEXTERNALID</value>  <!-- ExternalId -->
+	<value>STDTIMEITEM</value>  <!-- Service Item -->
+	<value>STDTIMELOCATION</value>  <!-- Location -->
+	<value>STDTIMELOCKRATE</value>  <!-- Lock this Rate -->
+	<value>STDTIMEMEMO</value>  <!-- Memo -->
+	<value>STDTIMENEXTAPPROVER</value>  <!-- Next Approver -->
+	<value>STDTIMEPAIDEXTERNALLY</value>  <!-- Paid Externally -->
+	<value>STDTIMEPAYROLLITEM</value>  <!-- Payroll Item -->
+	<value>STDTIMEPAYROLLWORKPLACE</value>  <!-- Payroll Workplace -->
+	<value>STDTIMEPOSTED</value>  <!-- Posted -->
+	<value>STDTIMEPRODUCTIVE</value>  <!-- Productive -->
+	<value>STDTIMERATE</value>  <!-- Rate -->
+	<value>STDTIMEREMAININGTIMETOCHARGE</value>  <!-- Remaining Time to Charge -->
+	<value>STDTIMESUBSIDIARY</value>  <!-- Subsidiary -->
+	<value>STDTIMESUPERVISORAPPROVAL</value>  <!-- Supervisor Approval -->
+	<value>STDTIMEUTILIZED</value>  <!-- Utilized -->
+	<value>STDUSERCLASS</value>  <!-- User Class -->
+	<value>STDUSERDEPARTMENT</value>  <!-- User Department -->
+	<value>STDUSERLOCATION</value>  <!-- User Location -->
+	<value>STDUSERROLE</value>  <!-- User Role -->
+	<value>STDUSERSUBSIDIARY</value>  <!-- User Subsidiary -->
+	<value>STDUSERUSER</value>  <!-- User -->
+</list>

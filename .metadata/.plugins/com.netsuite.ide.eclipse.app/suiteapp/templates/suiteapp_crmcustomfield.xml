@@ -1,0 +1,13 @@
+<crmcustomfield scriptid="custevent_">
+    <accesslevel>2</accesslevel>
+    <appliestoevent>F</appliestoevent>
+    <appliestoissue>F</appliestoissue>
+    <appliestophonecall>F</appliestophonecall>
+    <appliestotask>F</appliestotask>
+    <availableexternally>F</availableexternally>
+    <description></description>
+    <fieldtype>TEXT</fieldtype>
+    <label></label>
+    <showinlist>F</showinlist>
+    <storevalue>T</storevalue>
+</crmcustomfield>

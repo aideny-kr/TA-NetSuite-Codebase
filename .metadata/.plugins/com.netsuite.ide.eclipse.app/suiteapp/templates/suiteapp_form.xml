@@ -1,0 +1,8 @@
+<form scriptid="custform_">
+	<name></name>
+	<recordtype></recordtype>
+	<systemform></systemform>
+	<editableinlist>F</editableinlist>
+	<storedwithrecord>F</storedwithrecord>
+	<preferred>F</preferred>
+</form>

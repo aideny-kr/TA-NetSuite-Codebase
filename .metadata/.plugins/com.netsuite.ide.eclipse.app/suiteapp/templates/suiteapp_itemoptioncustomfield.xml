@@ -1,0 +1,14 @@
+<itemoptioncustomfield scriptid="custcol_">
+    <accesslevel>2</accesslevel>
+    <colallitems>F</colallitems>
+    <colkititem>F</colkititem>
+    <colopportunity>F</colopportunity>
+    <colpurchase>F</colpurchase>
+    <colsale>F</colsale>
+    <colstore>F</colstore>
+    <description></description>
+    <fieldtype>TEXT</fieldtype>
+    <items></items>
+    <label></label>
+    <storevalue>T</storevalue>
+</itemoptioncustomfield>

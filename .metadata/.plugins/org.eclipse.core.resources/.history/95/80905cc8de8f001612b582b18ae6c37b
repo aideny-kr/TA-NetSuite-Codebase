@@ -1,0 +1,35 @@
+angular.module('taApp').factory('taDataFactory', taDataFactory);
+
+function taDataFactory($http) {
+	return {
+		loginUser : loginUser
+		
+	}
+	
+	
+	function cartUpdate(internalId){
+	    return $http({
+	        method: 'POST',
+	        url: 'cartUpdateQuantity.ss',
+	        data: internalId,
+	        headers: { 'Content-Type': 'application/json' }
+	     }).then(completed).catch(failed);
+	}
+	
+	function loginUser($params) {
+		return $http({
+	      method : 'POST',
+	      url : 'loginScript.ss',
+	      data : $params,
+	      headers : { 'Content-Type': 'application/json' }
+	    }).then(completed).catch(failed);
+	}
+	
+	function completed(response) {
+		return response.data;
+	}
+	
+	function failed(err) {
+		return console.log(err);
+	}
+}

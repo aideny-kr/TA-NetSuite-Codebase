@@ -1,0 +1,4 @@
+<patches>
+    <!-- <patch from="version no. - e.g. 1.4.0" file="path of the deploy file - e.g., /folder1/deploy.xml"/> -->
+    <patch from="" file=""/>
+</patches>

@@ -1,0 +1,24 @@
+<transactionbodycustomfield scriptid="custbody_">
+    <accesslevel>2</accesslevel>
+    <bodycustomerpayment>F</bodycustomerpayment>
+    <bodydeposit>F</bodydeposit>
+    <bodyexpensereport>F</bodyexpensereport>
+    <bodyinventoryadjustment>F</bodyinventoryadjustment>
+    <bodyitemfulfillment>F</bodyitemfulfillment>
+    <bodyitemfulfillmentorder>F</bodyitemfulfillmentorder>
+    <bodyitemreceipt>F</bodyitemreceipt>
+    <bodyitemreceiptorder>F</bodyitemreceiptorder>
+    <bodyjournal>F</bodyjournal>
+    <bodypickingticket>F</bodypickingticket>
+    <bodyprintflag>F</bodyprintflag>
+    <bodyprintpackingslip>F</bodyprintpackingslip>
+    <bodyprintstatement>F</bodyprintstatement>
+    <bodypurchase>F</bodypurchase>
+    <bodysale>F</bodysale>
+    <bodystore>F</bodystore>
+    <bodyvendorpayment>F</bodyvendorpayment>
+    <description></description>
+    <fieldtype>TEXT</fieldtype>
+    <label></label>
+    <storevalue>T</storevalue>
+</transactionbodycustomfield>

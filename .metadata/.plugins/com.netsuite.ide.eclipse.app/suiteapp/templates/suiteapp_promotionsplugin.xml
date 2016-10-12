@@ -1,0 +1,13 @@
+<promotionsplugin scriptid="customscript_">
+    <description></description>
+    <isinactive>F</isinactive>
+    <loglevel>DEBUG</loglevel>
+    <name></name>
+    <notifyadmins>F</notifyadmins>
+    <notifyemails></notifyemails>
+    <notifyowner>T</notifyowner>
+    <notifyuser>F</notifyuser>
+    <runasrole></runasrole>
+    <scriptfile>[]</scriptfile>
+    <status>TESTING</status>
+</promotionsplugin>

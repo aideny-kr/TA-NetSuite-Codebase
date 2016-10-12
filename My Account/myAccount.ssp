@@ -1,0 +1,17 @@
+<!--
+  Module Description
+
+  Version    Date            Author           Remarks
+  1.00       23 Feb 2016     Dana
+//-->
+
+<html>
+<head>
+<%=getPageFullHead()%>
+</head>
+<body>
+<div class="container">
+<a href="https://checkout.sandbox.netsuite.com/app/common/entity/custprofile.nl?c=1257021&sc=4&category=billing&type=shipping&whence=">Update Address</a>
+</div>
+</body>
+</html>

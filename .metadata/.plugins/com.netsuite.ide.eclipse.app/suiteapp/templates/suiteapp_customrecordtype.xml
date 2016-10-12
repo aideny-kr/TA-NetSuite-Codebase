@@ -1,0 +1,13 @@
+<customrecordtype scriptid="customrecord_">
+    <description></description>
+    <recordname></recordname>
+    <customrecordcustomfields>
+        <customrecordcustomfield scriptid="custrecord_">
+            <description></description>
+            <displaytype>NORMAL</displaytype>
+            <fieldtype>TEXT</fieldtype>
+            <label></label>
+            <ismandatory>F</ismandatory>
+        </customrecordcustomfield>
+    </customrecordcustomfields>
+</customrecordtype>
