@@ -147,31 +147,10 @@ function taSalesOrder_EmailCheck_Suitelet(request, response) {
 	}
 }
 
-/*
- * Suitelet Trigger Button
- * Description : Triggers Suitelet that merges multi year upselling Sales Order to Base Sales Order 
- * Chan 10/3/2016
- * */
-function mergeSalesOrder() {
-	var soid = nlapiGetRecordId();
-	var url = nlapiResolveURL('SUITELET', 'customscript_ta_multiyear_merge_suitelet','customdeploy1');
-	url += '&soid=' + soid;
-	window.open(url,'_self');
-}
+
 
 function ccerpSalesOrder_BeforeLoad(type, form, request){
-	
-	
 	nlapiLogExecution('debug', 'Before Load '+type);
-	// Add MultiYear Upsell Merge Suitelet Button
-	if (type == 'view') {
-		form.setScript('customscript_ta_sales_order_client');
-		if(nlapiGetFieldValue('custbody_order_type') == '3' && +nlapiGetFieldValue('custbody_tran_term_in_months') > 15 
-				&& nlapiGetFieldValue('custbody_ta_multiyear_upsell_merge') != 'T') {
-			form.addButton('custpage_multiyearmerge_btn', 'Multi Year Upsell Merge', 'mergeSalesOrder()');
-		}
-		
-	}
 	
 	if (type == 'create' || type == 'edit'){
 		var ordtype = nlapiGetFieldValue('custbody_order_type');
@@ -209,19 +188,10 @@ function ccerpSalesOrder_BeforeLoad(type, form, request){
 
 
 function ccerpSalesOrder_BeforeSubmit(type){
-	
-	var executionContext = nlapiGetContext().getExecutionContext();
-	
-	nlapiLogExecution('debug', 'Before Submit '+type, executionContext);
+	nlapiLogExecution('debug', 'Before Submit '+type);
 	var customer = nlapiGetFieldValue('entity');
 	var soid = nlapiGetRecordId();
 	if (type == 'create' || type == 'edit'){
-		
-		// orders from Site Builder gets approved
-		if(executionContext == 'webstore' && type == 'create') {
-			nlapiSetFieldValue('orderstatus', 'B');
-		}
-		
 		var count = nlapiGetLineItemCount('item');
 		var custtot = 0;
 		
@@ -271,6 +241,17 @@ function ccerpSalesOrder_BeforeSubmit(type){
 			var new_credit = curr_credit >= credit_to_remove ? (curr_credit - credit_to_remove) : 0;
 			nlapiSubmitField('customer', customer, ['custentity_tnl_credit_remaining', 'custentity_last_sold_tnl_block'], [new_credit, 0], false);
 		}
+		
+		// Erase contract values in From Contract
+		if(soid > -1) {
+			var from_contract_id = nlapiGetFieldValue('custbody_swe_from_contract');
+			nlapiLogExecution('DEBUG', 'TYPE DELETE: from_contract_id', from_contract_id)
+			if(from_contract_id) {
+				var FIELDS = ['custrecord_ta_renewed_value', 'custrecord_ta_renewed_coterm_value', 'custrecord_ta_sales_renewed_value'];
+				nlapiSubmitField('customrecord_contracts', from_contract_id, FIELDS, [0, 0, 0]);
+			}
+				
+		}
 	}
 	
 	// Approval Event
@@ -284,7 +265,7 @@ function ccerpSalesOrder_BeforeSubmit(type){
 			var subject = 'New Multiyear Sales Order has been approved';
 			var author = '17634'; // Sharon Calvert
 			var recipient = '17857'; // Duc
-			var cc = ['chan.yi@taxanalysts.org', 'richa.dahiya@taxanalysts.org'];
+			var cc = ['chan.yi@taxanalysts.org', 'richa.dahiya@taxanalysts.org', 'michael.berkeley@taxanalysts.org', 'sharon.calvert@taxanalysts.org'];
 			var body = 'New Sales Order with contract term greater than 15 months has been approved. <br/><br/>' +
 			'Please review by following the link below<br/>';
 			body += '<a href="'+ link +'"> Click to access Sales Order </a>';
@@ -303,7 +284,8 @@ function ccerpSalesOrder_AfterSubmit(type){
 	var soid = nlapiGetRecordId();
 	var esid = nlapiGetFieldValue('createdfrom');
 	var opid = nlapiGetFieldValue('opportunity');
-	var executionContext = nlapiGetContext().getExecutionContext();
+	var context = nlapiGetContext();
+	var executionContext = context.getExecutionContext();
 
 	//Update Contract users for from and coTerm contracts 
 	if (type == 'edit' || type == 'xedit' || type == 'approve'){
@@ -364,11 +346,16 @@ function ccerpSalesOrder_AfterSubmit(type){
 			// Write TA Renewed Value & TA Renewal Co-term Amount to From Contract 
 			if(sorec.getFieldValue('status') == 'Billed' || sorec.getFieldValue('status') == 'Pending Fulfillment') {
 				if( coTermcontracts ) {
-					nlapiSubmitField('customrecord_contracts', from_contract_id, 'custbody_cotermcontracttotal', +nlapiGetFieldValue('custbody_cotermcontracttotal'), true);
+					nlapiSubmitField('customrecord_contracts', from_contract_id, 'custbody_cotermcontracttotal', +nlapiGetFieldValue('custbody_cotermcontracttotal'));
 				}
 				if( renewal_value && renewal_value > 0 ) {
 					renewal_value >= +nlapiGetFieldValue('total') ? nlapiSubmitField('customrecord_contracts', from_contract_id, 'custrecord_ta_renewed_value', +nlapiGetFieldValue('total'), true) :
 						nlapiSubmitField('customrecord_contracts', from_contract_id, 'custrecord_ta_renewed_value', renewal_value, true );
+					
+					//	Writing TA Sales Renewed Value 
+					var sales_renewal_val = nlapiLookupField('customrecord_contracts', from_contract_id, 'custrecord_ta_contract_value');
+					sales_renewal_val >= +nlapiGetFieldValue('total') ? nlapiSubmitField('customrecord_contracts', from_contract_id, 'custrecord_ta_sales_renewed_value', +nlapiGetFieldValue('total')) : 
+						nlapiSubmitField('customrecord_contracts', from_contract_id, 'custrecord_ta_sales_renewed_value', sales_renewal_val, true );
 				}
 			}
 
@@ -529,30 +516,12 @@ function ccerpSalesOrder_AfterSubmit(type){
 			}
 			nlapiSubmitField('estimate',esid,'entitystatus',opstatus);
 		}
-		
-		if(soid > -1) {
-			var from_contract_id = soid.getFieldValue('custbody_swe_from_contract');
-			nlapiLogExecution('DEBUG', 'TYPE DELETE: from_contract_id', from_contract_id)
-			if(from_contract_id) {
-				var FIELDS = ['custrecord_ta_renewed_value', 'custrecord_ta_renewed_coterm_value'];
-				nlapiSubmitField('customrecord_contracts', from_contract_id, FIELDS, [0, 0]);
-			}
-				
-		}
-
-		
 	}
 	
 	
 	if (type=='create'){
-		var orderStatus = nlapiGetFieldValue('orderstatus')
-		//Search for related new business records through created from field.
-		if(executionContext == 'webstore' && ()) {
-			var params = {};
-			
-			nlapiScheduleScript(scriptId, deployId, params)
-		}
 		
+		//Search for related new business records through created from field.
 		
 		if (isNotEmpty(esid)){
 			var nbfils = [];

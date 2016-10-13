@@ -6517,3 +6517,102 @@ java.lang.IllegalArgumentException: JavaScript file name must end with .js, or o
 	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:144)
 	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:235)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY com.netsuite.ide.eclipse.app 4 0 2016-10-12 11:33:44.710
+!MESSAGE java.lang.IllegalArgumentException: JavaScript file name must end with .js, or one of the registered JavaScript-like extensions
+!STACK 0
+java.lang.IllegalArgumentException: JavaScript file name must end with .js, or one of the registered JavaScript-like extensions
+	at org.eclipse.wst.jsdt.internal.core.PackageFragment.getCompilationUnit(PackageFragment.java:230)
+	at org.eclipse.wst.jsdt.internal.core.PackageFragment.getJavaScriptUnit(PackageFragment.java:253)
+	at org.eclipse.wst.jsdt.internal.core.JavaModelManager.createCompilationUnitFrom(JavaModelManager.java:898)
+	at org.eclipse.wst.jsdt.core.JavaScriptCore.createCompilationUnitFrom(JavaScriptCore.java:1309)
+	at com.netsuite.ide.eclipse.jsdt.builder.ScriptFileContext.<init>(ScriptFileContext.java:30)
+	at com.netsuite.ide.eclipse.jsdt.builder.SuiteScriptProjectBuilder.processModifiedFile(SuiteScriptProjectBuilder.java:40)
+	at com.netsuite.ide.eclipse.builder.AbstractBuilder.processModifiedFileAndUpdateMonitor(AbstractBuilder.java:197)
+	at com.netsuite.ide.eclipse.builder.AbstractBuilder.buildAll(AbstractBuilder.java:164)
+	at com.netsuite.ide.eclipse.builder.AbstractBuilder.processProject(AbstractBuilder.java:104)
+	at com.netsuite.ide.eclipse.builder.AbstractBuilder$1.run(AbstractBuilder.java:92)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2240)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2262)
+	at com.netsuite.ide.eclipse.builder.AbstractBuilder.build(AbstractBuilder.java:89)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:735)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:301)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:304)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:360)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:383)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:144)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:235)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SESSION 2016-10-12 11:34:09.028 -----------------------------------------------
+eclipse.buildId=4.6.1.M20160907-1200
+java.version=1.8.0_101
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -data file:/Users/Chan/Documents/workspace/ -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.core.net 1 0 2016-10-12 11:34:18.936
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY com.netsuite.ide.eclipse.app 4 0 2016-10-12 11:34:51.745
+!MESSAGE java.lang.IllegalArgumentException: JavaScript file name must end with .js, or one of the registered JavaScript-like extensions
+!STACK 0
+java.lang.IllegalArgumentException: JavaScript file name must end with .js, or one of the registered JavaScript-like extensions
+	at org.eclipse.wst.jsdt.internal.core.PackageFragment.getCompilationUnit(PackageFragment.java:230)
+	at org.eclipse.wst.jsdt.internal.core.PackageFragment.getJavaScriptUnit(PackageFragment.java:253)
+	at org.eclipse.wst.jsdt.internal.core.JavaModelManager.createCompilationUnitFrom(JavaModelManager.java:898)
+	at org.eclipse.wst.jsdt.core.JavaScriptCore.createCompilationUnitFrom(JavaScriptCore.java:1309)
+	at com.netsuite.ide.eclipse.jsdt.builder.ScriptFileContext.<init>(ScriptFileContext.java:30)
+	at com.netsuite.ide.eclipse.jsdt.builder.SuiteScriptProjectBuilder.processModifiedFile(SuiteScriptProjectBuilder.java:40)
+	at com.netsuite.ide.eclipse.builder.AbstractBuilder.processModifiedFileAndUpdateMonitor(AbstractBuilder.java:197)
+	at com.netsuite.ide.eclipse.builder.AbstractBuilder.buildAll(AbstractBuilder.java:164)
+	at com.netsuite.ide.eclipse.builder.AbstractBuilder.processProject(AbstractBuilder.java:104)
+	at com.netsuite.ide.eclipse.builder.AbstractBuilder$1.run(AbstractBuilder.java:92)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2240)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2262)
+	at com.netsuite.ide.eclipse.builder.AbstractBuilder.build(AbstractBuilder.java:89)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:735)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:301)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:304)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:360)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:383)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:144)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:235)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.ui 4 4 2016-10-12 11:35:51.988
+!MESSAGE Conflicting handlers for org.eclipse.ui.navigate.backwardHistory: {ActionHandler(org.eclipse.ui.internal.dialogs.PreferencePageHistory$1@21aae497)} vs {ActionHandler(org.eclipse.ui.internal.NavigationHistoryAction@39df2652)}
+!SESSION 2016-10-12 16:27:55.784 -----------------------------------------------
+eclipse.buildId=4.6.1.M20160907-1200
+java.version=1.8.0_101
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product -keyring /Users/Chan/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.jee.product -keyring /Users/Chan/.eclipse_keyring
+
+!ENTRY org.eclipse.core.net 1 0 2016-10-12 16:28:02.657
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY com.netsuite.ide.eclipse.app 4 0 2016-10-12 16:29:34.226
+!MESSAGE Master Password is not valid.
+!SESSION 2016-10-13 08:29:24.664 -----------------------------------------------
+eclipse.buildId=4.6.1.M20160907-1200
+java.version=1.8.0_101
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product -keyring /Users/Chan/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.jee.product -keyring /Users/Chan/.eclipse_keyring
+
+!ENTRY org.eclipse.core.net 1 0 2016-10-13 08:29:31.870
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY com.netsuite.ide.eclipse.app 1 0 2016-10-13 08:37:37.257
+!MESSAGE SuiteScript debugger started.

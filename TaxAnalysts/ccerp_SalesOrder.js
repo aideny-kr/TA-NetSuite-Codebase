@@ -147,10 +147,28 @@ function taSalesOrder_EmailCheck_Suitelet(request, response) {
 	}
 }
 
-
+/*
+ * Suitelet Trigger Button
+ * Description : Triggers Suitelet that merges multi year upselling Sales Order to Base Sales Order 
+ * Chan 10/3/2016
+ * */
+function mergeSalesOrder() {
+	var soid = nlapiGetRecordId();
+	var url = nlapiResolveURL('SUITELET', 'customscript_ta_multiyear_merge_suitelet','customdeploy1');
+	url += '&soid=' + soid;
+	window.open(url,'_self');
+}
 
 function ccerpSalesOrder_BeforeLoad(type, form, request){
 	nlapiLogExecution('debug', 'Before Load '+type);
+	// Add MultiYear Upsell Merge Suitelet Button
+	if (type == 'view') {
+		form.setScript('customscript_ta_sales_order_client');
+		if(nlapiGetFieldValue('custbody_order_type') == '3' && +nlapiGetFieldValue('custbody_tran_term_in_months') > 15 
+				&& nlapiGetFieldValue('custbody_ta_multiyear_upsell_merge') != 'T' && nlapiGetFieldValue('orderstatus') == 'D') {
+			form.addButton('custpage_multiyearmerge_btn', 'Multi Year Upsell Merge', 'mergeSalesOrder()');
+		}
+	}
 	
 	if (type == 'create' || type == 'edit'){
 		var ordtype = nlapiGetFieldValue('custbody_order_type');

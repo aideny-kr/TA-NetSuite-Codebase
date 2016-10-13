@@ -40,6 +40,8 @@ function taContractAfterSubmit(type){
 					 nlapiSubmitField('customrecord_contracts', contract_id, 'custrecord_ta_renewed_value', lookup_flds.total); 
 				 
 		  
+	  }	else {
+		  nlapiSubmitField('customrecord_contracts', contract_id, ['custrecord_ta_sales_renewed_value', 'custrecord_ta_renewed_value'], ['','']);
 	  }
 	  
   }

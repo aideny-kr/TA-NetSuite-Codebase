@@ -169,7 +169,8 @@ var findMatchingBillSched = function(orig_so_rec ,end_date) {
 
 var removeMergedItems = function(rec, items) {
 	items.forEach(function(item) {
-		rec.removeLineItem('item', item['linenum']);
+		var currlastLine = rec.getLineItemCount('item');
+		rec.removeLineItem('item', currlastLine);
 	});
 	try {
 		nlapiSubmitRecord(rec);

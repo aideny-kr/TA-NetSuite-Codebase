@@ -167,7 +167,7 @@ function ccerpSalesOrder_BeforeLoad(type, form, request){
 	if (type == 'view') {
 		form.setScript('customscript_ta_sales_order_client');
 		if(nlapiGetFieldValue('custbody_order_type') == '3' && +nlapiGetFieldValue('custbody_tran_term_in_months') > 15 
-				&& nlapiGetFieldValue('custbody_ta_multiyear_upsell_merge') != 'T') {
+				&& nlapiGetFieldValue('custbody_ta_multiyear_upsell_merge') != 'T' && nlapiGetFieldValue('orderstatus') == 'D') {
 			form.addButton('custpage_multiyearmerge_btn', 'Multi Year Upsell Merge', 'mergeSalesOrder()');
 		}
 		
@@ -545,13 +545,13 @@ function ccerpSalesOrder_AfterSubmit(type){
 	
 	
 	if (type=='create'){
-		var orderStatus = nlapiGetFieldValue('orderstatus')
+		var orderStatus = nlapiGetFieldValue('orderstatus');
+		
 		//Search for related new business records through created from field.
 		if(executionContext == 'webstore' && (orderStatus == 'G' || orderStatus == 'B')) {
-			var params = {};
-			params.soid = soid;
-			
-			nlapiScheduleScript(scriptId, deployId, params)
+			var param = {};
+			param['custscript_soid'] = +soid;
+			nlapiScheduleScript('customscript_ta_sitebuilder_webuser_sche', 'customdeploy1', param)
 		}
 		
 		
@@ -674,3 +674,33 @@ function findAndUpdateFreeUser(req, res) {
 	}
 }
 
+function createWebUserForSiteBuilder_Sched(type) {
+	var context = nlapiGetContext();
+	var soid = context.getSetting('SCRIPT', 'custscript_soid');
+	
+	var soRec = nlapiLoadRecord('salesorder', soid);
+	var customerRec = nlapiLoadRecord('customer', soRec.getFieldValue('entity'));
+	var contact = customerRec.getLineItemValue('contactroles', 'contact', 1);
+	var user_flds_val = nlapiLookupField('contact', contact, ['email', 'firstname', 'lastname']);
+	var lineNumber = soRec.getLineItemCount('item');
+	var customer = soRec.getFieldValue('entity');
+	var contract = soRec.getFieldValue('custbody_contract_name');
+	var items_to_commit = [];
+	for (var i = 1; i <= lineNumber; i += 1) {
+		items_to_commit.push(soRec.getLineItemValue('item', 'item', i));
+	}
+	
+	if(items_to_commit.length > 0) {
+		var webUserRec = nlapiCreateRecord('customrecord_contractuser');
+		webUserRec.setFieldValue('custrecord_contractuser_customer', customer);
+		webUserRec.setFieldValue('custrecord_contractuser_contract', contract);  
+		webUserRec.setFieldValue('custrecord_contractuser_contact', contact);
+		webUserRec.setFieldValue('custrecord_contractuser_email', user_flds_val['email']);
+		webUserRec.setFieldValue('custrecord_contractuser_firstname', user_flds_val['firstname']);
+		webUserRec.setFieldValue('custrecord_contractuser_lastname', user_flds_val['lastname']);
+		webUserRec.setFieldValues('custrecord_contractuser_items', items_to_commit);
+		webUserRec.setFieldValue('custrecord_contractuser_activeflag', 'T');
+		nlapiSubmitRecord(webUserRec, true);
+	}
+	
+}

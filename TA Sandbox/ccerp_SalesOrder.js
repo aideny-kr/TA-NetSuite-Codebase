@@ -167,10 +167,9 @@ function ccerpSalesOrder_BeforeLoad(type, form, request){
 	if (type == 'view') {
 		form.setScript('customscript_ta_sales_order_client');
 		if(nlapiGetFieldValue('custbody_order_type') == '3' && +nlapiGetFieldValue('custbody_tran_term_in_months') > 15 
-				&& nlapiGetFieldValue('custbody_ta_multiyear_upsell_merge') != 'T') {
+				&& nlapiGetFieldValue('custbody_ta_multiyear_upsell_merge') != 'T' && nlapiGetFieldValue('orderstatus') == 'D') {
 			form.addButton('custpage_multiyearmerge_btn', 'Multi Year Upsell Merge', 'mergeSalesOrder()');
 		}
-		
 	}
 	
 	if (type == 'create' || type == 'edit'){

@@ -19,6 +19,7 @@ cssMediaItalic=true
 cssMediaStrikethrough=false
 cssMediaUnderline=false
 cssNamespaceColor=\#585858
+cssPropertyNameBold=false
 cssPropertyNameColor=\#566874
 cssPropertyValueColor=\#317ECC
 cssPropertyValueStrikethrough=false

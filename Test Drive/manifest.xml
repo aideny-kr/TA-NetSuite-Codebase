@@ -1,0 +1,18 @@
+<manifest projecttype="ACCOUNTCUSTOMIZATION">
+  <projectname>Test Drive</projectname>
+  <frameworkversion>1.0</frameworkversion>
+  <dependencies>
+    <features>
+      <feature required="true">CUSTOMRECORDS</feature>
+      <feature required="false">EXTREMELIST</feature>
+      <feature required="false">MAILMERGE</feature>
+      <feature required="false">DOCUMENTS</feature>
+    </features>
+    <objects>
+      <object>customrecord_contracts</object>
+      <object>customrecord_contract_item.custrecord_ci_contract_id</object>
+      <object>customrecord_contract_item</object>
+      <object>customrecord_contracts.custrecord_contracts_bill_to_customer</object>
+    </objects>
+  </dependencies>
+</manifest>

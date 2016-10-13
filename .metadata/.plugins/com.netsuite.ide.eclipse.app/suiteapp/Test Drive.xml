@@ -1,0 +1,34 @@
+<suiteappindex>
+  <scriptids>
+    <scriptid id="customrecord_cic" type="customrecordtype" file="Objects/customrecord_cic.xml"/>
+    <scriptid id="customrecord_cic.custrecord_cic_company" type="customrecordtype.customrecordcustomfields.customrecordcustomfield" file="Objects/customrecord_cic.xml"/>
+    <scriptid id="customrecord_cic.custrecord_cic_contact" type="customrecordtype.customrecordcustomfields.customrecordcustomfield" file="Objects/customrecord_cic.xml"/>
+    <scriptid id="customrecord_cic.custrecord_cic_contract" type="customrecordtype.customrecordcustomfields.customrecordcustomfield" file="Objects/customrecord_cic.xml"/>
+    <scriptid id="customrecord_cic.custrecord_cic_contract_item" type="customrecordtype.customrecordcustomfields.customrecordcustomfield" file="Objects/customrecord_cic.xml"/>
+    <scriptid id="customrecord_cic.custrecord_cic_end_date" type="customrecordtype.customrecordcustomfields.customrecordcustomfield" file="Objects/customrecord_cic.xml"/>
+    <scriptid id="customrecord_cic.custrecord_cic_freetrial" type="customrecordtype.customrecordcustomfields.customrecordcustomfield" file="Objects/customrecord_cic.xml"/>
+    <scriptid id="customrecord_cic.custrecord_cic_item" type="customrecordtype.customrecordcustomfields.customrecordcustomfield" file="Objects/customrecord_cic.xml"/>
+  </scriptids>
+  <files>
+    <file name="Objects/customrecord_cic.xml"/>
+    <file name="deploy.xml"/>
+    <file name="manifest.xml"/>
+  </files>
+  <customfields>
+    <customfield scriptid="custrecord_cic_company" customfieldtype="customrecordcustomfield" fieldtype="SELECT" selectrecordtype="-2" mandatory="false" file="Objects/customrecord_cic.xml"/>
+    <customfield scriptid="custrecord_cic_contact" customfieldtype="customrecordcustomfield" fieldtype="SELECT" selectrecordtype="-6" mandatory="false" file="Objects/customrecord_cic.xml"/>
+    <customfield scriptid="custrecord_cic_contract" customfieldtype="customrecordcustomfield" fieldtype="SELECT" selectrecordtype="customrecord_contracts" mandatory="false" file="Objects/customrecord_cic.xml"/>
+    <customfield scriptid="custrecord_cic_contract_item" customfieldtype="customrecordcustomfield" fieldtype="SELECT" selectrecordtype="customrecord_contract_item" mandatory="false" file="Objects/customrecord_cic.xml"/>
+    <customfield scriptid="custrecord_cic_end_date" customfieldtype="customrecordcustomfield" fieldtype="DATE" selectrecordtype="" mandatory="false" file="Objects/customrecord_cic.xml"/>
+    <customfield scriptid="custrecord_cic_freetrial" customfieldtype="customrecordcustomfield" fieldtype="CHECKBOX" selectrecordtype="" mandatory="false" file="Objects/customrecord_cic.xml"/>
+    <customfield scriptid="custrecord_cic_item" customfieldtype="customrecordcustomfield" fieldtype="SELECT" selectrecordtype="-10" mandatory="false" file="Objects/customrecord_cic.xml"/>
+  </customfields>
+  <customlists/>
+  <deployfiles>
+    <deployfile path="deploy.xml">
+      <deployfileobjectpaths>
+        <deployfileobjectpath>~/Objects/*</deployfileobjectpath>
+      </deployfileobjectpaths>
+    </deployfile>
+  </deployfiles>
+</suiteappindex>
